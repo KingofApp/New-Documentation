@@ -49,11 +49,11 @@ Tema | Estado
 —— [Funcionalidad](spanish/getting_started/builder/functionality/readme.md) | :x:
 ——— [Módulos](spanish/getting_started/builder/functionality/modules/readme.md) | :x:
 ———— [Módulos Avanzado](spanish/getting_started/builder/functionality/modules/advance_modules.md) | :x:
-———— [Listado de Módulos](spanish/getting_started/builder/functionality/modules/modules_list.md) | :x:
+———— [Listado de Módulos](spanish/getting_started/builder/functionality/modules/modules_list.md) | :lock: :x:
 ——— [Servicios](spanish/getting_started/builder/functionality/services/readme.md) | :x:
-———— [Listado de Servicios](spanish/getting_started/builder/functionality/services/services_list.md) | :x:
+———— [Listado de Servicios](spanish/getting_started/builder/functionality/services/services_list.md) | :lock: :x:
 —— [Apariencia](spanish/getting_started/builder/look_and_feel/readme.md) | :x:
-——— [Listado de Temas](spanish/getting_started/builder/look_and_feel/themes_list.md) | :x:
+——— [Listado de Temas](spanish/getting_started/builder/look_and_feel/themes_list.md) | :lock:  :x:
 —— [Publica tu App](spanish/getting_started/builder/publication/readme.md) | :x:
 **[Advance](spanish/advance/readme.md)** | :x:
 — [Introducción](spanish/advance/intro.md) | :x:
@@ -70,12 +70,12 @@ Tema | Estado
 — [Mejores prácticas](spanish/community/best_practices.md) | :x:
 — [Guías de estilos](spanish/community/style_guide.md) | :x:
 — [F.A.Q](spanish/community/faq.md) | :x:
-**Logros** | :question:
-— [Lista de Apps publicadas]() | :question:
-— [Historias de clientes]() | :question:
-— [Lista de Módulos]() | :question:
-— [Lista de Servicios]() | :question:
-— [Lista de Temas]() | :question:
+**[Logros](spanish/achievements/readme.md)** | :x:
+— [Lista de Apps publicadas](spanish/achievements/apps_list.md) | :x:
+— [Historias de clientes](spanish/achievements/clients.md) | :x:
+— [Lista de Módulos](spanish/achievements/modules_list.md) | :x:
+— [Lista de Servicios](spanish/achievements/services_list.md) | :x:
+— [Lista de Temas](spanish/achievements/themes_list.md) | :x:
 
 
 ### Traducciones
