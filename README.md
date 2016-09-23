@@ -39,22 +39,22 @@ Para poder gestionar mejor el proceso de documentación, existen dos tablas que 
 
 Tema | Estado
 ------------ | -------------
-**Getting Started** | :question:
-— [Introducción]() | :question:
-— [Filosofía]() | :question:
-— [Builder]() | :question:
-—— [Tu primera App]() | :question:
-—— [Plantillas]() | :question:
-—— [Administración]() | :question:
-—— [Funcionalidad]() | :question:
-——— [Módulos]() | :question:
-———— [Módulos Avanzado]() | :question:
-———— [Listado de Módulos]() | :question:
-——— [Servicios]() | :question:
-———— [Listado de Servicios]() | :question:
-—— [Apariencia]() | :question:
-——— [Listado de Temas]() | :question:
-—— [Publicación de App]() | :question:
+**[Getting Started](spanish/getting_started/readme.md)** | :x:
+— [Introducción](spanish/getting_started/intro.md) | :x:
+— [Filosofía](spanish/getting_started/philosophy.md) | :x:
+— [Builder](spanish/getting_started/builder/readme.md) | :x:
+—— [Tu primera App](spanish/getting_started/builder/first_app.md) | :x:
+—— [Plantillas](spanish/getting_started/builder/templates.md) | :x:
+—— [Administración](spanish/getting_started/builder/administration.md) | :x:
+—— [Funcionalidad](spanish/getting_started/builder/funcionality/readme.md) | :x:
+——— [Módulos](spanish/getting_started/builder/funcionality/modules/readme.md) | :x:
+———— [Módulos Avanzado](spanish/getting_started/builder/funcionality/modules/advance_modules.md) | :x:
+———— [Listado de Módulos](spanish/getting_started/builder/funcionality/modules/modules_list.md) | :x:
+——— [Servicios](spanish/getting_started/builder/funcionality/services/readme.md) | :x:
+———— [Listado de Servicios](spanish/getting_started/builder/funcionality/services/services_list.md) | :x:
+—— [Apariencia](spanish/getting_started/builder/look_and_feel/readme.md) | :x:
+——— [Listado de Temas](spanish/getting_started/builder/look_and_feel/theme_list.md) | :x:
+—— [Publica tu App](spanish/getting_started/builder/publication/readme.md) | :x:
 **Advance** | :question:
 — [Introducción]() | :question:
 — [¡Ponte al dia!]() | :question:
