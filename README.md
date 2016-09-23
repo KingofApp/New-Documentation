@@ -47,7 +47,7 @@ Tema | Estado
 —— [Plantillas](spanish/getting_started/builder/templates.md) | :ok_hand:
 —— [Administración](spanish/getting_started/builder/administration.md) | :ok_hand:
 —— [Funcionalidad](spanish/getting_started/builder/functionality/readme.md) | :ok_hand:
-——— [Módulos](spanish/getting_started/builder/functionality/modules/readme.md) | :x:
+——— [Módulos](spanish/getting_started/builder/functionality/modules/readme.md) | :ok_hand:
 ———— [Módulos Avanzado](spanish/getting_started/builder/functionality/modules/advance_modules.md) | :x:
 ———— [Listado de Módulos](spanish/getting_started/builder/functionality/modules/modules_list.md) | :lock: :ok_hand:
 ——— [Servicios](spanish/getting_started/builder/functionality/services/readme.md) | :ok_hand:
