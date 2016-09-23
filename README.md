@@ -42,7 +42,7 @@ Tema | Estado
 **[Getting Started](spanish/getting_started/readme.md)** | :x:
 — [Introducción](spanish/getting_started/intro.md) | :x:
 — [Filosofía](spanish/getting_started/philosophy.md) | :x:
-— [Builder](spanish/getting_started/builder/readme.md) | :x:
+— [Builder](spanish/getting_started/builder/readme.md) | :ok_hand:
 —— [Tu primera App](spanish/getting_started/builder/first_app.md) | :x:
 —— [Plantillas](spanish/getting_started/builder/templates.md) | :x:
 —— [Administración](spanish/getting_started/builder/administration.md) | :x:
