@@ -57,11 +57,11 @@ Tema | Estado
 —— [Publica tu App](spanish/getting_started/builder/publication/readme.md) | :white_check_mark:
 **[Advance](spanish/advance/readme.md)** | :x:
 — [Introducción](spanish/advance/intro.md) | :x:
-— [¡Ponte al dia!](spanish/advance/catch_up.md) | :x:
-— [Visualizer](spanish/advance/visualizer.md) | :x:
+— [¡Ponte al dia!](spanish/advance/catch_up.md) | :construction: @Ulises
+— [Visualizer](spanish/advance/visualizer.md) | :construction: @Ulises
 — [Spinners](spanish/advance/spinners.md) | :white_check_mark:
 — [Temas](spanish/advance/themes.md) | :x:
-— [Módulos](spanish/advance/modules.md) | :x:
+— [Módulos](spanish/advance/modules.md) | :construction: @Ulises
 — [Services](spanish/advance/services.md) | :x:
 — [API](spanish/advance/api.md) | :lock: :x:
 **[Comunidad](spanish/community/readme.md)** | :x:
