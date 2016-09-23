@@ -44,7 +44,7 @@ Tema | Estado
 — [Filosofía](spanish/getting_started/philosophy.md) | :x:
 — [Builder](spanish/getting_started/builder/readme.md) | :ok_hand:
 —— [Tu primera App](spanish/getting_started/builder/first_app.md) | :x:
-—— [Plantillas](spanish/getting_started/builder/templates.md) | :x:
+—— [Plantillas](spanish/getting_started/builder/templates.md) | :ok_hand:
 —— [Administración](spanish/getting_started/builder/administration.md) | :x:
 —— [Funcionalidad](spanish/getting_started/builder/functionality/readme.md) | :x:
 ——— [Módulos](spanish/getting_started/builder/functionality/modules/readme.md) | :x:
