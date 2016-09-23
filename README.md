@@ -20,7 +20,7 @@ Para poder gestionar mejor el proceso de documentación, existen dos tablas que 
 - :question: - Desconocido
 - :bangbang: - Desactualizado
 - :skull: - Depreciado
-- :ok_hand: - Listo/Nada pendiente
+- :white_check_mark: - Listo/Nada pendiente
 - :x: - Pendiente/No realizado
 - :no_entry: - Parado
 
@@ -42,19 +42,19 @@ Tema | Estado
 **[Getting Started](spanish/getting_started/readme.md)** | :x:
 — [Introducción](spanish/getting_started/intro.md) | :x:
 — [Filosofía](spanish/getting_started/philosophy.md) | :x:
-— [Builder](spanish/getting_started/builder/readme.md) | :ok_hand:
+— [Builder](spanish/getting_started/builder/readme.md) | :white_check_mark:
 —— [Tu primera App](spanish/getting_started/builder/first_app.md) | :x:
-—— [Plantillas](spanish/getting_started/builder/templates.md) | :ok_hand:
-—— [Administración](spanish/getting_started/builder/administration.md) | :ok_hand:
-—— [Funcionalidad](spanish/getting_started/builder/functionality/readme.md) | :ok_hand:
-——— [Módulos](spanish/getting_started/builder/functionality/modules/readme.md) | :ok_hand:
-———— [Módulos Avanzado](spanish/getting_started/builder/functionality/modules/advance_modules.md) | :ok_hand:
-———— [Listado de Módulos](spanish/getting_started/builder/functionality/modules/modules_list.md) | :lock: :ok_hand:
-——— [Servicios](spanish/getting_started/builder/functionality/services/readme.md) | :ok_hand:
-———— [Listado de Servicios](spanish/getting_started/builder/functionality/services/services_list.md) | :lock: :ok_hand:
-—— [Apariencia](spanish/getting_started/builder/look_and_feel/readme.md) | :ok_hand:
-——— [Listado de Temas](spanish/getting_started/builder/look_and_feel/themes_list.md) | :lock:  :ok_hand:
-—— [Publica tu App](spanish/getting_started/builder/publication/readme.md) | :ok_hand:
+—— [Plantillas](spanish/getting_started/builder/templates.md) | :white_check_mark:
+—— [Administración](spanish/getting_started/builder/administration.md) | :white_check_mark:
+—— [Funcionalidad](spanish/getting_started/builder/functionality/readme.md) | :white_check_mark:
+——— [Módulos](spanish/getting_started/builder/functionality/modules/readme.md) | :white_check_mark:
+———— [Módulos Avanzado](spanish/getting_started/builder/functionality/modules/advance_modules.md) | :white_check_mark:
+———— [Listado de Módulos](spanish/getting_started/builder/functionality/modules/modules_list.md) | :lock: :white_check_mark:
+——— [Servicios](spanish/getting_started/builder/functionality/services/readme.md) | :white_check_mark:
+———— [Listado de Servicios](spanish/getting_started/builder/functionality/services/services_list.md) | :lock: :white_check_mark:
+—— [Apariencia](spanish/getting_started/builder/look_and_feel/readme.md) | :white_check_mark:
+——— [Listado de Temas](spanish/getting_started/builder/look_and_feel/themes_list.md) | :lock:  :white_check_mark:
+—— [Publica tu App](spanish/getting_started/builder/publication/readme.md) | :white_check_mark:
 **[Advance](spanish/advance/readme.md)** | :x:
 — [Introducción](spanish/advance/intro.md) | :x:
 — [¡Ponte al dia!](spanish/advance/catch_up.md) | :x:
