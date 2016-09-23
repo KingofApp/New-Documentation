@@ -59,7 +59,7 @@ Tema | Estado
 — [Introducción](spanish/advance/intro.md) | :x:
 — [¡Ponte al dia!](spanish/advance/catch_up.md) | :x:
 — [Visualizer](spanish/advance/visualizer.md) | :x:
-— [Spinners](spanish/advance/spinners.md) | :bangbang: :sunrise: :construction: @Ulises
+— [Spinners](spanish/advance/spinners.md) | :white_check_mark:
 — [Temas](spanish/advance/themes.md) | :x:
 — [Módulos](spanish/advance/modules.md) | :x:
 — [Services](spanish/advance/services.md) | :x:
