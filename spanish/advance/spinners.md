@@ -204,7 +204,7 @@ La opción más recomendada es crearte un módulo que incluya en el `index.html`
 structureService.launchSpinner('.transitionloader');
 ```
 
-También puedes descargarlo [desde aquí]().  
+También puedes descargarlo [desde aquí (Spinner Visualizer v0.1)](../../uploads/spinner-visualizer.zip).  
 
 Pero si solo vas a diseñar un spinner o no quieres emplear tiempo en crearte un entorno de trabajo puedes optar por modificar el módulo html que se instala por defecto junto al Visualizer
 
