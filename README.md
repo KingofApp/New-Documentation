@@ -53,7 +53,7 @@ Tema | Estado
 ——— [Servicios](spanish/getting_started/builder/functionality/services/readme.md) | :x:
 ———— [Listado de Servicios](spanish/getting_started/builder/functionality/services/services_list.md) | :lock: :ok_hand:
 —— [Apariencia](spanish/getting_started/builder/look_and_feel/readme.md) | :x:
-——— [Listado de Temas](spanish/getting_started/builder/look_and_feel/themes_list.md) | :lock:  :x:
+——— [Listado de Temas](spanish/getting_started/builder/look_and_feel/themes_list.md) | :lock:  :ok_hand:
 —— [Publica tu App](spanish/getting_started/builder/publication/readme.md) | :x:
 **[Advance](spanish/advance/readme.md)** | :x:
 — [Introducción](spanish/advance/intro.md) | :x:
