@@ -50,7 +50,7 @@ Tema | Estado
 ——— [Módulos](spanish/getting_started/builder/functionality/modules/readme.md) | :x:
 ———— [Módulos Avanzado](spanish/getting_started/builder/functionality/modules/advance_modules.md) | :x:
 ———— [Listado de Módulos](spanish/getting_started/builder/functionality/modules/modules_list.md) | :lock: :ok_hand:
-——— [Servicios](spanish/getting_started/builder/functionality/services/readme.md) | :x:
+——— [Servicios](spanish/getting_started/builder/functionality/services/readme.md) | :ok_hand:
 ———— [Listado de Servicios](spanish/getting_started/builder/functionality/services/services_list.md) | :lock: :ok_hand:
 —— [Apariencia](spanish/getting_started/builder/look_and_feel/readme.md) | :x:
 ——— [Listado de Temas](spanish/getting_started/builder/look_and_feel/themes_list.md) | :lock:  :ok_hand:
