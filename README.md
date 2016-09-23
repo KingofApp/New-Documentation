@@ -98,4 +98,29 @@ Paquete de NPM que nos permite generar la estructura completa de un spinner.
 - [en GitHub](https://github.com/kingofapp/generator-koapp-spinner)
 
 
+**:lock: Petición de Tokens a la API**
+
+Script para Node que nos permite hacer llamadas a la API gestionando los tokens en cada llamada, funciona como un paquete (require).
+- [en Resources](https://github.com/KingofApp/com.kingofapp.resources/blob/dev/scripts/peticion_token.js)
+
+
+**:lock: Modules list**
+
+Script de Node que descarga toda la información de los módulos en una estructura de archivos markdown, idéntico a la documentación.
+- [en Español](https://github.com/KingofApp/com.kingofapp.resources/blob/dev/scripts/modules_list_es-ES.js)
+- [en Inglés](https://github.com/KingofApp/com.kingofapp.resources/blob/dev/scripts/modules_list_en-US.js)
+
+
+**:lock: Services list**
+
+Script de Node que descarga toda la información de los Servicios en una estructura de archivos markdown, idéntico a la documentación.
+- [en Español](https://github.com/KingofApp/com.kingofapp.resources/blob/dev/scripts/services_list_es-ES.js)
+- [en Inglés](https://github.com/KingofApp/com.kingofapp.resources/blob/dev/scripts/services_list_en-US.js)
+
+
+**:lock: Themes list**
+
+Script de Node que descarga toda la información de los Themes en una estructura de archivos markdown, idéntico a la documentación.
+- [en Español](https://github.com/KingofApp/com.kingofapp.resources/blob/dev/scripts/themes_list_es-ES.js)
+- [en Inglés](https://github.com/KingofApp/com.kingofapp.resources/blob/dev/scripts/themes_list_en-US.js)
 
