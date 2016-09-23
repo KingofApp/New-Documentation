@@ -45,7 +45,7 @@ Tema | Estado
 — [Builder](spanish/getting_started/builder/readme.md) | :ok_hand:
 —— [Tu primera App](spanish/getting_started/builder/first_app.md) | :x:
 —— [Plantillas](spanish/getting_started/builder/templates.md) | :ok_hand:
-—— [Administración](spanish/getting_started/builder/administration.md) | :x:
+—— [Administración](spanish/getting_started/builder/administration.md) | :ok_hand:
 —— [Funcionalidad](spanish/getting_started/builder/functionality/readme.md) | :x:
 ——— [Módulos](spanish/getting_started/builder/functionality/modules/readme.md) | :x:
 ———— [Módulos Avanzado](spanish/getting_started/builder/functionality/modules/advance_modules.md) | :x:
