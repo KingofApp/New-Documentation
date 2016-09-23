@@ -64,12 +64,12 @@ Tema | Estado
 — [Módulos](spanish/advance/modules.md) | :x:
 — [Services](spanish/advance/services.md) | :x:
 — [API](spanish/advance/api.md) | :lock: :x:
-**Comunidad** | :question:
-— [Agenda]() | :question:
-— [Como contribuir]() | :question:
-— [Mejores prácticas]() | :question:
-— [Guías de estilos]() | :question:
-— [F.A.Q]() | :question:
+**[Comunidad](spanish/community/readme.md)** | :x:
+— [Eventos](spanish/community/events.md) | :x:
+— [Como contribuir](spanish/community/contribution.md) | :x:
+— [Mejores prácticas](spanish/community/best_practices.md) | :x:
+— [Guías de estilos](spanish/community/style_guide.md) | :x:
+— [F.A.Q](spanish/community/faq.md) | :x:
 **Logros** | :question:
 — [Lista de Apps publicadas]() | :question:
 — [Historias de clientes]() | :question:
