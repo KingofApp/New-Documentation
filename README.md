@@ -55,15 +55,15 @@ Tema | Estado
 —— [Apariencia](spanish/getting_started/builder/look_and_feel/readme.md) | :x:
 ——— [Listado de Temas](spanish/getting_started/builder/look_and_feel/themes_list.md) | :x:
 —— [Publica tu App](spanish/getting_started/builder/publication/readme.md) | :x:
-**Advance** | :question:
-— [Introducción]() | :question:
-— [¡Ponte al dia!]() | :question:
-— [Visualizer]() | :question:
-— [Spinners]() | :question:
-— [Temas]() | :question:
-— [Módulos]() | :question:
-— [Services]() | :question:
-— [API]() | :question:
+**[Advance](spanish/advance/readme.md)** | :x:
+— [Introducción](spanish/advance/intro.md) | :x:
+— [¡Ponte al dia!](spanish/advance/catch_up.md) | :x:
+— [Visualizer](spanish/advance/visualizer.md) | :x:
+— [Spinners](spanish/advance/spinners.md) | :x:
+— [Temas](spanish/advance/themes.md) | :x:
+— [Módulos](spanish/advance/modules.md) | :x:
+— [Services](spanish/advance/services.md) | :x:
+— [API](spanish/advance/api.md) | :lock: :x:
 **Comunidad** | :question:
 — [Agenda]() | :question:
 — [Como contribuir]() | :question:
