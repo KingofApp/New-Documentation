@@ -46,14 +46,14 @@ Tema | Estado
 —— [Tu primera App](spanish/getting_started/builder/first_app.md) | :x:
 —— [Plantillas](spanish/getting_started/builder/templates.md) | :x:
 —— [Administración](spanish/getting_started/builder/administration.md) | :x:
-—— [Funcionalidad](spanish/getting_started/builder/funcionality/readme.md) | :x:
-——— [Módulos](spanish/getting_started/builder/funcionality/modules/readme.md) | :x:
-———— [Módulos Avanzado](spanish/getting_started/builder/funcionality/modules/advance_modules.md) | :x:
-———— [Listado de Módulos](spanish/getting_started/builder/funcionality/modules/modules_list.md) | :x:
-——— [Servicios](spanish/getting_started/builder/funcionality/services/readme.md) | :x:
-———— [Listado de Servicios](spanish/getting_started/builder/funcionality/services/services_list.md) | :x:
+—— [Funcionalidad](spanish/getting_started/builder/functionality/readme.md) | :x:
+——— [Módulos](spanish/getting_started/builder/functionality/modules/readme.md) | :x:
+———— [Módulos Avanzado](spanish/getting_started/builder/functionality/modules/advance_modules.md) | :x:
+———— [Listado de Módulos](spanish/getting_started/builder/functionality/modules/modules_list.md) | :x:
+——— [Servicios](spanish/getting_started/builder/functionality/services/readme.md) | :x:
+———— [Listado de Servicios](spanish/getting_started/builder/functionality/services/services_list.md) | :x:
 —— [Apariencia](spanish/getting_started/builder/look_and_feel/readme.md) | :x:
-——— [Listado de Temas](spanish/getting_started/builder/look_and_feel/theme_list.md) | :x:
+——— [Listado de Temas](spanish/getting_started/builder/look_and_feel/themes_list.md) | :x:
 —— [Publica tu App](spanish/getting_started/builder/publication/readme.md) | :x:
 **Advance** | :question:
 — [Introducción]() | :question:
