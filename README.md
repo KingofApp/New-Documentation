@@ -28,6 +28,7 @@ Para poder gestionar mejor el proceso de documentación, existen dos tablas que 
 - :fire: - Bugs críticos prioritarios por resolver
 - :sunrise: - Faltan imágenes/gráficos
 - :rocket: - Pendiente de subir a docs.kingofapp...
+- :neckbeard: - Falta por desarrollar código (herramienta/demo/scritp...)
 - :lock: - **Privado, no publicar**
 
 **Asignaciones**
@@ -58,7 +59,9 @@ Tema | Estado
 **[Advance](spanish/advance/readme.md)** | :x:
 — [Introducción](spanish/advance/intro.md) | :x:
 — [¡Ponte al dia!](spanish/advance/catch_up.md) | :construction: @Ulises
-— [Visualizer](spanish/advance/visualizer.md) | :construction: @Ulises
+— [Visualizer](spanish/advance/visualizer/readme.md) | :white_check_mark:
+—— [Instalación en local](spanish/advance/visualizer/local_installation.md) | :white_check_mark:
+—— [Instalación en c9](spanish/advance/visualizer/c9_installation.md) | :neckbeard: :construction: @Ulises
 — [Spinners](spanish/advance/spinners.md) | :white_check_mark:
 — [Temas](spanish/advance/themes.md) | :x:
 — [Módulos](spanish/advance/modules.md) | :construction: @Ulises
