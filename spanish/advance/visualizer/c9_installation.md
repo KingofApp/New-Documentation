@@ -64,7 +64,7 @@ Es la solución más lenta pero nos permite alterar el proceso de instalación. 
     ✔ NODE_PATH matches the npm root
   ```
 
-  **Descarga e instalación de King Of App Visualizer**
+  **Descargar e instalar de Koapp Visualizer**
 
   - Ejecutar en la terminal
 

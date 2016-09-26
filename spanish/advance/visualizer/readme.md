@@ -12,7 +12,7 @@ Visualizer puede ser instalado en multiples plataformas y entornos.
 Desde King of App te facilitamos varias:
 
 - [Entorno local](local_installation.md)
-- [Cloud9 (c9.io)](c9_instalation.md)
+- [Cloud9 (c9.io)](c9_installation.md)
   - Instalación automática
   - Instalación desde cero (manual)
   - Clonación un workspace preparado
