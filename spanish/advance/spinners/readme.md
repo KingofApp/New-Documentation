@@ -17,7 +17,7 @@ npm install -g generator-koapp-spinner && yo koapp-spinner
 - **Rellenamos los datos necesarios...**
 
 
-![spinner_1](../screenshots/spinner_1.png)
+![spinner_1](../../screenshots/spinner_1.png)
 
 
 Las preguntas son sencillas y completarán toda la estructura de elementos de Polymer necesaria para crear un spinner. Solo necesitas editar el archivo *html* e incluir tus estilos (Css), estructura (Html) y lógica (JavaScript). Puedes encontrar comentarios que te ayudaran a ubicarte mejor dentro del archivo.
