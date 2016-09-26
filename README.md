@@ -28,7 +28,7 @@ Para poder gestionar mejor el proceso de documentación, existen dos tablas que 
 - :fire: - Bugs críticos prioritarios por resolver
 - :sunrise: - Faltan imágenes/gráficos
 - :rocket: - Pendiente de subir a docs.kingofapp...
-- :neckbeard: - Falta por desarrollar código (herramienta/demo/scritp...)
+- :neckbeard: - Falta por desarrollar código (herramienta/demo/script...)
 - :lock: - **Privado, no publicar**
 
 **Asignaciones**
