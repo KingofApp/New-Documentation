@@ -62,7 +62,9 @@ Tema | Estado
 — [Visualizer](spanish/advance/visualizer/readme.md) | :white_check_mark:
 —— [Instalación en local](spanish/advance/visualizer/local_installation.md) | :white_check_mark:
 —— [Instalación en c9](spanish/advance/visualizer/c9_installation.md) | :neckbeard: :construction: @Ulises
-— [Spinners](spanish/advance/spinners.md) | :white_check_mark:
+— [Spinners](spanish/advance/spinners/readme.md) | :white_check_mark:
+—— [Ejemplo Sencillo](spanish/advance/spinners/example.md) | :white_check_mark:
+—— [Ejemplo Avanzado](spanish/advance/spinners/advance_example.md) | :white_check_mark:
 — [Temas](spanish/advance/themes.md) | :x:
 — [Módulos](spanish/advance/modules.md) | :construction: @Ulises
 — [Services](spanish/advance/services.md) | :x:
