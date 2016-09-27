@@ -70,6 +70,7 @@ Tema | Estado
 — [Módulos](spanish/advance/modules/readme.md) | :large_orange_diamond: :construction: @Ulises
 —— [Interacción con el usuario](spanish/advance/modules/interaction.md) | :x:
 —— [Funcionalidades de los módulos](spanish/advance/modules/features.md) | :x:
+—— [Menus](spanish/advance/modules/menus.md) | :x:
 —— [Testing](spanish/advance/modules/testing.md) | :x:
 —— [Ejemplo Sencillo](spanish/advance/modules/example.md) | :x:
 —— [Ejemplo Avanzado](spanish/advance/modules/advance_example.md) | :x:

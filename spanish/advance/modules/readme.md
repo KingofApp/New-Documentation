@@ -293,6 +293,9 @@ La representación visual de nuestro módulo se define en *index.html*.
 </div>
 ```
 
+Importante: Presenting data in modules
+For templating features to work with modules we strongly recommend to use our custom [Koa elements](https://github.com/KingofApp/docs/tree/master/themes#list-of-elements) inside the view.html of the module.
+
 
 Nuestros estilos se definen directamente dentro de *style.html* 
 
@@ -311,7 +314,7 @@ Nuestros estilos se definen directamente dentro de *style.html*
 Importante: Debes hacer uso de las variables de color para que tu módulo sea compatible con todos los temas, así el usuario final define globalmente los estilos en un solo lugar.
 
 
-### structureService
+### API (structureService)
 
 ::::: DESCRIPCIÓN Y DETALLES ::::::
 
@@ -365,7 +368,14 @@ Métodos | Descripción | Parámetros | Retorno
 
 ### [Funcionalidades de los módulos](features.md)
 
+Los módulos cuentan con algunas funcionalidades pre-cargadas de las que podemos sacar partido.
+
+**Eventos**
+
 ::::::::: DESCRIPCIÓN ::::::::
+
+- [Leer más](interaction.md)
+
 
 **Storage Service**
 
@@ -373,7 +383,9 @@ Métodos | Descripción | Parámetros | Retorno
 
 - [Leer más](interaction.md)
 
+**Session Service**
 
+ANOTAR!
 
 **Searchable Modules**
 
@@ -390,12 +402,26 @@ Métodos | Descripción | Parámetros | Retorno
 - [Leer más](interaction.md)
 
 
+**Custom Filter - loadUrl**
+
+::::::::: DESCRIPCIÓN ::::::::
+
+- [Leer más](interaction.md)
+
+
 
 ### [Interacción con el Usuario](interaction.md)
 
 ::::::::: DESCRIPCIÓN ::::::::
 
 **[Leer más](interaction.md)**
+
+
+### [Menús](menus.md)
+
+::::::::: DESCRIPCIÓN ::::::::
+
+**[Leer más](menus.md)**
 
 
 ### [Testing con módulos](testing.md)
@@ -406,9 +432,12 @@ Métodos | Descripción | Parámetros | Retorno
 
 **Unit Testing**
 
+::::::::: PENDIENTE ::::::::
+
 **Más Información**
 
 
+### Subir Módulos a Koapp Builder
 
 
 ### Ejemplos
