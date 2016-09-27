@@ -23,7 +23,7 @@ npm install -g generator-koapp-module && yo koapp-module
 - **Rellenamos los datos necesarios...**
 
 
-![technical_modules_1](../screenshots/technical_modules_1.png)
+![technical_modules_1](../../screenshots/technical_modules_1.png)
 
 
 Las preguntas son sencillas y autocompletarán toda la estructura de archivos necesaria para crear un módulo. Solo necesitas editar los archivos *config.json*, *controller.js*, *index.html*, etc... Puedes encontrar comentarios que te ayudaran a ubicarte mejor dentro de cada archivo, además de documentación específica.
