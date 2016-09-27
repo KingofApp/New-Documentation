@@ -66,7 +66,12 @@ Tema | Estado
 —— [Ejemplo Sencillo](spanish/advance/spinners/example.md) | :white_check_mark:
 —— [Ejemplo Avanzado](spanish/advance/spinners/advance_example.md) | :white_check_mark:
 — [Temas](spanish/advance/themes.md) | :x:
-— [Módulos](spanish/advance/modules.md) | :construction: @Ulises
+— [Módulos](spanish/advance/modules/readme.md) | :construction: @Ulises
+—— [Interacción con el usuario](spanish/advance/modules/interaction.md) | :x:
+—— [Funcionalidades de los módulos](spanish/advance/modules/features.md) | :x:
+—— [Testing](spanish/advance/modules/testing.md) | :x:
+—— [Ejemplo Sencillo](spanish/advance/modules/example.md) | :x:
+—— [Ejemplo Avanzado](spanish/advance/modules/advance_example.md) | :x:
 — [Services](spanish/advance/services.md) | :x:
 — [API](spanish/advance/api.md) | :lock: :x:
 **[Comunidad](spanish/community/readme.md)** | :x:
