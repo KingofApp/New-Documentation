@@ -29,6 +29,7 @@ Para poder gestionar mejor el proceso de documentación, existen dos tablas que 
 - :sunrise: - Faltan imágenes/gráficos
 - :rocket: - Pendiente de subir a docs.kingofapp...
 - :neckbeard: - Falta por desarrollar código (herramienta/demo/script...)
+- :large_orange_diamond: - Depende de módulos que no están listos
 - :lock: - **Privado, no publicar**
 
 **Asignaciones**
