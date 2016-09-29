@@ -17,7 +17,7 @@ Particularidades con Angular:
 [Ejemplo](https://github.com/KingofApp/koapp-module-angularmenu)
 
 
-:::: AMPLIAR LAS DIFERENCIAS Y DEFINIR CUAL ES EL RECOMENDADO ::::
+:::: @Jovi AMPLIAR LAS DIFERENCIAS Y DEFINIR CUAL ES EL RECOMENDADO ::::
 
 
 ### Definiendo Rutas
@@ -56,7 +56,7 @@ Clave | Descripción | Ejemplos
 
 Puedes configurar el menú para que el usuario final puede seleccionar los detalles del background desde los ajustes del módulo en el Builder.
 
-- [Más información](interaction.md)
+- [Más información](interaction.md#ejemplo)
 
 
 #### Funcionalidad (Go Back)
