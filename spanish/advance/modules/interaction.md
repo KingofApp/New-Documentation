@@ -408,7 +408,7 @@ Opcionalmente podemos definir *maxSize (tamaño máximo y unidad, ex: 3MB)*, *wi
 
 Permite crear bloques de elementos simples y complejos que pueden añadirse, completarse y borrarse dinámicamente por parte del usuario.
 
-:::::: Definir Opciones :::::::
+:::::: Definir Opciones (@Pepo) :::::::
 
 [Demo](http://jsbin.com/faheja/edit?html,css,js,output)
 
