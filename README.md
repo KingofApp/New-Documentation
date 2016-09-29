@@ -33,6 +33,7 @@ Para poder gestionar mejor el proceso de documentación, existen dos tablas que 
 - :lock: - **Privado, no publicar**
 
 **Asignaciones**
+- :flashlight: @persona - Pendiente de completar por una persona
 - :warning: @persona - En revisión por una persona del equipo
 - :construction: @persona - Realizando cambios por alguien del equipo...
 
@@ -68,9 +69,9 @@ Tema | Estado
 —— [Ejemplo Avanzado](spanish/advance/spinners/advance_example.md) | :white_check_mark:
 — [Temas](spanish/advance/themes.md) | :x:
 — [Módulos](spanish/advance/modules/readme.md) | :large_orange_diamond: :construction: @Ulises
-—— [Interacción con el usuario](spanish/advance/modules/interaction.md) | :x:
+—— [Interacción con el usuario](spanish/advance/modules/interaction.md) | :flashlight: @Pepo
 —— [Funcionalidades de los módulos](spanish/advance/modules/features.md) | :x:
-—— [Menus](spanish/advance/modules/menus.md) | :construction: @Ulises
+—— [Menus](spanish/advance/modules/menus.md) | :flashlight: @Jovi
 —— [Testing](spanish/advance/modules/testing.md) | :x:
 —— [Ejemplo Sencillo](spanish/advance/modules/example.md) | :x:
 —— [Ejemplo Avanzado](spanish/advance/modules/advance_example.md) | :x:
