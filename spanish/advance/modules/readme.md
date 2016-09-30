@@ -316,7 +316,7 @@ Importante: Debes hacer uso de las variables de color para que tu módulo sea co
 
 ### API (structureService)
 
-::::: DESCRIPCIÓN Y DETALLES ::::::
+::::: @Fer DESCRIPCIÓN Y DETALLES (#156749) ::::::
 
 **Getters**
 
@@ -368,86 +368,69 @@ Métodos | Descripción | Parámetros | Retorno
 
 ### [Funcionalidades de los módulos](features.md)
 
-Los módulos cuentan con algunas funcionalidades pre-cargadas de las que podemos sacar partido.
+Los módulos cuentan con algunas funcionalidades pre-cargadas de las que podemos sacar partido como son los eventos o el sistema de almacenamiento.
 
-**Eventos**
-
-::::::::: DESCRIPCIÓN ::::::::
-
-- [Leer más](interaction.md)
-
-
-**Storage Service**
-
-::::::::: DESCRIPCIÓN ::::::::
-
-- [Leer más](interaction.md)
-
-**Session Service**
-
-ANOTAR!
-
-**Searchable Modules**
-
-::::::::: DESCRIPCIÓN ::::::::
-
-- [Leer más](interaction.md)
-
-
-
-**Soporte Multi-lenguje**
-
-::::::::: DESCRIPCIÓN ::::::::
-
-- [Leer más](interaction.md)
-
-
-**Custom Filter - loadUrl**
-
-::::::::: DESCRIPCIÓN ::::::::
-
-- [Leer más](interaction.md)
-
+**[Leer más](features.md)**
 
 
 ### [Interacción con el Usuario](interaction.md)
 
-::::::::: DESCRIPCIÓN ::::::::
+Cuando desarrollamos nuevas funcionalidades a trevés de módulos siempre tendremos algunos que solicitarle al usuario algunos datos (Tokens, preferencias, etc...) para poder adecuar nuestro módulo al contexto de ejecucción.
+
+Esta Interacción con el usuario se define en forma de formulario desde el Visualizer.
+
+Para agilizar este proceso King of App integró y desarrollo mejoras sobre Angular-Formly
 
 **[Leer más](interaction.md)**
 
 
 ### [Menús](menus.md)
 
-::::::::: DESCRIPCIÓN ::::::::
+Un tipo especial de módulos son los menús.
+
+Los menús pueden desarrollarse con Angular o Polymer, en función de tus necesidades.
+
+Además los menús tienen la particularidad de actuar como padres de otros módulos.
 
 **[Leer más](menus.md)**
 
 
 ### [Testing con módulos](testing.md)
 
-::::::::: DESCRIPCIÓN ::::::::
+El testeo de nuestro código juega un papel crucial para preveenir errores.
 
-**End to End (E2E)**
+En King of App recomendamos realizar al menos test de integración (e2e).
 
-**Unit Testing**
+El [generador de Módulos](https://www.npmjs.com/package/generator-koapp-module) ya incluye ejemplos.
 
-::::::::: PENDIENTE ::::::::
-
-**Más Información**
+**[Leer más](testing.md)**
 
 
 ### Subir Módulos a Koapp Builder
 
+::::::::: @Jovi Proceso de subida por parte de clientes (#156741) ::::::::
+
+
+### Ejemplo
+
+- **[Módulo OpenweatherMap](https://github.com/KingofApp/koapp-module-openweathermap)**
+
+![banner](https://raw.githubusercontent.com/KingofApp/koapp-module-openweathermap/master/images/banner.png)
+
+Este módulo utiliza las diversas librerías para lograr integrar la información meteorológica de una zona concreta.
+
+- Licencia: MIT. 
+- [Código fuente](https://github.com/KingofApp/koapp-module-openweathermap)
+
+
 
 ### Ejemplos
 
+:::::::: EJEMPLOS MÁS ESPECIFICOS (@Ulises) :::::::
+
 **[Sencillo](example.md)**
-
-:::::::: DESCRIPCIÓN :::::::
-
 
 **[Avanzado](advance_example.md)**
 
-:::::::: DESCRIPCIÓN :::::::
+
 
