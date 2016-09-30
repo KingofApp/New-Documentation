@@ -72,7 +72,7 @@ Tema | Estado
 —— [Interacción con el usuario](spanish/advance/modules/interaction.md) | :flashlight: @Pepo
 —— [Funcionalidades de los módulos](spanish/advance/modules/features.md) | :x:
 —— [Menus](spanish/advance/modules/menus.md) | :flashlight: @Jovi
-—— [Testing](spanish/advance/modules/testing.md) | :x:
+—— [Testing](spanish/advance/modules/testing.md) | :flashlight: @Jovi
 —— [Ejemplo Sencillo](spanish/advance/modules/example.md) | :x:
 —— [Ejemplo Avanzado](spanish/advance/modules/advance_example.md) | :x:
 — [Services](spanish/advance/services.md) | :large_orange_diamond: :neckbeard:
