@@ -70,7 +70,7 @@ Tema | Estado
 — [Temas](spanish/advance/themes.md) | :x:
 — [Módulos](spanish/advance/modules/readme.md) | :large_orange_diamond: :construction: @Ulises
 —— [Interacción con el usuario](spanish/advance/modules/interaction.md) | :flashlight: @Pepo
-—— [Funcionalidades de los módulos](spanish/advance/modules/features.md) | :x:
+—— [Funcionalidades de los módulos](spanish/advance/modules/features.md) | :large_orange_diamond: :neckbeard: :flashlight: @DevTeam & @Ulises
 —— [Menus](spanish/advance/modules/menus.md) | :flashlight: @Jovi
 —— [Testing](spanish/advance/modules/testing.md) | :flashlight: @Jovi
 —— [Ejemplo Sencillo](spanish/advance/modules/example.md) | :x:
