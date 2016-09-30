@@ -4,7 +4,9 @@ Los módulos permiten crear nuevas funcionalidades, para facilitar el desarrollo
 
 Si ya estas familiarizado con el desarrollo de módulos en Angular, no necesitaras aprender nada nuevo, solo tendrás que familiarizarte con la estructura de archivos y la carga dinámica. 
 
+
 ::::: ESPERANDO CATCH_UP :::::
+
 Para aquellos desarrolladores que no se hayan aventurado todavía con el desarrollo web con Angular... hemos preparado una [pequeña guía]() de ayuda para hacerte el camino del aprendizaje más fácil, centrándonos solamente en aquellas partes de Angular.js que resultan relevantes para desarrollar Apps con nosotros.
 
 
