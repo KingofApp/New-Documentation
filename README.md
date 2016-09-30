@@ -68,7 +68,7 @@ Tema | Estado
 —— [Ejemplo Sencillo](spanish/advance/spinners/example.md) | :white_check_mark:
 —— [Ejemplo Avanzado](spanish/advance/spinners/advance_example.md) | :white_check_mark:
 — [Temas](spanish/advance/themes.md) | :x:
-— [Módulos](spanish/advance/modules/readme.md) | :large_orange_diamond: :construction: @Ulises
+— [Módulos](spanish/advance/modules/readme.md) | :large_orange_diamond: :flashlight: @Fer, @Jovi y @Ulises
 —— [Interacción con el usuario](spanish/advance/modules/interaction.md) | :flashlight: @Pepo
 —— [Funcionalidades de los módulos](spanish/advance/modules/features.md) | :large_orange_diamond: :neckbeard: :flashlight: @DevTeam & @Ulises
 —— [Menus](spanish/advance/modules/menus.md) | :flashlight: @Jovi
