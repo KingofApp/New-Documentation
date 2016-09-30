@@ -17,7 +17,7 @@ Particularidades con Angular:
 [Ejemplo](https://github.com/KingofApp/koapp-module-angularmenu)
 
 
-:::: @Jovi AMPLIAR LAS DIFERENCIAS Y DEFINIR CUAL ES EL RECOMENDADO ::::
+:::: @Jovi AMPLIAR LAS DIFERENCIAS Y DEFINIR CUAL ES EL RECOMENDADO (#156668)::::
 
 
 ### Definiendo Rutas
