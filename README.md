@@ -67,7 +67,7 @@ Tema | Estado
 — [Spinners](spanish/advance/spinners/readme.md) | :white_check_mark: :rocket:
 —— [Ejemplo Sencillo](spanish/advance/spinners/example.md) | :white_check_mark: :rocket:
 —— [Ejemplo Avanzado](spanish/advance/spinners/advance_example.md) | :white_check_mark: :rocket:
-— [Temas](spanish/advance/themes.md) | :x: :rocket:
+— [Temas](spanish/advance/themes.md) | :x: :sunrise: :neckbeard: :rocket:
 — [Módulos](spanish/advance/modules/readme.md) | :large_orange_diamond: :flashlight: @Fer, @Jovi y @Ulises :rocket:
 —— [Interacción con el usuario](spanish/advance/modules/interaction.md) | :flashlight: @Pepo :rocket:
 —— [Funcionalidades de los módulos](spanish/advance/modules/features.md) | :large_orange_diamond: :neckbeard: :flashlight: @DevTeam & @Ulises :rocket:
