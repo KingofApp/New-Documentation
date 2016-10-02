@@ -45,37 +45,37 @@ Tema | Estado
 **[Getting Started](spanish/getting_started/readme.md)** | :x:
 — [Introducción](spanish/getting_started/intro.md) | :x:
 — [Filosofía](spanish/getting_started/philosophy.md) | :x:
-— [Builder](spanish/getting_started/builder/readme.md) | :white_check_mark:
+— [Builder](spanish/getting_started/builder/readme.md) | :white_check_mark: :rocket:
 —— [Tu primera App](spanish/getting_started/builder/first_app.md) | :x:
-—— [Plantillas](spanish/getting_started/builder/templates.md) | :white_check_mark:
-—— [Administración](spanish/getting_started/builder/administration.md) | :white_check_mark:
-—— [Funcionalidad](spanish/getting_started/builder/functionality/readme.md) | :white_check_mark:
-——— [Módulos](spanish/getting_started/builder/functionality/modules/readme.md) | :white_check_mark:
-———— [Módulos Avanzado](spanish/getting_started/builder/functionality/modules/advance_modules.md) | :white_check_mark:
+—— [Plantillas](spanish/getting_started/builder/templates.md) | :white_check_mark: :rocket:
+—— [Administración](spanish/getting_started/builder/administration.md) | :white_check_mark: :rocket:
+—— [Funcionalidad](spanish/getting_started/builder/functionality/readme.md) | :white_check_mark: :rocket:
+——— [Módulos](spanish/getting_started/builder/functionality/modules/readme.md) | :white_check_mark: :rocket:
+———— [Módulos Avanzado](spanish/getting_started/builder/functionality/modules/advance_modules.md) | :white_check_mark: :rocket:
 ———— [Listado de Módulos](spanish/getting_started/builder/functionality/modules/modules_list.md) | :lock: :white_check_mark:
-——— [Servicios](spanish/getting_started/builder/functionality/services/readme.md) | :white_check_mark:
+——— [Servicios](spanish/getting_started/builder/functionality/services/readme.md) | :white_check_mark: :rocket:
 ———— [Listado de Servicios](spanish/getting_started/builder/functionality/services/services_list.md) | :lock: :white_check_mark:
-—— [Apariencia](spanish/getting_started/builder/look_and_feel/readme.md) | :white_check_mark:
+—— [Apariencia](spanish/getting_started/builder/look_and_feel/readme.md) | :white_check_mark: :rocket:
 ——— [Listado de Temas](spanish/getting_started/builder/look_and_feel/themes_list.md) | :lock:  :white_check_mark:
-—— [Publica tu App](spanish/getting_started/builder/publication/readme.md) | :white_check_mark:
+—— [Publica tu App](spanish/getting_started/builder/publication/readme.md) | :white_check_mark: :rocket:
 **[Advance](spanish/advance/readme.md)** | :x:
 — [Introducción](spanish/advance/intro.md) | :x:
 — [¡Ponte al dia!](spanish/advance/catch_up.md) | :construction: @Ulises
-— [Visualizer](spanish/advance/visualizer/readme.md) | :white_check_mark:
-—— [Instalación en local](spanish/advance/visualizer/local_installation.md) | :white_check_mark:
-—— [Instalación en c9](spanish/advance/visualizer/c9_installation.md) | :neckbeard: :construction: @Ulises
-— [Spinners](spanish/advance/spinners/readme.md) | :white_check_mark:
-—— [Ejemplo Sencillo](spanish/advance/spinners/example.md) | :white_check_mark:
-—— [Ejemplo Avanzado](spanish/advance/spinners/advance_example.md) | :white_check_mark:
-— [Temas](spanish/advance/themes.md) | :x:
-— [Módulos](spanish/advance/modules/readme.md) | :large_orange_diamond: :flashlight: @Fer, @Jovi y @Ulises
-—— [Interacción con el usuario](spanish/advance/modules/interaction.md) | :flashlight: @Pepo
-—— [Funcionalidades de los módulos](spanish/advance/modules/features.md) | :large_orange_diamond: :neckbeard: :flashlight: @DevTeam & @Ulises
-—— [Menus](spanish/advance/modules/menus.md) | :flashlight: @Jovi
-—— [Testing](spanish/advance/modules/testing.md) | :flashlight: @Jovi
+— [Visualizer](spanish/advance/visualizer/readme.md) | :white_check_mark: :rocket:
+—— [Instalación en local](spanish/advance/visualizer/local_installation.md) | :white_check_mark: :rocket:
+—— [Instalación en c9](spanish/advance/visualizer/c9_installation.md) | :neckbeard: :construction: @Ulises :rocket:
+— [Spinners](spanish/advance/spinners/readme.md) | :white_check_mark: :rocket:
+—— [Ejemplo Sencillo](spanish/advance/spinners/example.md) | :white_check_mark: :rocket:
+—— [Ejemplo Avanzado](spanish/advance/spinners/advance_example.md) | :white_check_mark: :rocket:
+— [Temas](spanish/advance/themes.md) | :x: :rocket:
+— [Módulos](spanish/advance/modules/readme.md) | :large_orange_diamond: :flashlight: @Fer, @Jovi y @Ulises :rocket:
+—— [Interacción con el usuario](spanish/advance/modules/interaction.md) | :flashlight: @Pepo :rocket:
+—— [Funcionalidades de los módulos](spanish/advance/modules/features.md) | :large_orange_diamond: :neckbeard: :flashlight: @DevTeam & @Ulises :rocket:
+—— [Menus](spanish/advance/modules/menus.md) | :flashlight: @Jovi :rocket:
+—— [Testing](spanish/advance/modules/testing.md) | :flashlight: @Jovi :rocket:
 —— [Ejemplo Sencillo](spanish/advance/modules/example.md) | :x:
 —— [Ejemplo Avanzado](spanish/advance/modules/advance_example.md) | :x:
-— [Services](spanish/advance/services.md) | :large_orange_diamond: :neckbeard:
+— [Services](spanish/advance/services.md) | :large_orange_diamond: :neckbeard: :rocket:
 — [API](spanish/advance/api.md) | :lock: :x:
 **[Comunidad](spanish/community/readme.md)** | :x:
 — [Eventos](spanish/community/events.md) | :x:
