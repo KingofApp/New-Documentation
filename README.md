@@ -21,6 +21,7 @@ Para poder gestionar mejor el proceso de documentación, existen dos tablas que 
 - :bangbang: - Desactualizado
 - :skull: - Depreciado
 - :white_check_mark: - Listo/Nada pendiente
+- :globe_with_meridians: - Subido a http://docs.kingofapp.com/
 - :x: - Pendiente/No realizado
 - :no_entry: - Parado
 
@@ -30,6 +31,7 @@ Para poder gestionar mejor el proceso de documentación, existen dos tablas que 
 - :rocket: - Pendiente de subir a docs.kingofapp...
 - :neckbeard: - Falta por desarrollar código (herramienta/demo/script...)
 - :large_orange_diamond: - Depende de módulos que no están listos
+- :movie_camera: - Faltar por grabar vídeo
 - :lock: - **Privado, no publicar**
 
 **Asignaciones**
@@ -45,19 +47,19 @@ Tema | Estado
 **[Getting Started](spanish/getting_started/readme.md)** | :x:
 — [Introducción](spanish/getting_started/intro.md) | :x:
 — [Filosofía](spanish/getting_started/philosophy.md) | :x:
-— [Builder](spanish/getting_started/builder/readme.md) | :white_check_mark: :rocket:
+— [Builder](spanish/getting_started/builder/readme.md) | :white_check_mark: [:globe_with_meridians:](http://docs.kingofapp.com/builder/)
 —— [Tu primera App](spanish/getting_started/builder/first_app.md) | :x:
-—— [Plantillas](spanish/getting_started/builder/templates.md) | :white_check_mark: :rocket:
-—— [Administración](spanish/getting_started/builder/administration.md) | :white_check_mark: :rocket:
-—— [Funcionalidad](spanish/getting_started/builder/functionality/readme.md) | :white_check_mark: :rocket:
-——— [Módulos](spanish/getting_started/builder/functionality/modules/readme.md) | :white_check_mark: :rocket:
-———— [Módulos Avanzado](spanish/getting_started/builder/functionality/modules/advance_modules.md) | :white_check_mark: :rocket:
+—— [Plantillas](spanish/getting_started/builder/templates.md) | :white_check_mark: [:globe_with_meridians:](http://docs.kingofapp.com/builder/plantillas/)
+—— [Administración](spanish/getting_started/builder/administration.md) | :white_check_mark: [:globe_with_meridians:](http://docs.kingofapp.com/builder/administration/)
+—— [Funcionalidad](spanish/getting_started/builder/functionality/readme.md) | :white_check_mark: [:globe_with_meridians:](http://docs.kingofapp.com/builder/functionality/)
+——— [Módulos](spanish/getting_started/builder/functionality/modules/readme.md) | :white_check_mark: [:globe_with_meridians:](http://docs.kingofapp.com/builder/functionality/modules/)
+———— [Módulos Avanzado](spanish/getting_started/builder/functionality/modules/advance_modules.md) | :white_check_mark: [:globe_with_meridians:](http://docs.kingofapp.com/builder/functionality/advance-modules/)
 ———— [Listado de Módulos](spanish/getting_started/builder/functionality/modules/modules_list.md) | :lock: :white_check_mark:
-——— [Servicios](spanish/getting_started/builder/functionality/services/readme.md) | :white_check_mark: :rocket:
+——— [Servicios](spanish/getting_started/builder/functionality/services/readme.md) | :white_check_mark: [:globe_with_meridians:](http://docs.kingofapp.com/builder/functionality/services/)
 ———— [Listado de Servicios](spanish/getting_started/builder/functionality/services/services_list.md) | :lock: :white_check_mark:
-—— [Apariencia](spanish/getting_started/builder/look_and_feel/readme.md) | :white_check_mark: :rocket:
+—— [Apariencia](spanish/getting_started/builder/look_and_feel/readme.md) | :white_check_mark: [:globe_with_meridians:](http://docs.kingofapp.com/builder/look-and-feel/)
 ——— [Listado de Temas](spanish/getting_started/builder/look_and_feel/themes_list.md) | :lock:  :white_check_mark:
-—— [Publica tu App](spanish/getting_started/builder/publication/readme.md) | :white_check_mark: :rocket:
+—— [Publica tu App](spanish/getting_started/builder/publication/readme.md) | :white_check_mark: [:globe_with_meridians:](http://docs.kingofapp.com/builder/publication/)
 **[Advance](spanish/advance/readme.md)** | :x:
 — [Introducción](spanish/advance/intro.md) | :x:
 — [¡Ponte al dia!](spanish/advance/catch_up.md) | :construction: @Ulises
