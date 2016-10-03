@@ -66,9 +66,9 @@ Tema | Estado
 — [Visualizer](spanish/advance/visualizer/readme.md) | :white_check_mark: [:globe_with_meridians:](http://docs.kingofapp.com/visualizer/)
 —— [Instalación en local](spanish/advance/visualizer/local_installation.md) | :white_check_mark: [:globe_with_meridians:](http://docs.kingofapp.com/visualizer/local-installation/)
 —— [Instalación en c9](spanish/advance/visualizer/c9_installation.md) | :neckbeard: :construction: @Ulises [:globe_with_meridians:](http://docs.kingofapp.com/visualizer/c9-installation/)
-— [Spinners](spanish/advance/spinners/readme.md) | :white_check_mark: :rocket:
-—— [Ejemplo Sencillo](spanish/advance/spinners/example.md) | :white_check_mark: :rocket:
-—— [Ejemplo Avanzado](spanish/advance/spinners/advance_example.md) | :white_check_mark: :rocket:
+— [Spinners](spanish/advance/spinners/readme.md) | :white_check_mark: [:globe_with_meridians:](http://docs.kingofapp.com/spinners/)
+—— [Ejemplo Sencillo](spanish/advance/spinners/example.md) | :white_check_mark: [:globe_with_meridians:](http://docs.kingofapp.com/spinners/example/)
+—— [Ejemplo Avanzado](spanish/advance/spinners/advance_example.md) | :white_check_mark: [:globe_with_meridians:](http://docs.kingofapp.com/spinners/advance-example/)
 — [Temas](spanish/advance/themes.md) | :x: :sunrise: :neckbeard: :rocket:
 — [Módulos](spanish/advance/modules/readme.md) | :large_orange_diamond: :flashlight: @Fer, @Jovi y @Ulises :rocket:
 —— [Interacción con el usuario](spanish/advance/modules/interaction.md) | :flashlight: @Pepo :rocket:
