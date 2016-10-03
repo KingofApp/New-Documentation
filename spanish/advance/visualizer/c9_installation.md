@@ -18,10 +18,12 @@ Es la solución más lenta pero nos permite alterar el proceso de instalación. 
 
 
 ### Instalación automática
-  **Próximamente (script sh)**
+
+  :::::::: @Ulises -> Crear el script  :::::::
 
 ### Clonación de un workspace
-  **Próximamente**
+  
+  :::::::: @Ulises -> Viable?  :::::::
 
 ### Instalación manual
 
