@@ -18,7 +18,10 @@ Al igual que con los servicios y módulos cualquiera puede extender y crear sus 
 
 Sabemos que en ocasiones puede resultar abrumador elegir entre tantos temas, así que te lo ponemos fácil con algunos trucos.
 
+
+:::::::::  Lista de Temas   ::::::::::
 Puedes consultar la [lista de temas](themes_list.md) desde aquí y empezar a probar nuevos aspectos en tu App.
+
 
 Para ayudar a decidirnos por un tema u otro podemos utilizar filtros diversos desde valoraciones mínimas, categorías... hasta autor.
 
