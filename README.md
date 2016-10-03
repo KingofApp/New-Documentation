@@ -47,37 +47,37 @@ Tema | Estado
 **[Getting Started](spanish/getting_started/readme.md)** | :x:
 — [Introducción](spanish/getting_started/intro.md) | :x:
 — [Filosofía](spanish/getting_started/philosophy.md) | :x:
-— [Builder](spanish/getting_started/builder/readme.md) | :white_check_mark: [:globe_with_meridians:](http://docs.kingofapp.com/builder/)
+— [Builder](spanish/getting_started/builder/readme.md) | [:globe_with_meridians:](http://docs.kingofapp.com/builder/)
 —— [Tu primera App](spanish/getting_started/builder/first_app.md) | :x:
-—— [Plantillas](spanish/getting_started/builder/templates.md) | :white_check_mark: [:globe_with_meridians:](http://docs.kingofapp.com/builder/plantillas/)
-—— [Administración](spanish/getting_started/builder/administration.md) | :white_check_mark: [:globe_with_meridians:](http://docs.kingofapp.com/builder/administration/)
-—— [Funcionalidad](spanish/getting_started/builder/functionality/readme.md) | :white_check_mark: [:globe_with_meridians:](http://docs.kingofapp.com/builder/functionality/)
-——— [Módulos](spanish/getting_started/builder/functionality/modules/readme.md) | :white_check_mark: [:globe_with_meridians:](http://docs.kingofapp.com/builder/functionality/modules/)
-———— [Módulos Avanzado](spanish/getting_started/builder/functionality/modules/advance_modules.md) | :white_check_mark: [:globe_with_meridians:](http://docs.kingofapp.com/builder/functionality/advance-modules/)
+—— [Plantillas](spanish/getting_started/builder/templates.md) | [:globe_with_meridians:](http://docs.kingofapp.com/builder/plantillas/)
+—— [Administración](spanish/getting_started/builder/administration.md) | [:globe_with_meridians:](http://docs.kingofapp.com/builder/administration/)
+—— [Funcionalidad](spanish/getting_started/builder/functionality/readme.md) | [:globe_with_meridians:](http://docs.kingofapp.com/builder/functionality/)
+——— [Módulos](spanish/getting_started/builder/functionality/modules/readme.md) | [:globe_with_meridians:](http://docs.kingofapp.com/builder/functionality/modules/)
+———— [Módulos Avanzado](spanish/getting_started/builder/functionality/modules/advance_modules.md) | [:globe_with_meridians:](http://docs.kingofapp.com/builder/functionality/advance-modules/)
 ———— [Listado de Módulos](spanish/getting_started/builder/functionality/modules/modules_list.md) | :lock: :white_check_mark:
-——— [Servicios](spanish/getting_started/builder/functionality/services/readme.md) | :white_check_mark: [:globe_with_meridians:](http://docs.kingofapp.com/builder/functionality/services/)
+——— [Servicios](spanish/getting_started/builder/functionality/services/readme.md) | [:globe_with_meridians:](http://docs.kingofapp.com/builder/functionality/services/)
 ———— [Listado de Servicios](spanish/getting_started/builder/functionality/services/services_list.md) | :lock: :white_check_mark:
-—— [Apariencia](spanish/getting_started/builder/look_and_feel/readme.md) | :white_check_mark: [:globe_with_meridians:](http://docs.kingofapp.com/builder/look-and-feel/)
+—— [Apariencia](spanish/getting_started/builder/look_and_feel/readme.md) | [:globe_with_meridians:](http://docs.kingofapp.com/builder/look-and-feel/)
 ——— [Listado de Temas](spanish/getting_started/builder/look_and_feel/themes_list.md) | :lock:  :white_check_mark:
-—— [Publica tu App](spanish/getting_started/builder/publication/readme.md) | :white_check_mark: [:globe_with_meridians:](http://docs.kingofapp.com/builder/publication/)
+—— [Publica tu App](spanish/getting_started/builder/publication/readme.md) | [:globe_with_meridians:](http://docs.kingofapp.com/builder/publication/)
 **[Advance](spanish/advance/readme.md)** | :x:
 — [Introducción](spanish/advance/intro.md) | :x:
 — [¡Ponte al dia!](spanish/advance/catch_up.md) | :construction: @Ulises
-— [Visualizer](spanish/advance/visualizer/readme.md) | :white_check_mark: [:globe_with_meridians:](http://docs.kingofapp.com/visualizer/)
+— [Visualizer](spanish/advance/visualizer/readme.md) | [:globe_with_meridians:](http://docs.kingofapp.com/visualizer/)
 —— [Instalación en local](spanish/advance/visualizer/local_installation.md) | :white_check_mark: [:globe_with_meridians:](http://docs.kingofapp.com/visualizer/local-installation/)
-—— [Instalación en c9](spanish/advance/visualizer/c9_installation.md) | :neckbeard: :construction: @Ulises [:globe_with_meridians:](http://docs.kingofapp.com/visualizer/c9-installation/)
-— [Spinners](spanish/advance/spinners/readme.md) | :white_check_mark: [:globe_with_meridians:](http://docs.kingofapp.com/spinners/)
-—— [Ejemplo Sencillo](spanish/advance/spinners/example.md) | :white_check_mark: [:globe_with_meridians:](http://docs.kingofapp.com/spinners/example/)
-—— [Ejemplo Avanzado](spanish/advance/spinners/advance_example.md) | :white_check_mark: [:globe_with_meridians:](http://docs.kingofapp.com/spinners/advance-example/)
-— [Temas](spanish/advance/themes.md) | :x: :sunrise: :neckbeard: [:globe_with_meridians:](http://docs.kingofapp.com/themes/)
-— [Módulos](spanish/advance/modules/readme.md) | :large_orange_diamond: :flashlight: @Fer, @Jovi y @Ulises [:globe_with_meridians:](http://docs.kingofapp.com/modules/)
-—— [Interacción con el usuario](spanish/advance/modules/interaction.md) | :flashlight: @Pepo [:globe_with_meridians:](http://docs.kingofapp.com/modules/interaction/)
-—— [Funcionalidades de los módulos](spanish/advance/modules/features.md) | :large_orange_diamond: :neckbeard: :flashlight: @DevTeam & @Ulises [:globe_with_meridians:](http://docs.kingofapp.com/modules/features/)
-—— [Menus](spanish/advance/modules/menus.md) | :flashlight: @Jovi [:globe_with_meridians:](http://docs.kingofapp.com/modules/menus/)
-—— [Testing](spanish/advance/modules/testing.md) | :flashlight: @Jovi [:globe_with_meridians:](http://docs.kingofapp.com/modules/testing/)
+—— [Instalación en c9](spanish/advance/visualizer/c9_installation.md) | [:globe_with_meridians:](http://docs.kingofapp.com/visualizer/c9-installation/) :neckbeard: :construction: @Ulises
+— [Spinners](spanish/advance/spinners/readme.md) | [:globe_with_meridians:](http://docs.kingofapp.com/spinners/)
+—— [Ejemplo Sencillo](spanish/advance/spinners/example.md) | [:globe_with_meridians:](http://docs.kingofapp.com/spinners/example/)
+—— [Ejemplo Avanzado](spanish/advance/spinners/advance_example.md) | [:globe_with_meridians:](http://docs.kingofapp.com/spinners/advance-example/)
+— [Temas](spanish/advance/themes.md) | [:globe_with_meridians:](http://docs.kingofapp.com/themes/) :sunrise: :neckbeard:
+— [Módulos](spanish/advance/modules/readme.md) | [:globe_with_meridians:](http://docs.kingofapp.com/modules/) :large_orange_diamond: :flashlight: @Fer, @Jovi y @Ulises
+—— [Interacción con el usuario](spanish/advance/modules/interaction.md) | [:globe_with_meridians:](http://docs.kingofapp.com/modules/interaction/) :flashlight: @Pepo
+—— [Funcionalidades de los módulos](spanish/advance/modules/features.md) | [:globe_with_meridians:](http://docs.kingofapp.com/modules/features/) :large_orange_diamond: :neckbeard: :flashlight: @DevTeam & @Ulises
+—— [Menus](spanish/advance/modules/menus.md) | [:globe_with_meridians:](http://docs.kingofapp.com/modules/menus/) :flashlight: @Jovi
+—— [Testing](spanish/advance/modules/testing.md) | [:globe_with_meridians:](http://docs.kingofapp.com/modules/testing/) :flashlight: @Jovi
 —— [Ejemplo Sencillo](spanish/advance/modules/example.md) | :x:
 —— [Ejemplo Avanzado](spanish/advance/modules/advance_example.md) | :x:
-— [Services](spanish/advance/services.md) | :large_orange_diamond: :neckbeard: [:globe_with_meridians:](http://docs.kingofapp.com/services/)
+— [Services](spanish/advance/services.md) | [:globe_with_meridians:](http://docs.kingofapp.com/services/) :large_orange_diamond: :neckbeard:
 — [API](spanish/advance/api.md) | :lock: :x:
 **[Comunidad](spanish/community/readme.md)** | :x:
 — [Eventos](spanish/community/events.md) | :x:
