@@ -70,11 +70,11 @@ Tema | Estado
 —— [Ejemplo Sencillo](spanish/advance/spinners/example.md) | :white_check_mark: [:globe_with_meridians:](http://docs.kingofapp.com/spinners/example/)
 —— [Ejemplo Avanzado](spanish/advance/spinners/advance_example.md) | :white_check_mark: [:globe_with_meridians:](http://docs.kingofapp.com/spinners/advance-example/)
 — [Temas](spanish/advance/themes.md) | :x: :sunrise: :neckbeard: [:globe_with_meridians:](http://docs.kingofapp.com/themes/)
-— [Módulos](spanish/advance/modules/readme.md) | :large_orange_diamond: :flashlight: @Fer, @Jovi y @Ulises :rocket:
-—— [Interacción con el usuario](spanish/advance/modules/interaction.md) | :flashlight: @Pepo :rocket:
-—— [Funcionalidades de los módulos](spanish/advance/modules/features.md) | :large_orange_diamond: :neckbeard: :flashlight: @DevTeam & @Ulises :rocket:
-—— [Menus](spanish/advance/modules/menus.md) | :flashlight: @Jovi :rocket:
-—— [Testing](spanish/advance/modules/testing.md) | :flashlight: @Jovi :rocket:
+— [Módulos](spanish/advance/modules/readme.md) | :large_orange_diamond: :flashlight: @Fer, @Jovi y @Ulises [:globe_with_meridians:](http://docs.kingofapp.com/modules/)
+—— [Interacción con el usuario](spanish/advance/modules/interaction.md) | :flashlight: @Pepo [:globe_with_meridians:](http://docs.kingofapp.com/modules/interaction/)
+—— [Funcionalidades de los módulos](spanish/advance/modules/features.md) | :large_orange_diamond: :neckbeard: :flashlight: @DevTeam & @Ulises [:globe_with_meridians:](http://docs.kingofapp.com/modules/features/)
+—— [Menus](spanish/advance/modules/menus.md) | :flashlight: @Jovi [:globe_with_meridians:](http://docs.kingofapp.com/modules/menus/)
+—— [Testing](spanish/advance/modules/testing.md) | :flashlight: @Jovi [:globe_with_meridians:](http://docs.kingofapp.com/modules/testing/)
 —— [Ejemplo Sencillo](spanish/advance/modules/example.md) | :x:
 —— [Ejemplo Avanzado](spanish/advance/modules/advance_example.md) | :x:
 — [Services](spanish/advance/services.md) | :large_orange_diamond: :neckbeard: :rocket:
