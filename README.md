@@ -77,7 +77,7 @@ Tema | Estado
 —— [Testing](spanish/advance/modules/testing.md) | :flashlight: @Jovi [:globe_with_meridians:](http://docs.kingofapp.com/modules/testing/)
 —— [Ejemplo Sencillo](spanish/advance/modules/example.md) | :x:
 —— [Ejemplo Avanzado](spanish/advance/modules/advance_example.md) | :x:
-— [Services](spanish/advance/services.md) | :large_orange_diamond: :neckbeard: :rocket:
+— [Services](spanish/advance/services.md) | :large_orange_diamond: :neckbeard: [:globe_with_meridians:](http://docs.kingofapp.com/services/)
 — [API](spanish/advance/api.md) | :lock: :x:
 **[Comunidad](spanish/community/readme.md)** | :x:
 — [Eventos](spanish/community/events.md) | :x:
