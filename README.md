@@ -63,9 +63,9 @@ Tema | Estado
 **[Advance](spanish/advance/readme.md)** | :x:
 — [Introducción](spanish/advance/intro.md) | :x:
 — [¡Ponte al dia!](spanish/advance/catch_up.md) | :construction: @Ulises
-— [Visualizer](spanish/advance/visualizer/readme.md) | :white_check_mark: :rocket:
-—— [Instalación en local](spanish/advance/visualizer/local_installation.md) | :white_check_mark: :rocket:
-—— [Instalación en c9](spanish/advance/visualizer/c9_installation.md) | :neckbeard: :construction: @Ulises :rocket:
+— [Visualizer](spanish/advance/visualizer/readme.md) | :white_check_mark: [:globe_with_meridians:](http://docs.kingofapp.com/visualizer/)
+—— [Instalación en local](spanish/advance/visualizer/local_installation.md) | :white_check_mark: [:globe_with_meridians:](http://docs.kingofapp.com/visualizer/local-installation/)
+—— [Instalación en c9](spanish/advance/visualizer/c9_installation.md) | :neckbeard: :construction: @Ulises [:globe_with_meridians:](http://docs.kingofapp.com/visualizer/c9-installation/)
 — [Spinners](spanish/advance/spinners/readme.md) | :white_check_mark: :rocket:
 —— [Ejemplo Sencillo](spanish/advance/spinners/example.md) | :white_check_mark: :rocket:
 —— [Ejemplo Avanzado](spanish/advance/spinners/advance_example.md) | :white_check_mark: :rocket:
