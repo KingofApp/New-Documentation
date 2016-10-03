@@ -57,7 +57,7 @@ Tema | Estado
 ———— [Listado de Módulos](spanish/getting_started/builder/functionality/modules/modules_list.md) | :lock: :white_check_mark:
 ——— [Servicios](spanish/getting_started/builder/functionality/services/readme.md) | [:globe_with_meridians:](http://docs.kingofapp.com/builder/functionality/services/)
 ———— [Listado de Servicios](spanish/getting_started/builder/functionality/services/services_list.md) | :lock: :white_check_mark:
-—— [Apariencia](spanish/getting_started/builder/look_and_feel/readme.md) | [:globe_with_meridians:](http://docs.kingofapp.com/builder/look-and-feel/)
+—— [Apariencia](spanish/getting_started/builder/look_and_feel/readme.md) | [:globe_with_meridians:](http://docs.kingofapp.com/builder/look-and-feel/) :large_orange_diamond:
 ——— [Listado de Temas](spanish/getting_started/builder/look_and_feel/themes_list.md) | :lock:  :white_check_mark:
 —— [Publica tu App](spanish/getting_started/builder/publication/readme.md) | [:globe_with_meridians:](http://docs.kingofapp.com/builder/publication/)
 **[Advance](spanish/advance/readme.md)** | :x:
