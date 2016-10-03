@@ -2,14 +2,14 @@
 
 Los menús pueden construirse con Polymer o con Angular.
 
-Particularidades con Polymer:
+**Particularidades con Polymer:**
 * Controlador específico
 * La directiva pasa los elementos del menu a Polymer
 * Acceso al ámbito (scope) de la barra de navegación (toolbar) desde la propia vista.
 
 [Ejemplo](https://github.com/KingofApp/koapp-module-polymermenu)
 
-Particularidades con Angular:
+**Particularidades con Angular:**
 * Controlador específico
 * styles.html específico para trabajar con las variables de color de las plantillas
 * Acceso al ámbito (scope) de la barra de navegación (toolbar) desde la propia vista.
