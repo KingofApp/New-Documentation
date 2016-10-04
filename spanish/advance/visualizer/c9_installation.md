@@ -2,15 +2,12 @@
 
 Cloud9 nos permite trabajar directamente en la nube. Para ello... c9 nos ofrece maquinas virtuales basadas en Ubuntu.
 
-Tenemos varias opciones disponibles para instalarlos Visualizer en un workspace de c9.
+Tenemos dos opciones disponibles para instalarlos Visualizer en un workspace de c9.
 
 - [Instalación automática](#instalaci%C3%B3n-autom%C3%A1tica)
 
-Partiendo de un script de Bash instalaremos cómodamente todo lo necesario. Este script realiza de manera automática los pasos de la instalación manual.
+Partiendo de [este script](https://gist.github.com/UlisesGascon/eb476f5a77fee78563bc0302632cd648) instalaremos cómodamente todo lo necesario. Este script realiza de manera automática los pasos de la instalación manual.
 
-- [Clonación de un workspace](#clonaci%C3%B3n-de-un-workspace)
-
-Es la solución más sencilla, podemos clonar un workspace que ya tiene todo instalado.
 
 - [Instalación manual](#instalaci%C3%B3n-manual)
 
@@ -19,11 +16,11 @@ Es la solución más lenta pero nos permite alterar el proceso de instalación. 
 
 ### Instalación automática
 
-  :::::::: @Ulises -> Crear el script  :::::::
+Solo es necesario ejecutar este comando en la terminal.
+```bash
+wget https://gist.githubusercontent.com/UlisesGascon/eb476f5a77fee78563bc0302632cd648/raw/40b0aaf35ee10d4af2405d44774a6e94362f6335/visualizer_installer.sh && chmod u+x visualizer_installer.sh && ./visualizer_installer.sh
+```
 
-### Clonación de un workspace
-  
-  :::::::: @Ulises -> Viable?  :::::::
 
 ### Instalación manual
 
