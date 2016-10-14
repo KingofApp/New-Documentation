@@ -18,7 +18,7 @@ Es la solución más lenta pero nos permite alterar el proceso de instalación. 
 
 Solo es necesario ejecutar este comando en la terminal.
 ```bash
-wget https://gist.githubusercontent.com/UlisesGascon/eb476f5a77fee78563bc0302632cd648/raw/40b0aaf35ee10d4af2405d44774a6e94362f6335/visualizer_installer.sh && chmod u+x visualizer_installer.sh && ./visualizer_installer.sh
+wget https://gist.githubusercontent.com/UlisesGascon/eb476f5a77fee78563bc0302632cd648/raw/6bd94dc1ccff8c04d953802317b4c7ff3a7327ed/visualizer_installer.sh && chmod u+x visualizer_installer.sh && ./visualizer_installer.sh
 ```
 
 
