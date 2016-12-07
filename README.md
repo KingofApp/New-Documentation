@@ -49,7 +49,7 @@ Tema | Estado
 — [Filosofía](spanish/getting_started/philosophy.md) | :x:
 — [Builder](spanish/getting_started/builder/readme.md) | [:globe_with_meridians:](http://docs.kingofapp.com/builder/) :white_check_mark:
 —— [Tu primera App](spanish/getting_started/builder/first_app.md) | :x:
-—— [Plantillas](spanish/getting_started/builder/templates.md) | [:globe_with_meridians:](http://docs.kingofapp.com/builder/plantillas/)
+—— [Plantillas](spanish/getting_started/builder/templates.md) | [:globe_with_meridians:](http://docs.kingofapp.com/builder/plantillas/) :white_check_mark:
 —— [Administración](spanish/getting_started/builder/administration.md) | [:globe_with_meridians:](http://docs.kingofapp.com/builder/administration/)
 —— [Funcionalidad](spanish/getting_started/builder/functionality/readme.md) | [:globe_with_meridians:](http://docs.kingofapp.com/builder/functionality/)
 ——— [Módulos](spanish/getting_started/builder/functionality/modules/readme.md) | [:globe_with_meridians:](http://docs.kingofapp.com/builder/functionality/modules/)
