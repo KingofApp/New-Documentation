@@ -1,13 +1,14 @@
 # Módulos (Conceptos Avanzados)
 
+A continuación vamos a explicar algunas propiedades avanzadas de los módulos.
 
 ### Principal, la clave de la visualización
 
 **Valores por defecto**
 
-El visualizador siempre necesita tener un módulo seleccionado como *principal*. El usuario puede determinar que elemento será el principal, en caso de no hacerlo... el propio visualizador decidirá.
+El módulo principal es aquel que se verá cuando inicie la aplicación. Es el equivalente del *index* o *home* en las páginas web.
 
-Este elemento principal determina que módulo se cargará al abrir la aplicación.
+El visualizador siempre necesita tener un módulo seleccionado como *principal*. El usuario puede determinar que elemento será el principal, en caso de no hacerlo... el propio visualizador decidirá. Además no puede haber más de un módulo principal, en caso de seleccionar otra previamente selecciona perderá la propiedad.
 
 
 ![advance_modules_1](../../../../screenshots/advance_modules_1.png)
@@ -21,6 +22,22 @@ Puede ocurrir que nuestra App sea compleja y necesite diversos módulos entre el
 
 De esta forma logramos que el menú y el módulo seleccionado se visualicen como elementos principales.
 
+
+
+### Modulos contenedores
+
+Cuando añadimos un nuevo módulo a nuestra aplicación podemos observar que puede tener dos formas:   
+
+  1. claro y sin hueco para añadir más módulos dentro, u
+  2. oscuro y con una zona delimitada para arrastrar otros módulos.
+
+El segundo tipo es el que llamamos módulo contenedor. Permite enriquecer tanto el aspecto como la funcionalidad de cada uno de los módulos que hay dentro.
+
+Un buen ejemplo de como funcionan estos módulos son los menús. Permite utilizar el propio menú en cada una de las vistas de los módulos incluidos dentro. Esto no significa que un módulo contenedor pueda mostrar varios de los módulos que contiene a la vez.
+
+Por ejemplo, si tuviésemos un módulo menú y dos módulos html dentro, podríamos navegar por el menú en la vista de cada uno de los menús pero no podríamos ver ambos módulos html de forma simultánea.
+
+**Consejo:** Puedes poner tantos módulos contenedores unos dentro de otros como quieras, esto te permitirá tener funcionalidades más complejas.
 
 
 ### Organización de los menús

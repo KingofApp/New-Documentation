@@ -53,7 +53,7 @@ Tema | Estado
 —— [Administración](spanish/getting_started/builder/administration.md) | [:globe_with_meridians:](http://docs.kingofapp.com/builder/administration/) :white_check_mark:
 —— [Funcionalidad](spanish/getting_started/builder/functionality/readme.md) | [:globe_with_meridians:](http://docs.kingofapp.com/builder/functionality/) :white_check_mark:
 ——— [Módulos](spanish/getting_started/builder/functionality/modules/readme.md) | [:globe_with_meridians:](http://docs.kingofapp.com/builder/functionality/modules/) :white_check_mark:
-———— [Módulos Avanzado](spanish/getting_started/builder/functionality/modules/advance_modules.md) | [:globe_with_meridians:](http://docs.kingofapp.com/builder/functionality/advance-modules/)
+———— [Módulos Avanzado](spanish/getting_started/builder/functionality/modules/advance_modules.md) | [:globe_with_meridians:](http://docs.kingofapp.com/builder/functionality/advance-modules/) :white_check_mark:
 ———— [Listado de Módulos](spanish/getting_started/builder/functionality/modules/modules_list.md) | :lock: :white_check_mark:
 ——— [Servicios](spanish/getting_started/builder/functionality/services/readme.md) | [:globe_with_meridians:](http://docs.kingofapp.com/builder/functionality/services/)
 ———— [Listado de Servicios](spanish/getting_started/builder/functionality/services/services_list.md) | :lock: :white_check_mark:
