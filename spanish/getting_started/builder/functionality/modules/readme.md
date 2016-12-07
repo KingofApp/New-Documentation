@@ -21,12 +21,9 @@ Nuestra filosofía se basa en hacerte la vida más fácil. Ya es bastante duro c
 
 Puedes consultar la lista de módulos disponibles pinchando en *Añadir módulo* y empezar a integrar funcionalidades en tu App.
 
-Para ayudar a decidirnos por una módulo u otro podemos utilizar filtros diversos desde valoraciones mínimas, categorías... hasta autor.
+Para ayudar a decidirnos por un módulo u otro podemos utilizar filtros diversos desde valoraciones mínimas, categorías... hasta autor.
 
 Además del filtro tenemos listas que agrupan los módulos por popularidad, profesionalidad, precios, etc...
-
-
-También disponemos de una lista de módulos y su información relevante [aquí](modules_list.md).
 
 ![modules_3](../../../../screenshots/modules_3.png)
 
