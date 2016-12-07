@@ -7,29 +7,35 @@ Para hacértelo más fácil hemos creado una documentación pensando en ti con e
 Pero si eres de las personas que no quieren esperar... puedes saltar directamente a este video en el que te mostramos [como montar tu propia App en... ¡10 minutos!](first_app.md)
 
 
-### ¿Qué aprenderemos ahora?
+### Secciones del builder
 
-- **[Plantillas](templates.md)**
+- **Panel General**
 
-Una de las grandes ventajas de haber diseñado nuestro builder en un sistema modular es que podemos crear fácilmente plantillas para nuestras aplicaciones. Existe un gran mercado de plantillas disponibles que facilitan aún más nuestro trabajo a la hora de crear la App, ya que no tendremos que seleccionar y configurar muchos de los componentes que necesitaremos.
+Nos muestra información sobre el estado de nuestra aplicación avisandonos de fallos de configuración, elementos que falta e incluso nos hace sugerencias para asegurarnos de que nuestra aplicación no tenga problemas a la hora de subirlos a las tiendas de los diferentes proveedores, como Play Store de Android o App Store de Apple.
+
+Además esta vista nos permite iniciar el proceso de subida de una nueva versión de nuestra app.
 
 - **[Administración](administration.md)**
 
 Todos los detalles críticos de nuestra App se definen desde un panel que nos permite cambiar el nombre, categoría, versión... y por supuesto toda la información adicional que podemos encontrar en Google Play y Apple Store una vez hayamos decidido publicar nuestra app.
 
+- **[Plantillas](templates.md)**
+
+Una de las grandes ventajas de haber diseñado nuestro builder en un sistema modular es que podemos crear fácilmente plantillas para nuestras aplicaciones. Existe un gran mercado de plantillas disponibles que facilitan aún más nuestro trabajo a la hora de crear la App, ya que no tendremos que seleccionar y configurar muchos de los componentes que necesitaremos.
+
 - **[Funcionalidad](functionality/readme.md)**
 
-    Una App no hace nada si no le decimos lo que tiene que hacer, por eso hemos agrupado todas las funcionalidades posibles en dos categorías, siguiendo las especificaciones de [AngularJS](https://angularjs.org/):
+    Una App no hace nada si no le decimos lo que tiene que hacer, por eso hemos agrupado todas las funcionalidades posibles en dos categorías, dependiendo de como afecten al resto de plugins:
 
     - **Módulos**
-    Que nos permiten añadir información de redes sociales, rss, etc...
+    Son independientes. Generalmente son vistas que muestran información y permiten interactuar con ella, como redes sociales, valores bursatiles, tareas pendientes, etc...
 
     - **Servicios**
-    Que nos permiten añadir componentes mucho más complejos como notificaciones en tiempo real a los usuarios, analíticas, publicidad, etc...
+    Son transversales, normalmente están presentes en toda la aplicación o en gran parte de ella. Entre otras cosas, nos permiten añadir notificaciones push en tiempo real a los usuarios, analíticas, publicidad, etc...
 
 - **[Apariencia](look_and_feel/readme.md)**
 
-Desde este punto podremos definir el aspecto general de nuestra App... desde el icono que se utiliza para entrar hasta el tema que dará estilo a todos los componentes visuales de nuestra App (Botones, enlaces, textos...). Para lograr una mejor modularidad en los diversos elementos que componen las plantillas, hemos utilizado como base [Polymer](https://www.polymer-project.org/1.0/)
+Desde este sección podremos definir el aspecto general de nuestra App... desde el icono que se utiliza para entrar hasta el tema que dará estilo a todos los componentes visuales de nuestra App (Botones, enlaces, textos...). De esta forma podemos cambiar el aspecto de toda nuestra app sin tener que editar cada una de las vistas.
 
 - **[Publicación](publication/readme.md)**
 

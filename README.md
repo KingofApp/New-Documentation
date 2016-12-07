@@ -47,7 +47,7 @@ Tema | Estado
 **[Getting Started](spanish/getting_started/readme.md)** | :x:
 — [Introducción](spanish/getting_started/intro.md) | :x:
 — [Filosofía](spanish/getting_started/philosophy.md) | :x:
-— [Builder](spanish/getting_started/builder/readme.md) | [:globe_with_meridians:](http://docs.kingofapp.com/builder/)
+— [Builder](spanish/getting_started/builder/readme.md) | [:globe_with_meridians:](http://docs.kingofapp.com/builder/) :white_check_mark:
 —— [Tu primera App](spanish/getting_started/builder/first_app.md) | :x:
 —— [Plantillas](spanish/getting_started/builder/templates.md) | [:globe_with_meridians:](http://docs.kingofapp.com/builder/plantillas/)
 —— [Administración](spanish/getting_started/builder/administration.md) | [:globe_with_meridians:](http://docs.kingofapp.com/builder/administration/)
@@ -138,4 +138,3 @@ Script de Node que descarga toda la información de los Servicios en una estruct
 Script de Node que descarga toda la información de los Themes en una estructura de archivos markdown, idéntico a la documentación.
 - [en Español](https://github.com/KingofApp/com.kingofapp.resources/blob/dev/scripts/themes_list_es-ES.js)
 - [en Inglés](https://github.com/KingofApp/com.kingofapp.resources/blob/dev/scripts/themes_list_en-US.js)
-
