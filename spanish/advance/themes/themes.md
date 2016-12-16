@@ -1,13 +1,16 @@
 # King of App themes
 
-Un tema desarrollador para King of App se compone de un conjunto de elementos de [Polymer](https://www.polymer-project.org).
+### ¿Qué es un tema de king of App?
+Un tema es un conjunto de componentes con un estilo propio, creando un tema podremos personalizar al 100% una app.
+
+Un tema desarrollado para King of App se compone de un conjunto de componentes de [Polymer](https://www.polymer-project.org).
 
 
-### Sobre los elementos
+### Sobre los componentes
 
-Cada elemento esta contenido en su propio directorio y deber seguir una estructura determinada (nombreDelTema-elemento). Para facilitarnos mantener esta correlación, podemos utilizar el [generador de temas](#generador%20de%20temas) que ya nos construye toda la estructura necesaria de manera automática.
+Cada componente esta contenido en su propio directorio y deber seguir una estructura determinada (nombreDelTema-componente). Para facilitarnos mantener esta correlación, podemos utilizar el [generador de temas](#generador-de-temas) que ya nos construye toda la estructura necesaria de manera automática.
 
-Dentro de la carpeta de de nuestro elemento siempre debemos incluir una subcarpeta con un demo.html, que nos facilitará posteriormente el desarrollo. También el generador se encargará de incluir esto de manera automática.
+Dentro de la carpeta de de nuestro componente siempre debemos incluir una subcarpeta con un demo.html, que nos facilitará posteriormente el desarrollo. También el generador se encargará de incluir esto de manera automática.
 
 - *Estructura:*
 
@@ -18,9 +21,9 @@ awesometheme-button
 └── awesometheme-button.html
 ```
 
-Cada elemento se compone de un `KoaBehavior` desde el que se gestionan el resto de elementos necesarios (host attributes, propiedades, etc...).
+Cada componente se compone de un `KoaBehavior` desde el que se gestionan el resto de componentes necesarios (host attributes, propiedades, etc...).
 
-**KoaBehavior**: Es un comportamiento ([Polymer behavior](https://www.polymer-project.org/1.0/docs/devguide/behaviors.html)) que contiene la mayoría de los elementos de comportamiento como atributos, métodos, etc...
+**KoaBehavior**: Es un comportamiento ([Polymer behavior](https://www.polymer-project.org/1.0/docs/devguide/behaviors.html)) que contiene la mayoría de los componentes de comportamiento como atributos, métodos, etc...
 
 
 - Elementos incluidos en KoaBehavior:
@@ -28,38 +31,35 @@ Cada elemento se compone de un `KoaBehavior` desde el que se gestionan el resto 
 Elemento | utilidad | Documentación
 ------------ | ------------- | -------------
 Behaviors | Gestiona la herencia entre propiedades y métodos | [Polymer behaviors](https://www.polymer-project.org/1.0/docs/devguide/behaviors.html)
-Host attributes | Permite definir los estilos durante la creación del elemento | [Polymer host attributes](https://www.polymer-project.org/1.0/docs/devguide/registering-elements.html#host-attributes)
+Host attributes | Permite definir los estilos durante la creación del componente | [Polymer host attributes](https://www.polymer-project.org/1.0/docs/devguide/registering-elements.html#host-attributes)
 Properties | Gestiona las propiedades | [Polymer properties](https://www.polymer-project.org/1.0/docs/devguide/properties.html)
 Styling | Permite utilizar CSS Customizado y Mixins | [Polymer styling](https://www.polymer-project.org/1.0/docs/devguide/styling.html)
 Methods | Métodos de Polymer expuestos | [Polymer Instance methods](https://www.polymer-project.org/1.0/docs/devguide/instance-methods)
 
 
 
-### Lista de elementos
+### Lista de componentes
 
-Esta es la lista de los elementos disponibles para un tema.
+Esta es la lista de los componentes disponibles para un tema.
 
-::::::  AMPLIAR SEGÚN /elements/*.md :::::::
-
-- `koa-badge` (Utiliza `koa-icon`)
-- `koa-button`
-- `koa-card`
-- `koa-checkbox`
-- `koa-dialog`
-- `koa-dropdown-menu` (Utiliza `koa-icon`, `koa-input` y `koa-menu-button`)
-- `koa-grid`
-- `koa-icon-button` (utiliza `koa-icon`)
-- `koa-input` (con `koa-textarea`)
-- `koa-item` (con `koa-item-body`)
-- `koa-menu` (con `koa-submenu`)
-- `koa-menu-button`
-- `koa-progress`
-- `koa-radio-button`
-- `koa-slider` (utiliza `koa-input` y `koa-progress`)
-- `koa-tabs` (con `koa-tab`)
-- `koa-toggle-button`
-- `koa-toolbar`
-
+* [koa-badge](elements/koa-badge.md#koa-badge) (Utiliza `koa-icon`)
+* [koa-button](elements/koa-button.md#koa-button)
+* [koa-card](elements/koa-card.md#koa-card)
+* [koa-checkbox](elements/koa-checkbox.md#koa-checkbox)
+* [koa-dialog](elements/koa-dialog.md#koa-dialog)
+* [koa-dropdown-menu](elements/koa-dropdown-menu.md#koa-dropdown-menu) (Utiliza `koa-icon`, `koa-input` y `koa-menu-button`)
+* [koa-grid](elements/koa-grid.md#koa-grid)
+* [koa-icon-button](elements/koa-icon-button.md#koa-icon-button) (Utiliza `koa-icon`)
+* [koa-input](elements/koa-input.md#koa-input) (con [koa-textarea](elements/koa-input.md#koa-textarea))
+* [koa-item](elements/koa-item.md#koa-item) (con [koa-item-body](elements/koa-item.md#koa-item-body))
+* [koa-menu](elements/koa-menu.md#koa-menu) (con [koa-submenu](elements/koa-menu.md#koa-submenu))
+* [koa-menu-button](elements/koa-menu-button.md#koa-menu-button)
+* [koa-progress](elements/koa-progress.md#koa-progress)
+* [koa-radio-button](elements/koa-radio-button.md#koa-radio-button)
+* [koa-slider](elements/koa-slider.md#koa-slider) (Utiliza `koa-input` y `koa-progress`)
+* [koa-tabs](elements/koa-tabs.md#koa-tabs) (con [koa-tab](elements/koa-tabs.md#koa-tab))
+* [koa-toggle-button](elements/koa-toggle-button.md#koa-toggle-button)
+* [koa-toolbar](elements/koa-toolbar.md#koa-toolbar)
 
 
 
@@ -124,13 +124,13 @@ Nota: `mythemename` representa el nombre del tema.
 **¡Empieza con los cambios!**
 
 * En el visualizer: `http://localhost:9001`
-* La demo de cada elemento. 
+* La demo de cada componente.
   * Ejemplo: `http://localhost:9001/themes/koapp-theme-mythemename/elements/mythemename-button/demo/`
 
 
-### Modificando un elemento
+### Modificando un componente
 
-Partiendo de la típica estructura de un elemento...
+Partiendo de la típica estructura de un componente...
 
 ```
 mythemename-button
@@ -139,7 +139,7 @@ mythemename-button
 └── mythemename-button.html
 ```
 
-En `mythemename-button.html` puedes hacer cambios en el elemento.
+En `mythemename-button.html` puedes hacer cambios en el componente.
 
 La estructura interna:
 
@@ -207,7 +207,7 @@ Por ejemplo en `koa-button`:
 ```
 
 
-**Pasos para customizar un elemento**.
+**Pasos para customizar un componente**.
 
 1. Añadir la plantilla
 
@@ -269,7 +269,7 @@ Por ejemplo en `koa-button`:
   Nota: El selector `:host` se selecciona a si mismo.
 
 
-Ahora ya tenemos el elemento custom:
+Ahora ya tenemos el componente custom:
 
 ```html
 <link rel="import" href="../../../../bower_components/polymer/polymer.html">
@@ -380,7 +380,7 @@ También, es necesario definir esos valores en `css-variables.json`.
 
 ### Usando propiedades CSS customizadas
 
-En la etiqueta `<style is="custom-style">`, puedes utilizar propiedades CSS customizadas. 
+En la etiqueta `<style is="custom-style">`, puedes utilizar propiedades CSS customizadas.
 *Sintaxis:*
 ```
 var(variable, defaultValue)
@@ -410,7 +410,7 @@ También puedes utilizar otra propiedad CSS cutomizada como valor por defecto:
 
 Por el momento solo soportamos Google Fonts como fuentes externas.
 
-En `default-theme.html` se definen las fuentes. 
+En `default-theme.html` se definen las fuentes.
 
 *Ejemplo:*
 ```html
@@ -528,9 +528,9 @@ También, es necesario definir esos valores en `css-variables.json`.
 Puedes crear set de iconos utilizando [Polymer `iron-iconset-svg`](https://elements.polymer-project.org/elements/iron-iconset-svg).
 
 
-El elemento `iron-iconset-svg` permite a definir tus propios set de iconos utilizando svg.
+El componente `iron-iconset-svg` permite a definir tus propios set de iconos utilizando svg.
 
-Los elementos de icono svg deberían ser hijos del elemento `iron-iconset-svg`. En el caso de crear multiples iconos es importante definir diferentes ids para identificarlos.
+Los componentes de icono svg deberían ser hijos del componente `iron-iconset-svg`. En el caso de crear multiples iconos es importante definir diferentes ids para identificarlos.
 
 Si deseas dar soporte a todos los iconos, puedes utilizar [PolymerElements/iron-icons/iron-icons.html](https://github.com/PolymerElements/iron-icons/blob/master/iron-icons.html) y editar las rutas svg.
 

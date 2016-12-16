@@ -69,7 +69,7 @@ Tema | Estado
 — [Spinners](spanish/advance/spinners/readme.md) | [:globe_with_meridians:](http://docs.kingofapp.com/spinners/)
 —— [Ejemplo Sencillo](spanish/advance/spinners/example.md) | [:globe_with_meridians:](http://docs.kingofapp.com/spinners/example/)
 —— [Ejemplo Avanzado](spanish/advance/spinners/advance_example.md) | [:globe_with_meridians:](http://docs.kingofapp.com/spinners/advance-example/)
-— [Temas](spanish/advance/themes.md) | [:globe_with_meridians:](http://docs.kingofapp.com/themes/) :sunrise: :neckbeard:
+— [Temas](spanish/advance/themes/themes.md) | [:globe_with_meridians:](http://docs.kingofapp.com/themes/) :sunrise: :neckbeard:
 — [Módulos](spanish/advance/modules/readme.md) | [:globe_with_meridians:](http://docs.kingofapp.com/modules/) :large_orange_diamond: :flashlight: @Fer, @Jovi y @Ulises
 —— [Interacción con el usuario](spanish/advance/modules/interaction.md) | [:globe_with_meridians:](http://docs.kingofapp.com/modules/interaction/) :flashlight: @Pepo
 —— [Funcionalidades de los módulos](spanish/advance/modules/features.md) | [:globe_with_meridians:](http://docs.kingofapp.com/modules/features/) :large_orange_diamond: :neckbeard: :flashlight: @DevTeam & @Ulises
