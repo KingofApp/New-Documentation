@@ -8,7 +8,7 @@ Un tema desarrollado para King of App se compone de un conjunto de componentes d
 
 ### Sobre los componentes
 
-Cada componente esta contenido en su propio directorio y deber seguir una estructura determinada (nombreDelTema-componente). Para facilitarnos mantener esta correlación, podemos utilizar el [generador de temas](#generador-de-temas) que ya nos construye toda la estructura necesaria de manera automática.
+Cada componente esta contenido en su propio directorio y debe seguir una estructura determinada (nombreDelTema-componente). Para facilitarnos mantener esta correlación, podemos utilizar el [generador de temas](#generador-de-temas) que ya nos construye toda la estructura necesaria de manera automática.
 
 Dentro de la carpeta de de nuestro componente siempre debemos incluir una subcarpeta con un demo.html, que nos facilitará posteriormente el desarrollo. También el generador se encargará de incluir esto de manera automática.
 
@@ -69,7 +69,7 @@ Una manera fácil y sencilla para crear temas rápidamente es utilizar [nuestro 
 
 Este generador nos permite crear toda la estructura de archivos y contenido que necesitamos para empezar a desarrollar el nuevo tema.
 
-Una vez tenemos el generador instalado globalmente podremos crear módulos desde cualquier lugar de nuestro sistema, aunque lo recomendado es hacerlo desde la carpeta donde esta alojado el Visualizer.
+Una vez tenemos el generador instalado globalmente podremos crear el tema desde cualquier lugar de nuestro sistema, aunque lo recomendado es hacerlo desde la carpeta donde esta alojado el Visualizer.
 
 
 - **Instalación global y arranque**
@@ -104,6 +104,8 @@ Nota: `mythemename` representa el nombre del tema.
 
 
 **Incluir nuestro tema en el Visualizer**
+
+El visualizer sirve para previsualizar los temas o módulos que vayamos a desarrollar, puedes ver aqui la documentación completa [Visualizer](../visualizer/readme.md), en resumen el visualizer carga de forma dinamica los temas y módulos leyendo de un JSON como el que aparece a continuación. Por tanto solo instanciandolo ya podemos empezar a trabajar en nuestro tema.
 
 - *app/core/structure.json:*
 ```json
