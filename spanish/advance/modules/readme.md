@@ -1,8 +1,8 @@
 # Módulos
 
-Los módulos permiten crear nuevas funcionalidades, para facilitar el desarrollo de nuevos módulos por parte de la comunidad. Utilizamos como base de trabajo Angular 1.5.x. 
+Los módulos permiten crear nuevas funcionalidades, para facilitar el desarrollo de nuevos módulos por parte de la comunidad. Utilizamos como base de trabajo Angular 1.5.x.
 
-Si ya estas familiarizado con el desarrollo de módulos en Angular, no necesitaras aprender nada nuevo, solo tendrás que familiarizarte con la estructura de archivos y la carga dinámica. 
+Si ya estas familiarizado con el desarrollo de módulos en Angular, no necesitaras aprender nada nuevo, solo tendrás que familiarizarte con la estructura de archivos y la carga dinámica.
 
 
 ::::: ESPERANDO CATCH_UP :::::
@@ -203,7 +203,7 @@ Clave | Descripción | Valor por defecto
 `deps` | Array de dependencias con Phonegap. | []
 `scope` | Objeto que inyecta los valores por defecto al scope del módulo `$scope.{identificador_del_módulo}.modulescope` | {}
 `config` | Configuración de los ajustes en Koapp Builder | {}
-`images.list` | :::: DEFINIR :::: | ""
+`images.list` | Imagen utilizada modo lista del Koapp Builder | ""
 `images.screenshots` | Capturas de pantalla de nuestro módulo en funcionamiento | {}
 `images.popover` | Nuestro Popover | ""
 `images.banner` | Nuestro Banner | ""
@@ -287,7 +287,7 @@ Toda la lógica de nuestro módulo se define desde *controller.js*. Ya disponemo
 ```
 
 
-La representación visual de nuestro módulo se define en *index.html*. 
+La representación visual de nuestro módulo se define en *index.html*.
 
 - *index.html*
 ```html
@@ -302,7 +302,7 @@ Importante: Presenting data in modules
 For templating features to work with modules we strongly recommend to use our custom [Koa elements](https://github.com/KingofApp/docs/tree/master/themes#list-of-elements) inside the view.html of the module.
 
 
-Nuestros estilos se definen directamente dentro de *style.html* 
+Nuestros estilos se definen directamente dentro de *style.html*
 
 - *style.html*
 ```html
@@ -321,54 +321,43 @@ Importante: Debes hacer uso de las variables de color para que tu módulo sea co
 
 ### API (structureService)
 
-::::: @Fer DESCRIPCIÓN Y DETALLES (#156749) ::::::
-
 **Getters**
 
 Métodos | Descripción | Parámetros | Retorno
 ----------------|-------------|--------|--------
-`get()` | - | - | Objeto JSON
-`getLibs()` | - | - | - 
-`getLocations()` | - | - | - 
-`getChildren(menuPath)` | - | path - "/route" | Array
-`getColors()` | - | - | - 
-`getConfig()` | - | - | - 
-`getCurrentModules($location, callback)` | - | $location | Array 
-`getFonts()` | - | - | - 
-`getImages()` | - | - | - 
-`getIndex()` | - | - | - 
-`getLang()` | - | - | - 
-`getMenuItems()` | - | - | - 
-`getModule(path)` | - | Objeto JSON
-`getVisitedLocations()` | - | - | - 
+`get()` | Objeto con la estructura de datos de aplicación | - | Objeto JSON
+`getVisitedLocations()` | Lista con las rutas que ya han sido visitadas | - | Array
+`getColors()` | Objeto con la lista de colores utilizados por la aplicación | - | Objeto JSON
+`getConfig()` | Objeto con los parametros config de la aplicación | - | Objeto JSON
+`getCurrentModules($location, callback)` | Genera a partir de una ruta la lista de modulos que se usan en ella | $location | Array
+`getFonts()` | Objeto con las fuentes utilizadas por la aplicación | - | Objeto JSON
+`getImages()` | Objeto con la lista de imagenes utilizadas por la aplicación | - | Objeto JSON
+`getIndex()` | Valor de la primera vista utilizada por la aplicación  | - | String
+`getLang()` | Idioma principal de la aplicación | - | String
+`getMenuItems()` | Lista con todas las rutas utilizadas por los diferentes menus | - | Array
+`getModule(path)` | Obtiene un Objeto modulo a partir de una ruta | String | Objeto JSON
 
 
 **Setters**
 
-Métodos | Descripción | Parámetros | Retorno
-----------------|-------------|--------|--------
-`set(newData)` | - | - | - 
-`setLibs(libs)` | - | - | - 
-`setColors(colors)` | - | - | - 
-`setCssVariables(config)` | - | - | - 
-`setFonts(fonts)` | - | - | - 
-`setImages(images)` | - | - | - 
-`setLang(locale)` | - | - | - 
-`setModules(newData)` | - | - | - 
-`setSpinner(newData)` | - | - | - 
-`setVisitedLocations(locations)` | - | - | - 
-`update(newData)` | - | - | - 
-`validateScope(module)` | - | - | - 
+Métodos | Descripción | Parámetros
+----------------|-------------|--------
+`set(newData)` | Establece una nueva estructura de datos de aplicación | Objeto JSON
+`setColors(colors)` | Establece los colores | Objeto JSON
+`setFonts(fonts)` | Asigna la fuente primaria y la utilizada para el titulo. | Objeto JSON
+`setImages(images)` | Establece imágenes tipo fondo, icono, splash... | Objeto JSON
+`setLang(locale)` | Establece el idioma de la aplicación | String
+`setModules(newData)` | Establece una estructura de módulos | Objeto JSON
+`setVisitedLocations(locations)` | Establece las rutas previamente visitadas en la aplicación | Array
 
 
 **Otros**
 
 Métodos | Descripción | Parámetros | Retorno
 ----------------|-------------|--------|--------
-`launchSpinner(selector)` | - | - | - 
-`loadLang()` | - | - | - 
-`onChange(callback)` | - | - | - 
-`registerModule($location, $scope, item)` | - | - | - 
+`launchSpinner(selector)` | Crea un spinner a partir de un selector | selector css |
+`registerModule($location, $scope, item)` | Utilizada para registrar un módulo en el sistema de vistas | $location, $scope, 'nombre-modulo' |
+`validateScope(module)` | Valida un objeto modulo y devuelve una vista 'not found' o su vista por defecto | Objeto JSON | String
 
 
 ### [Funcionalidades de los módulos](features.md)
@@ -464,7 +453,7 @@ El [generador de Módulos](https://www.npmjs.com/package/generator-koapp-module)
 
 Este módulo utiliza las diversas librerías para lograr integrar la información meteorológica de una zona concreta.
 
-- Licencia: MIT. 
+- Licencia: MIT.
 - [Código fuente](https://github.com/KingofApp/koapp-module-openweathermap)
 
 
@@ -476,6 +465,3 @@ Este módulo utiliza las diversas librerías para lograr integrar la informació
 **[Sencillo](example.md)**
 
 **[Avanzado](advance_example.md)**
-
-
-
