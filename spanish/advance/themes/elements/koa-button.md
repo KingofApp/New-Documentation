@@ -1,57 +1,57 @@
 # &lt;koa-button&gt;
 
-It is a button.
+Es un botón con los comportamientos de los paper-buttons de polymer.
 
 ### Demo
 
-* Demo with [paper-button](https://elements.polymer-project.org/elements/paper-button?view=demo).
-* Demo with [ios-button](https://kingofapp.github.io/ios-button).
+* Demo con [paper-button](https://elements.polymer-project.org/elements/paper-button?view=demo).
+* Demo con [ios-button](https://kingofapp.github.io/ios-button).
 
-### Styling
+### Estilos
 
-Custom property | Description | Default
+Propiedad personalizada | Descripción | Por defecto
 ----------------|-------------|--------
-`--button` | Mixin applied to the button | `{}`
-`--button-disabled` | Mixin applied to the disabled button. Note that you can also use the `koa-button[disabled]` selector | `{}`
-`--button-keyboard-focus` | Mixin applied to a button after it's been focused using the keyboard | `{}`
-`--button-link-keyboard-focus` | Mixin applied to a link button after it's been focused using the keyboard | `{}`
-`--button-big-keyboard-focus` | Mixin applied to a big button after it's been focused using the keyboard | `{}`
+`--button` | Mixin aplicado al botón | `{}`
+`--button-disabled` | Mixin aplicado al botón deshabilitado. Ten en cuenta que también puedes usar el selector `koa-button[disabled]` | `{}`
+`--button-keyboard-focus` | Mixin aplicado al botón después de que sea seleccionado con el teclado | `{}`
+`--button-link-keyboard-focus` | Mixin aplicado al botón de tipo link después de que sea seleccionado con el teclado | `{}`
+`--button-big-keyboard-focus` | Mixin aplicado a un botón grande después de que sea seleccionado con el teclado | `{}`
 
 ---
 
-### [KoaButtonBehavior](https://github.com/KingofApp/koa-behaviors/blob/master/koa-button-behavior.html) offers
+### [KoaButtonBehavior](https://github.com/KingofApp/koa-behaviors/blob/master/koa-button-behavior.html)
 
-#### Behaviors
+#### Comportamientos
 
-##### [Polymer.IronButtonState](https://elements.polymer-project.org/elements/iron-behaviors?active=Polymer.IronButtonState) contains
+##### [Polymer.IronButtonState](https://elements.polymer-project.org/elements/iron-behaviors?active=Polymer.IronButtonState) contiene
+
+###### Propiedades
+
+Nombre | Tipo | Descripción | Por defecto
+-----|------|-------------|--------
+*active* | `Boolean` | Sí verdadero, el botón es un toggle con el estado activo permanente. | `false`
+*pressed* | `Boolean` | Sí verdadero, el usuario esatrá manteniendo el botón pulsado. | `false`
+*toggles* | `Boolean` | Sí verdadero, el botón cambiará al estado activo en cada Tap o pulsando la tecla de espacio. | `false`
+
+##### [Polymer.IronControlState](https://elements.polymer-project.org/elements/iron-behaviors?active=Polymer.IronControlState) contiene
 
 ###### Properties
 
-Name | Type | Description | Default
+Nombre | Tipo | Descripción | Por defecto
 -----|------|-------------|--------
-*active* | `Boolean` | If true, the button is a toggle and is currently in the active state. | `false`
-*pressed* | `Boolean` | If true, the user is currently holding down the button. | `false`
-*toggles* | `Boolean` | If true, the button toggles the active state with each tap or press of the spacebar. | `false`
+*disabled* | `Boolean` | Sí verdadero, el usuario no puede interactuar con este elemento. | `false`
+*focused* | `Boolean` | Sí verdadero, el elemento tiene el foco inicialmente. | `false`
 
-##### [Polymer.IronControlState](https://elements.polymer-project.org/elements/iron-behaviors?active=Polymer.IronControlState) contains
+#### Atributos del Host
 
-###### Properties
-
-Name | Type | Description | Default
------|------|-------------|--------
-*disabled* | `Boolean` | If true, the user cannot interact with this element. | `false`
-*focused* | `Boolean` | If true, the element currently has focus. | `false`
-
-#### Host attributes
-
-Attribute | Value
+Atributo | Valor
 ----------|------
 ***role*** | `'button'`
 ***tabindex*** | `0`
 
-#### Properties
+#### Propiedades
 
 Name | Type | Description | Default
 -----|------|-------------|--------
-***big*** | `Boolean` | If true, the button should be bigger. | `false`
-***link*** | `Boolean` | If true, the button should have a link appearance. | `false`
+***big*** | `Boolean` | Sí verdadero, el botón deberá ser más grande. | `false`
+***link*** | `Boolean` | Sí verdadero, el botón tendrá aspecto de enlace. | `false`
