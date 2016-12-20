@@ -457,11 +457,10 @@ Este módulo utiliza las diversas librerías para lograr integrar la informació
 - [Código fuente](https://github.com/KingofApp/koapp-module-openweathermap)
 
 
-
-### Ejemplos
+### Más Ejemplos
 
 :::::::: EJEMPLOS MÁS ESPECIFICOS (@Ulises) :::::::
 
-**[Sencillo](example.md)**
+- **[Módule Sencillo helloworld](https://github.com/KingofApp/koapp-module-helloworld)**
 
 **[Avanzado](advance_example.md)**
