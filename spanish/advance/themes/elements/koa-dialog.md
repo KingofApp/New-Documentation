@@ -1,52 +1,52 @@
 # &lt;koa-dialog&gt;
 
-It is a dialog. It provides styles for a header, content area, and an action area for buttons.
+Es un diálogo (tipo modal). Proporciona estilos a las cabeceras, área de contenido y área de acción para botones.
 
 ### Demo
 
-* Demo with [paper-dialog](https://elements.polymer-project.org/elements/paper-dialog?view=demo).
+* Demo con [paper-dialog](https://elements.polymer-project.org/elements/paper-dialog?view=demo).
 
-### Styling
+### Estilos
 
-Custom property | Description | Default
+Propiedad personalizada | Descripción | Por defecto
 ----------------|-------------|--------
-`--dialog-background-color` | Dialog background color | `--primary-background-color`
-`--dialog-color` | Dialog foreground color | `--primary-text-color`
-`--dialog` | Mixin applied to the dialog | `{}`
-`--dialog-title` | Mixin applied to the title (`<h2>`) element | `{}`
-`--dialog-button-color` | Button area foreground color | `--default-primary-color`
+`--dialog-background-color` | Color de fondo del dialogo | `--primary-background-color`
+`--dialog-color` | Color principal del dialogo | `--primary-text-color`
+`--dialog` | Mixin aplicado al dialogo | `{}`
+`--dialog-title` | Mixin aplicado al elemento del título (`<h2>`) | `{}`
+`--dialog-button-color` | Color principal del área de botones | `--default-primary-color`
 
 ---
 
-### [KoaDialogBehavior](https://github.com/KingofApp/koa-behaviors/blob/master/koa-dialog-behavior.html) offers
+### [KoaDialogBehavior](https://github.com/KingofApp/koa-behaviors/blob/master/koa-dialog-behavior.html)
 
-#### Behaviors
+#### Comportamientos
 
 ##### [Polymer.IronOverlayBehavior](https://elements.polymer-project.org/elements/iron-overlay-behavior?active=Polymer.IronOverlayBehavior)
 
-###### Properties
+###### Propiedades
 
-Name | Type | Description | Default
+Nombre | Tipo | Descripción | Por defecto
 -----|------|-------------|--------
-*canceled* | `Boolean` | True if the overlay was canceled when it was last closed. | `false`
-*noCancelOnEscKey* | `Boolean` | Set to true to disable canceling the overlay with the ESC key. | `false`
-*noCancelOnOutsideClick* | `Boolean` | Set to true to disable canceling the overlay by clicking outside it. | `false`
-*opened* | `Boolean` | True if the overlay is currently displayed. | `false`
-*withBackdrop* | `Boolean` | Set to true to display a backdrop behind the overlay. | `false`
+*canceled* | `Boolean` | Verdadero sí la superposición se cancela cuando se cerro por última vez. | `false`
+*noCancelOnEscKey* | `Boolean` | Establece a verdadero para deshabilitar la acción de cancelar cuando se pulsa la tecla de ESC. | `false`
+*noCancelOnOutsideClick* | `Boolean` | Establece a verdadero para deshabilitar la acción de cancelar cuando se pulsa fuera del dialogo. | `false`
+*opened* | `Boolean` | Verdadero sí la superposición se muestra actualmente. | `false`
+*withBackdrop* | `Boolean` | Establece a verdadero para mostrar un backDrop detrás de la superposición. | `false`
 
-###### Methods
+###### Métodos
 
-Name | Description
+Nombre | Descripción
 -----|------------
-*cancel()* | Cancels the overlay.
-*center()* | Centers horizontally and vertically if not already positioned. This also sets `position:fixed`.
-*close()* | Close the overlay.
-*open()* | Open the overlay.
-*toggle()* | Toggle the opened state of the overlay.
+*cancel()* | Cancela la superposición.
+*center()* | Centra horizontalmente y verticalmente sí no esta ya posicionado. Esto tambien establece `position:fixed`.
+*close()* | Cierra la superposición.
+*open()* | Abre la superposición.
+*toggle()* | Cambia el estado de apertura de la superposición.
 
-#### Host attributes
+#### Atributos del Host
 
-Attribute | Value
+Atributo | Valor
 ----------|------
 ***role*** | `'dialog'`
 ***tabindex*** | `-1`
