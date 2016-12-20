@@ -1,64 +1,64 @@
 # &lt;koa-checkbox&gt;
 
-It is a button that can be either checked or unchecked. User can tap the checkbox to check or uncheck it. Usually you use checkboxes to allow user to select multiple options from a set.
+Es un botón del tipo checkbox que puede estar marcado o desmarcado. El usuario puede hacer tap en el botón para marcar o desmarcarlo. Normalmente, este tipo de botón se usa para permitir al usuario seleccionar una o varias opciones de un conjunto.
 
 ### Demo
 
-* Demo with [paper-checkbox](https://elements.polymer-project.org/elements/paper-checkbox?view=demo).
-* Demo with [ios-checkbox](https://kingofapp.github.io/ios-checkbox).
+* Demo con [paper-checkbox](https://elements.polymer-project.org/elements/paper-checkbox?view=demo).
+* Demo con [ios-checkbox](https://kingofapp.github.io/ios-checkbox).
 
-### Styling
+### Estilos
 
-Custom property | Description | Default
+Propiedad personalizada | Descripción | Por defecto
 ----------------|-------------|--------
-`--checkbox-unchecked-background-color` | Checkbox background color when the input is not checked | `transparent`
-`--checkbox-unchecked-color` | Checkbox border color when the input is not checked | `--primary-text-color`
-`--checkbox-checked-color` | Checkbox color when the input is checked | `--default-primary-color`
-`--checkbox-checkmark-color` | Checkmark color | `white`
-`--checkbox-label-color` | Label color | `--primary-text-color`
-`--checkbox-label-spacing` | Spacing between the label and the checkbox | `8px`
-`--checkbox-error-color` | Checkbox color when invalid | `#db4437`
+`--checkbox-unchecked-background-color` | Color del fondo del checkbox cuando no esta marcado | `transparent`
+`--checkbox-unchecked-color` | Color del borde del checkbox cuando no esta marcado | `--primary-text-color`
+`--checkbox-checked-color` | Color del checkbox cuando esta marcado | `--default-primary-color`
+`--checkbox-checkmark-color` | Color de la marca del checkbox | `white`
+`--checkbox-label-color` | Color de la etiqueta | `--primary-text-color`
+`--checkbox-label-spacing` | Espacio entre la etiqueta y el checkbox | `8px`
+`--checkbox-error-color` | Color del checkbox cuando es invalido | `#db4437`
 
 ---
 
-### [KoaCheckboxBehavior](https://github.com/KingofApp/koa-behaviors/blob/master/koa-checkbox-behavior.html) offers
+### [KoaCheckboxBehavior](https://github.com/KingofApp/koa-behaviors/blob/master/koa-checkbox-behavior.html)
 
-#### Behaviors
+#### Comportamientos
 
 ##### [Polymer.IronButtonState](https://elements.polymer-project.org/elements/iron-behaviors?active=Polymer.IronButtonState)
 
-###### Properties
+###### Propiedades
 
-Name | Type | Description | Default
+Nombre | Tipo | Descripción | Por defecto
 -----|------|-------------|--------
-*active* | `Boolean` | If true, the button is a toggle and is currently in the active state. | `false`
-*pressed* | `Boolean` | If true, the user is currently holding down the button. | `false`
-*toggles* | `Boolean` | If true, the button toggles the active state with each tap or press of the spacebar. | `true`
+*active* | `Boolean` | Sí verdadero, el botton es un toggle con el estado activo. | `false`
+*pressed* | `Boolean` | Sí verdadero, el usuario está pulsando el botón. | `false`
+*toggles* | `Boolean` | Sí verdadero, el botón cambia al estado activo con cada tap o pulsando la barra de espacio. | `true`
 
 ##### [Polymer.IronControlState](https://elements.polymer-project.org/elements/iron-behaviors?active=Polymer.IronControlState)
 
-###### Properties
+###### Propiedades
 
-Name | Type | Description | Default
+Nombre | Tipo | Descripción | Por defecto
 -----|------|-------------|--------
-*disabled* | `Boolean` | If true, the user cannot interact with this element. | `false`
-*focused* | `Boolean` | If true, the element currently has focus. | `false`
+*disabled* | `Boolean` | Sí verdadero, el usuario no puede interactuar con este elemento. | `false`
+*focused* | `Boolean` | Sí verdadero, el elemento tiene el foco. | `false`
 
 ##### [Polymer.IronCheckedElementBehavior](https://elements.polymer-project.org/elements/iron-checked-element-behavior)
 
-###### Properties
+###### Propiedades
 
-Name | Type | Description | Default
+Nombre | Tipo | Descripción | Por defecto
 -----|------|-------------|--------
-*checked* | `Boolean` | Gets or sets the state, true is checked and false is unchecked. | `false`
-*name* | `String` | The name of this element. |
-*required* | `Boolean` | Set to true to mark the input as required. If used in a form, a custom element that uses this behavior should also use Polymer.IronValidatableBehavior and define a custom validation method. Otherwise, a required element will always be considered valid. It's also strongly recommended to provide a visual style for the element when its value is invalid. | `false`
-*toggles* | `Boolean` | If true, the button toggles the active state with each tap or press of the spacebar. | `true`
-*value* | `String` | The value for this element. | `'on'`
+*checked* | `Boolean` | Obtiene o establece el estado, verdadero es marcado y falso desmarcado. | `false`
+*name* | `String` | El nombre de este elemento. |
+*required* | `Boolean` | Establece a verdadero para hacer que el input sea requerido. Sí lo usas en un formulario, un elemento personalizadoque use este comportamiento deberá también usar Polymer.IronValidatableBehavior y definir un método de validación personalidado. De otro modo, un elemento requeridosiempre será considerado válido. Es muy recomendable que proporciones un estilo visual para el elemento cuando  su valor sea invalido. | `false`
+*toggles* | `Boolean` | Sí verdadero, el botón the button cambia al estado activo con cada tap o pulsando la tecla de espacio. | `true`
+*value* | `String` | El valor para este elemento. | `'on'`
 
-#### Host attributes
+#### Atributos del Host
 
-Attribute | Value
+Atributo | Valor
 ----------|------
 ***aria-checked*** | `false`
 ***role*** | `'checkbox'`
