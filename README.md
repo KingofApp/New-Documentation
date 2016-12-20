@@ -61,11 +61,12 @@ Tema | Estado
 ——— [Listado de Temas](spanish/getting_started/builder/look_and_feel/themes_list.md) | :lock:  :white_check_mark:
 —— [Publica tu App](spanish/getting_started/builder/publication/readme.md) | [:globe_with_meridians:](http://docs.kingofapp.com/builder/publication/)
 **[Advance](spanish/advance/readme.md)** | :x:
-— [Introducción](spanish/advance/intro.md) | :x:
+— [Introducción](spanish/advance/intro.md) | :sunrise:
 — [¡Ponte al dia!](spanish/advance/catch_up.md) | :construction: @Ulises
 — [Visualizer](spanish/advance/visualizer/readme.md) | [:globe_with_meridians:](http://docs.kingofapp.com/visualizer/)
 —— [Instalación en local](spanish/advance/visualizer/local_installation.md) | [:globe_with_meridians:](http://docs.kingofapp.com/visualizer/local-installation/)
 —— [Instalación en c9](spanish/advance/visualizer/c9_installation.md) | [:globe_with_meridians:](http://docs.kingofapp.com/visualizer/c9-installation/) :rocket:
+— [Herramientas](spanish/advance/tools/readme.md) |  :x:
 — [Spinners](spanish/advance/spinners/readme.md) | [:globe_with_meridians:](http://docs.kingofapp.com/spinners/)
 —— [Ejemplo Sencillo](spanish/advance/spinners/example.md) | [:globe_with_meridians:](http://docs.kingofapp.com/spinners/example/)
 —— [Ejemplo Avanzado](spanish/advance/spinners/advance_example.md) | [:globe_with_meridians:](http://docs.kingofapp.com/spinners/advance-example/)
