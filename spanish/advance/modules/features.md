@@ -74,8 +74,46 @@ Cambia manualmente el ámbito del almacenamiento, por defecto *modules*, pero pu
 
 
 ### Searchable Modules
+Existe un módulo [search container](https://github.com/KingofApp/koapp-module-searchcontainer) utilizado para pasar busquedas a otro módulos compatibles que soporten esta característica.
 
-:::::::: DESCRIPCIÓN y EJEMPLO (@Ulises) ::::::::
+Ejemplo parametro searchable en la configuración para módulos compatibles:
+```JSON
+{
+  "name": "Test module",
+  "identifier": "test",
+  "type": "A",
+  "icon": "code",
+  "searchable": true,
+  "view": "modules/test/index.html",
+  "files": ["modules/test/controller.js"],
+  "scope": {
+    "value": "Test"
+  }
+}
+```
+Ejemplo de recepción de la consulta de busqueda por parte de un módulo compatible.
+
+```JavaScript
+(function(){
+  'use strict';
+
+  angular
+    .controller('testCtrl', loadFunction);
+
+  loadFunction.$inject = ['$scope', 'structureService', '$location'];
+
+  function loadFunction($scope, structureService, $location){
+    structureService.registerModule($location, $scope, 'test');
+
+    $scope.searchQuery = ($location.search().q) ? $location.search().q : '';
+
+    console.log("SearchQuery is: ", $scope.searchQuery);
+
+  }
+}());
+```
+
+:::::::: CREAR DEMO (@flafuente) ::::::::
 
 
 
