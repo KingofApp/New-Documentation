@@ -6,64 +6,7 @@ Un tema es un conjunto de componentes con un estilo propio, creando un tema podr
 Un tema desarrollado para King of App se compone de un conjunto de componentes de [Polymer](https://www.polymer-project.org).
 
 
-### Sobre los componentes
-
-Cada componente esta contenido en su propio directorio y debe seguir una estructura determinada (nombreDelTema-componente). Para facilitarnos mantener esta correlación, podemos utilizar el [generador de temas](#generador-de-temas) que ya nos construye toda la estructura necesaria de manera automática.
-
-Dentro de la carpeta de de nuestro componente siempre debemos incluir una subcarpeta con un demo.html, que nos facilitará posteriormente el desarrollo. También el generador se encargará de incluir esto de manera automática.
-
-- *Estructura:*
-
-```
-awesometheme-button
-├── demo
-│   └── index.html
-└── awesometheme-button.html
-```
-
-Cada componente se compone de un `KoaBehavior` desde el que se gestionan el resto de componentes necesarios (host attributes, propiedades, etc...).
-
-**KoaBehavior**: Es un comportamiento ([Polymer behavior](https://www.polymer-project.org/1.0/docs/devguide/behaviors.html)) que contiene la mayoría de los componentes de comportamiento como atributos, métodos, etc...
-
-
-- Elementos incluidos en KoaBehavior:
-
-Elemento | utilidad | Documentación
------------- | ------------- | -------------
-Behaviors | Gestiona la herencia entre propiedades y métodos | [Polymer behaviors](https://www.polymer-project.org/1.0/docs/devguide/behaviors.html)
-Host attributes | Permite definir los estilos durante la creación del componente | [Polymer host attributes](https://www.polymer-project.org/1.0/docs/devguide/registering-elements.html#host-attributes)
-Properties | Gestiona las propiedades | [Polymer properties](https://www.polymer-project.org/1.0/docs/devguide/properties.html)
-Styling | Permite utilizar CSS Customizado y Mixins | [Polymer styling](https://www.polymer-project.org/1.0/docs/devguide/styling.html)
-Methods | Métodos de Polymer expuestos | [Polymer Instance methods](https://www.polymer-project.org/1.0/docs/devguide/instance-methods)
-
-
-
-### Lista de componentes
-
-Esta es la lista de los componentes disponibles para un tema.
-
-* [koa-badge](elements/koa-badge.md#koa-badge) (Utiliza `koa-icon`)
-* [koa-button](elements/koa-button.md#koa-button)
-* [koa-card](elements/koa-card.md#koa-card)
-* [koa-checkbox](elements/koa-checkbox.md#koa-checkbox)
-* [koa-dialog](elements/koa-dialog.md#koa-dialog)
-* [koa-dropdown-menu](elements/koa-dropdown-menu.md#koa-dropdown-menu) (Utiliza `koa-icon`, `koa-input` y `koa-menu-button`)
-* [koa-grid](elements/koa-grid.md#koa-grid)
-* [koa-icon-button](elements/koa-icon-button.md#koa-icon-button) (Utiliza `koa-icon`)
-* [koa-input](elements/koa-input.md#koa-input) (con [koa-textarea](elements/koa-input.md#koa-textarea))
-* [koa-item](elements/koa-item.md#koa-item) (con [koa-item-body](elements/koa-item.md#koa-item-body))
-* [koa-menu](elements/koa-menu.md#koa-menu) (con [koa-submenu](elements/koa-menu.md#koa-submenu))
-* [koa-menu-button](elements/koa-menu-button.md#koa-menu-button)
-* [koa-progress](elements/koa-progress.md#koa-progress)
-* [koa-radio-button](elements/koa-radio-button.md#koa-radio-button)
-* [koa-slider](elements/koa-slider.md#koa-slider) (Utiliza `koa-input` y `koa-progress`)
-* [koa-tabs](elements/koa-tabs.md#koa-tabs) (con [koa-tab](elements/koa-tabs.md#koa-tab))
-* [koa-toggle-button](elements/koa-toggle-button.md#koa-toggle-button)
-* [koa-toolbar](elements/koa-toolbar.md#koa-toolbar)
-
-
-
-### Generador de temas.
+### Empezamos - Generador de temas.
 
 Una manera fácil y sencilla para crear temas rápidamente es utilizar [nuestro generador](https://www.npmjs.com/package/generator-koa-theme). Este generador se basa en [Yeoman](http://yeoman.io/) al igual que otros generadores que utilizamos en King of App.
 
@@ -128,6 +71,70 @@ El visualizer sirve para previsualizar los temas o módulos que vayamos a desarr
 * En el visualizer: `http://localhost:9001`
 * La demo de cada componente.
   * Ejemplo: `http://localhost:9001/themes/koapp-theme-mythemename/elements/mythemename-button/demo/`
+
+
+
+### Personalizando el tema con componentes, ¿Qué son los componentes?
+
+Un componente es un conjunto de estándares para crear elementos HTML reutilizables.
+
+Por ejemplo, si desea crear un carrusel de imágenes, puede crear un nuevo elemento html <image-carousel>, con todo lo que es JavaScript (comportamiento) y CSS (estilo) dentro del propio elemento. Después de eso, puede utilizar este elemento en cualquier parte de su documento.
+
+
+### Sobre los componentes
+
+Cada componente esta contenido en su propio directorio y debe seguir una estructura determinada (nombreDelTema-componente). Para facilitarnos mantener esta correlación, podemos utilizar el [generador de temas](#generador-de-temas) que ya nos construye toda la estructura necesaria de manera automática.
+
+Dentro de la carpeta de de nuestro componente siempre debemos incluir una subcarpeta con un demo.html, que nos facilitará posteriormente el desarrollo. También el generador se encargará de incluir esto de manera automática.
+
+- *Estructura:*
+
+```
+awesometheme-button
+├── demo
+│   └── index.html
+└── awesometheme-button.html
+```
+
+Cada componente se compone de un `KoaBehavior` desde el que se gestionan el resto de componentes necesarios (host attributes, propiedades, etc...).
+
+**KoaBehavior**: Es un comportamiento ([Polymer behavior](https://www.polymer-project.org/1.0/docs/devguide/behaviors.html)) que contiene la mayoría de los componentes de comportamiento como atributos, métodos, etc...
+
+
+- Elementos incluidos en KoaBehavior:
+
+Elemento | Utilidad | Documentación
+------------ | ------------- | -------------
+Behaviors | Gestiona la herencia entre propiedades y métodos | [Polymer behaviors](https://www.polymer-project.org/1.0/docs/devguide/behaviors.html)
+Host attributes | Permite definir los estilos durante la creación del componente | [Polymer host attributes](https://www.polymer-project.org/1.0/docs/devguide/registering-elements.html#host-attributes)
+Properties | Gestiona las propiedades | [Polymer properties](https://www.polymer-project.org/1.0/docs/devguide/properties.html)
+Styling | Permite utilizar CSS Customizado y Mixins | [Polymer styling](https://www.polymer-project.org/1.0/docs/devguide/styling.html)
+Methods | Métodos de Polymer expuestos | [Polymer Instance methods](https://www.polymer-project.org/1.0/docs/devguide/instance-methods)
+
+
+
+### Lista de componentes
+
+Esta es la lista de los componentes disponibles para un tema.
+
+* [koa-badge](elements/koa-badge.md#koa-badge) (Utiliza `koa-icon`)
+* [koa-button](elements/koa-button.md#koa-button)
+* [koa-card](elements/koa-card.md#koa-card)
+* [koa-checkbox](elements/koa-checkbox.md#koa-checkbox)
+* [koa-dialog](elements/koa-dialog.md#koa-dialog)
+* [koa-dropdown-menu](elements/koa-dropdown-menu.md#koa-dropdown-menu) (Utiliza `koa-icon`, `koa-input` y `koa-menu-button`)
+* [koa-grid](elements/koa-grid.md#koa-grid)
+* [koa-icon-button](elements/koa-icon-button.md#koa-icon-button) (Utiliza `koa-icon`)
+* [koa-input](elements/koa-input.md#koa-input) (con [koa-textarea](elements/koa-input.md#koa-textarea))
+* [koa-item](elements/koa-item.md#koa-item) (con [koa-item-body](elements/koa-item.md#koa-item-body))
+* [koa-menu](elements/koa-menu.md#koa-menu) (con [koa-submenu](elements/koa-menu.md#koa-submenu))
+* [koa-menu-button](elements/koa-menu-button.md#koa-menu-button)
+* [koa-progress](elements/koa-progress.md#koa-progress)
+* [koa-radio-button](elements/koa-radio-button.md#koa-radio-button)
+* [koa-slider](elements/koa-slider.md#koa-slider) (Utiliza `koa-input` y `koa-progress`)
+* [koa-tabs](elements/koa-tabs.md#koa-tabs) (con [koa-tab](elements/koa-tabs.md#koa-tab))
+* [koa-toggle-button](elements/koa-toggle-button.md#koa-toggle-button)
+* [koa-toolbar](elements/koa-toolbar.md#koa-toolbar)
 
 
 ### Modificando un componente
