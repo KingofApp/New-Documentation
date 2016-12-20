@@ -1,12 +1,12 @@
 # &lt;koa-grid&gt;
 
-It is a grid.
+Es un grid basado en columnas, se ajusta al ancho de la página dinamicamente
 
 ---
 
-### Properties
+###### Propiedades
 
-Name | Type | Description | Default
+Nombre | Tipo | Descripción | Por defecto
 -----|------|-------------|--------
-***columns*** | `Number` | Number of columns to show. | `2`
-***cell-space*** | `String` | The space between cells. | `'0px'`
+***columns*** | `Number` | Numero de columnas a mostrar. | `2`
+***cell-space*** | `String` | El espacio entre celdas. | `'0px'`
