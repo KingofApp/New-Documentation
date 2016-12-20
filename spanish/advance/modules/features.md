@@ -230,7 +230,8 @@ Podemos utilizar la API (structureService) para detectar el idioma.
 
 King of App soporta la integración de filtros personalizados. Asímismo, ofrecemos los filtros cleanHex y loadUrl para su uso según convenga.
 
-#### cleanHex
+**cleanHex**
+
 CleanHex es el filtro que utilizamos para transformar cadenas de texto en hexadecimal a cadenas de texto.
 Ejemplo de uso:
 
@@ -240,7 +241,7 @@ Ejemplo de uso:
 </koa-card>
 ```
 
-#### loadUrl
+**loadUrl**
 
 LoadUrl es el filtro que utilizamos para definir la ruta correcta para los recursos en funcion de cada entorno.
 Ejemplo de uso:
@@ -248,6 +249,7 @@ Ejemplo de uso:
 ```javascript
 PDFJS.workerSrc = $filter('loadUrl')('modules/pdfviewer/pdfjs/pdf.worker.js');
 ```
+
 ```html
 <div id='playicon'>
   <koa-icon icon="{{'modules/soundcloud/images/play.svg' | loadUrl}}"></koa-icon>
@@ -258,6 +260,6 @@ PDFJS.workerSrc = $filter('loadUrl')('modules/pdfviewer/pdfjs/pdf.worker.js');
 ```
 Un ejemplo de un módulo que soporta este filtro sería  [pdfviewer module](https://github.com/KingofApp/koapp-module-pdfviewer).
 
-#### Ejemplo
+**Ejemplo**
 
 Un ejemplo de un módulo que integra un filtro personalizado sería el módulo [demo-filtersample](https://github.com/KingofApp/koapp-demo-filtersample)
