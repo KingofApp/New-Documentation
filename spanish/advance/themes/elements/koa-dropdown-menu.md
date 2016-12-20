@@ -1,73 +1,73 @@
 # &lt;koa-dropdown-menu&gt;
 
-It is similar to a native browser `select` element. It works with selectable content. The currently selected item is displayed in the control. If no item is selected, the label is displayed instead.
+Es similar al elemento nativo del navegador `select`. Funciona con un contenido seleccionable. El elemento seleccionado se muestra en el control. Sí no hay ningún elemento seleccionado se muestra la etiqueta en su lugar.
 
-The child element with the class `dropdown-content` will be used as the dropdown menu.
+El elemento hijo con la clase `dropdown-content` será usado como el menu del dropdown.
 
 ### Demo
 
-* Demo with [paper-dropdown-menu](https://elements.polymer-project.org/elements/paper-dropdown-menu?view=demo).
+* Demo con [paper-dropdown-menu](https://elements.polymer-project.org/elements/paper-dropdown-menu?view=demo).
 
-### Styling
+### Estilos
 
-Custom property | Description | Default
+Propiedad personalizada | Descripción | Por defecto
 ----------------|-------------|--------
-`--dropdown-menu` | A mixin that is applied to the element host | `{}`
-`--dropdown-menu-disabled` | A mixin that is applied to the element host when disabled | `{}`
-`--dropdown-menu-button` | A mixin that is applied to the internal menu button | `{}`
-`--dropdown-menu-input` | A mixin that is applied to the internal input | `{}`
-`--dropdown-menu-icon` | A mixin that is applied to the internal icon | `{}`
+`--dropdown-menu` | Un mixin que es aplicado al host del elemento | `{}`
+`--dropdown-menu-disabled` | Un mixin que es aplicado al host del elemento cuando esta deshabilitado | `{}`
+`--dropdown-menu-button` | Un mixin que es aplicado al menu del botón | `{}`
+`--dropdown-menu-input` | Un mixin que es aplicado al input | `{}`
+`--dropdown-menu-icon` | Un mixin que es aplicado al icono | `{}`
 
 ---
 
 ### [KoaDropdownMenuBehavior](https://github.com/KingofApp/koa-behaviors/blob/master/koa-dropdown-menu-behavior.html) offers
 
-#### Behaviors
+#### Comportamientos
 
 ##### [Polymer.IronButtonState](https://elements.polymer-project.org/elements/iron-behaviors?active=Polymer.IronButtonState)
 
-###### Properties
+###### Propiedades
 
-Name | Type | Description | Default
+Nombre | Tipo | Descripción | Por defecto
 -----|------|-------------|--------
-*active* | `Boolean` | If true, the button is a toggle and is currently in the active state. | `false`
-*pressed* | `Boolean` | If true, the user is currently holding down the button. | `false`
-*toggles* | `Boolean` | If true, the button toggles the active state with each tap or press of the spacebar. | `false`
+*active* | `Boolean` | Sí verdadero, el botón es un toggle y esta activo. | `false`
+*pressed* | `Boolean` | Sí verdadero, el usuario es actualmente pulsando el botón. | `false`
+*toggles* | `Boolean` | Sí verdadero, el toggle del botón esta activo con cada tap o pulsando la tecla de espacio. | `false`
 
 ##### [Polymer.IronControlState](https://elements.polymer-project.org/elements/iron-behaviors?active=Polymer.IronControlState)
 
-###### Properties
+###### Propiedades
 
-Name | Type | Description | Default
+Nombre | Tipo | Descripción | Por defecto
 -----|------|-------------|--------
-*disabled* | `Boolean` | If true, the user cannot interact with this element. | `false`
-*focused* | `Boolean` | If true, the element currently has focus. | `false`
+*disabled* | `Boolean` | Sí verdadero, el usuario no puede interactuar con este elemento. | `false`
+*focused* | `Boolean` | Sí verdadero, el elemento actualmente tiene el foco. | `false`
 
 ##### [Polymer.IronFormElementBehavior](https://elements.polymer-project.org/elements/iron-form-element-behavior)
 
-###### Properties
+###### Propiedades
 
-Name | Type | Description | Default
+Nombre | Tipo | Descripción | Por defecto
 -----|------|-------------|--------
-*name* | `String` | The name of this element. |
-*required* | `Boolean` | Set to true to mark the input as required. If used in a form, a custom element that uses this behavior should also use Polymer.IronValidatableBehavior and define a custom validation method. Otherwise, a `required` element will always be considered valid. It's also strongly recommended to provide a visual style for the element when its value is invalid. | `false`
-*value* | `String` | The value for this element that will be used when submitting in a form. It is read only, and will always have the same value as `selectedItemLabel`. |
+*name* | `String` | El nombre del elemento. |
+*required* | `Boolean` | Establece a verdadero para hacer que el input sea requerido. Sí lo usas en un formulario, un elemento personalizadoque use este comportamiento deberá también usar `Polymer.IronValidatableBehavior` y definir un método de validación personalidado. De otro modo, un elemento requerido siempre será considerado válido. Es muy recomendable que proporciones un estilo visual para el elemento cuando  su valor sea invalido. | `false`
+*value* | `String` | El valor de este elemento será usado cuando se envia en un formulario, es de solo lectura y tendrá siempre el mismo valor que `selectedItemLabel`. |
 
-#### Properties
+###### Propiedades
 
-Name | Type | Description | Default
+Nombre | Tipo | Descripción | Por defecto
 -----|------|-------------|--------
-***label*** | `String` | The label for the dropdown. |
-***noAnimations*** | `Boolean` | Set to true to disable animations when opening and closing the dropdown. | `false`
-***opened*** | `Boolean` | True if the dropdown is open. Otherwise, false. | `false`
-***placeholder*** | `String` | The placeholder for the dropdown. |
-***selectedItem*** | `Object` | The last selected item. An item is selected if the dropdown menu has a child with class `dropdown-content`, and that child triggers an `iron-select` event with the selected `item` in the `detail`. |
-***selectedItemLabel*** | `String` | The derived "label" of the currently selected item. This value is the `label` property on the selected item if set, or else the trimmed text content of the selected item. |
-***value*** | `String` | The value for this element that will be used when submitting in a form. It is read only, and will always have the same value as `selectedItemLabel`. |
+***label*** | `String` | La etiqueta del dropdown. |
+***noAnimations*** | `Boolean` | Establece a verdadero para deshabilitar animaciones cuando se abre y cierra el dropdown. | `false`
+***opened*** | `Boolean` | Verdadero si el dropdown está abierto. De otra forma, falso. | `false`
+***placeholder*** | `String` | El placeholder del dropdown. |
+***selectedItem*** | `Object` | El último elemento seleccionado. Un elemento es seleccionado si el menu del dropdown tiene un hijo con la clase `dropdown-content`, y este hijo contiene un evento `iron-select` con el elemento seleccionado `item` en el `detail`. |
+***selectedItemLabel*** | `String` | La "etiqueta" derivada del elemento seleccionado actualmente. Este valor es la propiedad del `label` del elemento seleccionado si esta establecido, en caso contrario será el contenido reducido del texto del elemento seleccionado. |
+***value*** | `String` | El valor de este elemento será usado cuando se envie en un formulario. Es de solo lectura y siempre tendrá el mismo valor que `selectedItemLabel`. |
 
-#### Methods
+###### Métodos
 
-Name | Description
+Nombre | Descripción
 -----|------------
-***close()*** | Hide the dropdown content.
-***open()*** | Show the dropdown content.
+***close()*** | Oculta el contenido del dropdown.
+***open()*** | Muestra el contenido del dropdown.

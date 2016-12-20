@@ -52,7 +52,7 @@ Nombre | Tipo | Descripción | Por defecto
 -----|------|-------------|--------
 *checked* | `Boolean` | Obtiene o establece el estado, verdadero es marcado y falso desmarcado. | `false`
 *name* | `String` | El nombre de este elemento. |
-*required* | `Boolean` | Establece a verdadero para hacer que el input sea requerido. Sí lo usas en un formulario, un elemento personalizadoque use este comportamiento deberá también usar Polymer.IronValidatableBehavior y definir un método de validación personalidado. De otro modo, un elemento requeridosiempre será considerado válido. Es muy recomendable que proporciones un estilo visual para el elemento cuando  su valor sea invalido. | `false`
+*required* | `Boolean` | Establece a verdadero para hacer que el input sea requerido. Sí lo usas en un formulario, un elemento personalizadoque use este comportamiento deberá también usar `Polymer.IronValidatableBehavior` y definir un método de validación personalidado. De otro modo, un elemento requerido siempre será considerado válido. Es muy recomendable que proporciones un estilo visual para el elemento cuando  su valor sea invalido. | `false`
 *toggles* | `Boolean` | Sí verdadero, el botón the button cambia al estado activo con cada tap o pulsando la tecla de espacio. | `true`
 *value* | `String` | El valor para este elemento. | `'on'`
 
