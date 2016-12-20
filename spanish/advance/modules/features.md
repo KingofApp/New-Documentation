@@ -2,7 +2,7 @@
 
 ### Eventos
 
-**koaAppRendered** 
+**koaAppRendered**
 
 Es un evento que lanza un callback cuando todos los [Elementos Koa]() se han cargado.
 
@@ -15,7 +15,7 @@ $rootScope.$on("koaAppRendered",function() {
 ```
 
 
-:::::::: @devTeam Existen más eventos propios?? Ejemplos/Doc  (#156704)  :::::::: 
+:::::::: @devTeam Existen más eventos propios?? Ejemplos/Doc  (#156704)  ::::::::
 
 
 ### Servicio de almacenamiento (Storage Service)
@@ -65,7 +65,7 @@ Métodos | Descripción | Parámetros | Retorno
 
 ::::::: Verificar (@Ulises) ::::::::
 
-- `init(objectName)` 
+- `init(objectName)`
 
 Cambia manualmente el ámbito del almacenamiento, por defecto *modules*, pero puede ajustarse a *servicios*. No hay más ámbitos disponibles.
 
@@ -95,7 +95,7 @@ Para identificar los idiomas se utilizan los [códigos de idiomas](https://es.wi
 
 **Lenguajes disponibles**
 
-Código | Idioma 
+Código | Idioma
 -------|-------
 ar | Árabe
 ar_EG | Árabe (Egipto)
@@ -226,15 +226,25 @@ Podemos utilizar la API (structureService) para detectar el idioma.
   }
 }());
 ```
+### Filtros
 
+King of App soporta la integración de filtros personalizados. Asímismo, ofrecemos los filtros cleanHex y loadUrl para su uso según convenga.
 
+#### cleanHex
+CleanHex es el filtro que utilizamos para transformar cadenas de texto en hexadecimal a cadenas de texto.
+Ejemplo de uso:
 
-#### Custom Filter - loadUrl
+```javascript
+<koa-card heading="{{item.title | cleanHex}}" image="{{item.featured}}">
+  <div class="card-content">{{item.excerpt}}</div>
+</koa-card>
+```
 
-::::::: DESCRIPCIÓN Y EJEMPLOS (@Ulises) :::::::
+#### loadUrl
 
-loadUrl is the filter used to define the correct path for the module's resources in each environment.
-Example:
+LoadUrl es el filtro que utilizamos para definir la ruta correcta para los recursos en funcion de cada entorno.
+Ejemplo de uso:
+
 ```javascript
 PDFJS.workerSrc = $filter('loadUrl')('modules/pdfviewer/pdfjs/pdf.worker.js');
 ```
@@ -246,4 +256,8 @@ PDFJS.workerSrc = $filter('loadUrl')('modules/pdfviewer/pdfjs/pdf.worker.js');
   <koa-icon icon="{{'modules/soundcloud/images/pause.svg' | loadUrl}}"></koa-icon>
 </div>
 ```
-Checkout our [pdfviewer module](https://github.com/KingofApp/koapp-module-pdfviewer).
+Un ejemplo de un módulo que soporta este filtro sería  [pdfviewer module](https://github.com/KingofApp/koapp-module-pdfviewer).
+
+#### Ejemplo
+
+Un ejemplo de un módulo que integra un filtro personalizado sería el módulo [demo-filtersample](https://github.com/KingofApp/koapp-demo-filtersample)
