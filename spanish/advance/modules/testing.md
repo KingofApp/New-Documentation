@@ -14,18 +14,51 @@ Para configurar las especificaciones de Selenium podemos editar el archivo *[pro
 
 Podemos facilmente definir los archivos que serán testeados o ignorados desde *[Gulpfile.js](https://github.com/KingofApp/generator-koapp-module/blob/master/generators/app/templates/Gulpfile.js)*.
 
+Cada módulo tendra dentro de su carpeta un archivo `module.e2e.test.js` que contendra los test. Por ejemplo el [módulo helloworld](https://github.com/KingofApp/koapp-module-helloworld):
+
+```javascript
+(function(){
+	describe('HelloWorld Module test', function() {
+		beforeEach(function(){
+		    browser.driver.manage().window().setSize(379, 666);
+		    browser.ignoreSynchronization = true;
+		});
+
+		it('should load helloworld module', function() {
+			browser.get('/#/menu-abcd/hello');
+			isPresent('.helloworld android-item');
+
+      //Painting and cycles to complete
+      browser.sleep(2000);
+
+      expectmodule();
+
+		});
+		function isPresent(selector) {
+			browser.wait(function() {
+					return $(selector).isPresent();
+			}, 6000, 'Main (' + selector + ') not present');
+		}
+		function expectmodule() {
+			//Expect text
+      var locator = by.css('.helloworld android-item');
+      var item = element.all(locator).first();
+      expect(item.getText()).toContain('Hello Name');
+		}
+
+		afterEach(function() {
+			browser.ignoreSynchronization = false;
+		});
+	});
+}());
+
+```
 
 **Lanzar tests**
 
-Para lanzar los test es necesario inicializar primero webdriver-manager
-
+Para lanzar los test:
 ```bash
-webdriver-manager start
-```
-
-y luego lanzar los test
-```bash
-npm test
+grunt test
 ```
 
 
