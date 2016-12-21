@@ -83,7 +83,7 @@ Por ejemplo, si desea crear un carrusel de imágenes, puede crear un nuevo eleme
 
 ### Sobre los componentes
 
-Cada componente esta contenido en su propio directorio y debe seguir una estructura determinada (nombreDelTema-componente). Para facilitarnos mantener esta correlación, podemos utilizar el [generador de temas](#generador-de-temas) que ya nos construye toda la estructura necesaria de manera automática.
+Cada componente esta contenido en su propio directorio y debe seguir una estructura determinada (nombreDelTema-componente). Para facilitarnos mantener esta correlación, podemos utilizar el [generador de temas](#empezamos---generador-de-temas) que ya nos construye toda la estructura necesaria de manera automática.
 
 Dentro de la carpeta de de nuestro componente siempre debemos incluir una subcarpeta con un demo.html, que nos facilitará posteriormente el desarrollo. También el generador se encargará de incluir esto de manera automática.
 
