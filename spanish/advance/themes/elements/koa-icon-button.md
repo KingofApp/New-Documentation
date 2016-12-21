@@ -1,59 +1,60 @@
 # &lt;koa-icon-button&gt;
 
-It is a button with an image placed at the center.
+Es un botçon con una imagen en el centro.
 
-It includes a default icon set. Use `icon` to specify which icon from the icon set to use.
+Incluye un set de iconos por defecto. Usa `icon` para especificar que icono del set de iconos quieres usar.
+
 
 ### Demo
 
-* Demo with [paper-icon-button](https://elements.polymer-project.org/elements/paper-icon-button?view=demo).
-* Demo with [ios-icon-button](https://kingofapp.github.io/ios-icon-button).
+* Demo con [paper-icon-button](https://elements.polymer-project.org/elements/paper-icon-button?view=demo).
+* Demo con [ios-icon-button](https://kingofapp.github.io/ios-icon-button).
 
-### Styling
+### Estilos
 
-Custom property | Description | Default
+Propiedad personalizada | Descripción | Por defecto
 ----------------|-------------|--------
-`--icon-button-disabled-text` | The color of the disabled button | `--disabled-text-color`
-`--icon-button` | Mixin for a button | `{}`
-`--icon-button-disabled` | Mixin for a disabled button | `{}`
-`--icon-button-pressed-background-color` | Background color when the button is pressed | `--disabled-text-color`
+`--icon-button-disabled-text` | El color del texto del botón deshabilitado | `--disabled-text-color`
+`--icon-button` | Mixin para el botón | `{}`
+`--icon-button-disabled` | Mixin para el botón deshabilitado | `{}`
+`--icon-button-pressed-background-color` | Color de fondo cuando el botón está pulsado | `--disabled-text-color`
 
 ---
 
-### [KoaIconButtonBehavior](https://github.com/KingofApp/koa-behaviors/blob/master/koa-icon-button-behavior.html) offers
+### [KoaIconButtonBehavior](https://github.com/KingofApp/koa-behaviors/blob/master/koa-icon-button-behavior.html)
 
-#### Behaviors
+#### Comportamientos
 
 ##### [Polymer.IronButtonState](https://elements.polymer-project.org/elements/iron-behaviors?active=Polymer.IronButtonState)
 
-###### Properties
+###### Propiedades
 
-Name | Type | Description | Default
+Nombre | Tipo | Descripción | Por defecto
 -----|------|-------------|--------
-*active* | `Boolean` | If true, the button is a toggle and is currently in the active state. | `false`
-*pressed* | `Boolean` | If true, the user is currently holding down the button. | `false`
-*toggles* | `Boolean` | If true, the button toggles the active state with each tap or press of the spacebar. | `false`
+*active* | `Boolean` | Sí verdadero, el botón es un toggle y está marcado como activo. | `false`
+*pressed* | `Boolean` | Sí verdadero, el usuario está actualmente pulsando el botón. | `false`
+*toggles* | `Boolean` | Sí verdadero, el botón cambia al estado activo en cada tap o pulsando la tecla de espacio. | `false`
 
 ##### [Polymer.IronControlState](https://elements.polymer-project.org/elements/iron-behaviors?active=Polymer.IronControlState)
 
-###### Properties
+###### Propiedades
 
-Name | Type | Description | Default
+Nombre | Tipo | Descripción | Por defecto
 -----|------|-------------|--------
-*disabled* | `Boolean` | If true, the user cannot interact with this element. | `false`
-*focused* | `Boolean` | If true, the element currently has focus. | `false`
+*disabled* | `Boolean` | Sí verdadero, el usuario no puede interactuar con este elemento. | `false`
+*focused* | `Boolean` | Sí verdadero, el elemento tiene el foco. | `false`
 
-#### Host attributes
+#### Atributos del Host
 
-Attribute | Value
+Atributo | Valor
 ----------|------
 ***role*** | `'button'`
 ***tabindex*** | `0`
 
-#### Properties
+#### Propiedades
 
-Name | Type | Description | Default
+Nombre | Tipo | Descripción | Por defecto
 -----|------|-------------|--------
-***alt*** | `String` | Specifies the alternate text for the button, for accessibility. | `false`
-***icon*** | `String` | Specifies the icon name or index in the set of icons available in the icon's icon set. If the icon property is specified, the src property should not be. |
-***src*** | `String` | The URL of an image for the icon. If the src property is specified, the icon property should not be. |
+***alt*** | `String` | Especifica el texto alternativo para el botón, para accesibilidad. | `false`
+***icon*** | `String` | Especifica el nombre del icono o el indice en el set de iconos disponible. Sií la propiedad del icono esta especificada, el src no debería. |
+***src*** | `String` | La URL de una imagen para el icono. Sí la propiedad src está especificada el icon no debería. |

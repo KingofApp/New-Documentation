@@ -2,78 +2,78 @@
 
 ## &lt;koa-input&gt;
 
-It is a single-line text field.
+Es un campo de texto simple.
 
 ### Demo
 
-* Demo with [paper-input](https://elements.polymer-project.org/elements/paper-input?view=demo).
-* Demo with [ios-input](https://kingofapp.github.io/ios-input).
+* Demo con [paper-input](https://elements.polymer-project.org/elements/paper-input?view=demo).
+* Demo con [ios-input](https://kingofapp.github.io/ios-input).
 
-### Styling
+### Estilos
 
-See `<koa-input-container>` for a list of custom properties used to style this element.
+Mira `<koa-input-container>` para obtener la lista de las propiedades personalizadas usadas para eltilizar el elemento.
 
 ---
 
-### [Polymer.KoaInputBehavior](https://github.com/KingofApp/koa-behaviors/blob/master/koa-input-behavior.html) offers
+### [Polymer.KoaInputBehavior](https://github.com/KingofApp/koa-behaviors/blob/master/koa-input-behavior.html)
 
-#### Behaviors
+#### Comportamientos
 
 ##### [Polymer.IronFormElementBehavior](https://elements.polymer-project.org/elements/iron-form-element-behavior)
 
-###### Properties
+###### Propiedades
 
-Name | Type | Description | Default
+Nombre | Tipo | Descripción | Por defecto
 -----|------|-------------|--------
-*name* | `String` | The name of this element. |
-*required* | `Boolean` | Set to true to mark the input as required. If used in a form, a custom element that uses this behavior should also use Polymer.IronValidatableBehavior and define a custom validation method. Otherwise, a required element will always be considered valid. It's also strongly recommended to provide a visual style for the element when its value is invalid. | `false`
-*value* | `String` | The value for this element. |
+*name* | `String` | El nombre de este elemento. |
+*required* | `Boolean` | Establece a verdadero para hacer que el input sea requerido. Sí lo usas en un formulario, un elemento personalizadoque use este comportamiento deberá también usar `Polymer.IronValidatableBehavior` y definir un método de validación personalidado. De otro modo, un elemento requerido siempre será considerado válido. Es muy recomendable que proporciones un estilo visual para el elemento cuando  su valor sea invalido. | `false`
+*value* | `String` | El valor de este elemento. |
 
-##### [Polymer.IronControlState](https://elements.polymer-project.org/elements/iron-behaviors?active=Polymer.IronControlState) contains
+##### [Polymer.IronControlState](https://elements.polymer-project.org/elements/iron-behaviors?active=Polymer.IronControlState) contiene
 
-###### Properties
+###### Propiedades
 
-Name | Type | Description | Default
+Nombre | Tipo | Descripción | Por defecto
 -----|------|-------------|--------
-*disabled* | `Boolean` | If true, the user cannot interact with this element. | `false`
-*focused* | `Boolean` | If true, the element currently has focus. | `false`
+*disabled* | `Boolean` | Sí verdadero, el usuario no podrá interactuar con este elemento. | `false`
+*focused* | `Boolean` | Sí verdadero, el elemento tendrá el foco. | `false`
 
-#### Properties
+#### Propiedades
 
-Name | Type | Description | Default
+Nombre | Tipo | Descripción | Por defecto
 -----|------|-------------|--------
-***accept*** | `String` | Bind this to the `<input is="iron-input">`'s `accept` property, used with type=file. |
-***allowedPattern*** | `String` | Bind this to the `<input is="iron-input">`'s `allowedPattern` property. |
-***autocapitalize*** | `String` | Bind this to the `<input is="iron-input">`'s `autocapitalize` property. | `none`
-***autocomplete*** | `String` | Bind this to the `<input is="iron-input">`'s `autocomplete` property. | `off`
-***autocorrect*** | `String` | Bind this to the `<input is="iron-input">`'s `autocorrect` property. | `off`
-***autofocus*** | `Boolean` | Bind this to the `<input is="iron-input">`'s `autofocus` property. |
-***autosave*** | `String` | Bind this to the `<input is="iron-input">`'s `autosave` property, used with type=search. |
-***autoValidate*** | `String` | Set to true to auto-validate the input value. Bind this to the input-container's `autoValidate` property. | `false`
-***charCounter*** | `Boolean` | Set to true to show a character counter. | `false`
-***disabled*** | `Boolean` | Set to true to disable this input. Bind this to both the `<koa-input-container>`'s and the input's `disabled` property. | `false`
-***errorMessage*** | `String` | The error message to display when the input is invalid. Bind this to the `<koa-input-error>`'s content, if using. |
-***inputmode*** | `String` | Bind this to the `<input is="iron-input">`'s `inputmode` property. |
-***invalid*** | `Boolean` | Returns true if the value is invalid. Bind this to both the `<koa-input-container>`'s and the input's `invalid` property. | `false`
-***label*** | `String` | The label for this input. Bind this to `<label>`'s content and `hidden` property, e.g. `<label hidden$="[[!label]]">[[label]]</label>` in your `template` |
-***list*** | `String` | The datalist of the input (if any). This should match the id of an existing `<datalist>`. Bind this to the `<input is="iron-input">`'s `list` property. |
-***max*** | `String` | The maximum (numeric or date-time) input value. Can be a String (e.g. "2000-1-1") or a Number (e.g. 2). Bind this to the `<input is="iron-input">`'s `max` property. |
-***maxlength*** | `Number` | The maximum length of the input value. Bind this to the `<input is="iron-input">`'s `maxlength` property. |
-***min*** | `String` | The minimum (numeric or date-time) input value. Bind this to the `<input is="iron-input">`'s `min` property. |
-***minlength*** | `Number` | Bind this to the `<input is="iron-input">`'s `minlength` property. |
-***multiple*** | `Boolean` | Bind this to the `<input is="iron-input">`'s `multiple` property, used with type=file. |
-***name*** | `String` | Bind this to the `<input is="iron-input">`'s `name` property. |
-***pattern*** | `String` | A pattern to validate the input with. Bind this to the `<input is="iron-input">`'s `pattern` property. |
+***accept*** | `String` | Enlaza esto con la propiedad `<input is="iron-input">` `accept`, usado con type=file. |
+***allowedPattern*** | `String` | Enlaza esto con la propiedad `<input is="iron-input">` `allowedPattern`. |
+***autocapitalize*** | `String` | Enlaza esto con la propiedad `<input is="iron-input">` `autocapitalize`. | `none`
+***autocomplete*** | `String` | Enlaza esto con la propiedad `<input is="iron-input">` `autocomplete`. | `off`
+***autocorrect*** | `String` | Enlaza esto con la propiedad `<input is="iron-input">` `autocorrect`. | `off`
+***autofocus*** | `Boolean` | Enlaza esto con la propiedad `<input is="iron-input">` `autofocus`. |
+***autosave*** | `String` | Enlaza esto con la propiedad `<input is="iron-input">` `autosave`, usado con type=search. |
+***autoValidate*** | `String` | Establece a verdadero para auto-validar el valor del input. Enlaza esto con la propiedad input-container `autoValidate`. | `false`
+***charCounter*** | `Boolean` | Establece a verdadero para mostrar el contador de carácteres. | `false`
+***disabled*** | `Boolean` | Establece a verdadero para deshabilitar este input. Enlaza los dos `<koa-input-container>` y la propiedad `disabled` del input. | `false`
+***errorMessage*** | `String` | El mensaje de error se mostrará cuando el input es invalido. Enlaza esto con el contenido de `<koa-input-error>`, sí se usa. |
+***inputmode*** | `String` | Enlaza esto con la propiedad `<input is="iron-input">` `inputmode`. |
+***invalid*** | `Boolean` | Devuelve verdadero sí el valor es invalido. Enlaza los dos `<koa-input-container>` y la propiedad del input `invalid`. | `false`
+***label*** | `String` | La etiqueta para este input. Enlaza esto con el contenido de `<label>` y la propiedad `hidden`, e.j. `<label hidden$="[[!label]]">[[label]]</label>` en tu `template` |
+***list*** | `String` | The datalist of the input (if any). This should match the id of an existing `<datalist>`. Enlaza esto con la propiedad `<input is="iron-input">` `list`. |
+***max*** | `String` | The maximum (numeric or date-time) input value. Can be a String (e.g. "2000-1-1") or a Number (e.g. 2). Enlaza esto con la propiedad `<input is="iron-input">` `max`. |
+***maxlength*** | `Number` | The maximum length of the input value. Enlaza esto con la propiedad `<input is="iron-input">` `maxlength`. |
+***min*** | `String` | The minimum (numeric or date-time) input value. Enlaza esto con la propiedad `<input is="iron-input">` `min`. |
+***minlength*** | `Number` | Enlaza esto con la propiedad `<input is="iron-input">` `minlength`. |
+***multiple*** | `Boolean` | Enlaza esto con la propiedad `<input is="iron-input">` `multiple` property, usado con type=file. |
+***name*** | `String` | Enlaza esto con la propiedad `<input is="iron-input">` `name`. |
+***pattern*** | `String` | A pattern to validate the input with. Enlaza esto con la propiedad `<input is="iron-input">` `pattern`. |
 ***placeholder*** | `String` | A placeholder string in addition to the label. If this is set, the label will always float. | `''`
-***preventInvalidInput*** | `Boolean` | Set to true to prevent the user from entering invalid input. Bind this to the `<input is="iron-input">`'s `preventInvalidInput` property. |
-***readonly*** | `Boolean` | Bind this to the `<input is="iron-input">`'s `readonly` property. |
-***required*** | `Boolean` | Set to true to mark the input as required. Bind this to the `<input is="iron-input">`'s `required` property. |  `false`
-***results*** | `Number` | Bind this to the `<input is="iron-input">`'s `results` property, used with type=search. |
-***size*** | `Number` | Bind this to the `<input is="iron-input">`'s `size` property. |
-***step*** | `String` | Limits the numeric or date-time increments. Bind this to the `<input is="iron-input">`'s `step` property. |
-***type*** | `String` | The type of the input. The supported types are text, number and password. Bind this to the `<input is="iron-input">`'s `type` property. |
-***validator*** | `String` | Name of the validator to use. Bind this to the `<input is="iron-input">`'s `validator` |
-***value*** | `String` | The value for this input. Bind this to the `<input is="iron-input">`'s `bindValue` property, or the `value` property of your input that is `notify:true`. |
+***preventInvalidInput*** | `Boolean` | Establece a verdadero para prevent the user from entering invalid input. Enlaza esto con la propiedad `<input is="iron-input">` `preventInvalidInput`. |
+***readonly*** | `Boolean` | Enlaza esto con la propiedad `<input is="iron-input">` `readonly`. |
+***required*** | `Boolean` | Establece a verdadero para mark the input as required. Enlaza esto con la propiedad `<input is="iron-input">` `required`. |  `false`
+***results*** | `Number` | Enlaza esto con la propiedad `<input is="iron-input">` `results` property, usado con type=search. |
+***size*** | `Number` | Enlaza esto con la propiedad `<input is="iron-input">` `size`. |
+***step*** | `String` | Limits the numeric or date-time increments. Enlaza esto con la propiedad `<input is="iron-input">` `step`. |
+***type*** | `String` | The type of the input. The supported types are text, number and password. Enlaza esto con la propiedad `<input is="iron-input">` `type`. |
+***validator*** | `String` | Name of the validator to use. Enlaza esto con la propiedad `<input is="iron-input">` `validator` |
+***value*** | `String` | The value for this input. Enlaza esto con la propiedad `<input is="iron-input">` `bindValue` property, or the `value` property of your input that is `notify:true`. |
 
 #### Methods
 
@@ -107,38 +107,38 @@ See `<koa-input-container>` for a list of custom properties used to style this e
 
 Name | Type | Description | Default
 -----|------|-------------|--------
-***accept*** | `String` | Bind this to the `<input is="iron-input">`'s `accept` property, used with type=file. |
-***allowedPattern*** | `String` | Bind this to the `<input is="iron-input">`'s `allowedPattern` property. |
-***autocapitalize*** | `String` | Bind this to the `<input is="iron-input">`'s `autocapitalize` property. | `none`
-***autocomplete*** | `String` | Bind this to the `<input is="iron-input">`'s `autocomplete` property. | `off`
-***autocorrect*** | `String` | Bind this to the `<input is="iron-input">`'s `autocorrect` property. | `off`
-***autofocus*** | `Boolean` | Bind this to the `<input is="iron-input">`'s `autofocus` property. |
-***autosave*** | `String` | Bind this to the `<input is="iron-input">`'s `autosave` property, used with type=search. |
-***autoValidate*** | `String` | Set to true to auto-validate the input value. Bind this to the input-container's `autoValidate` property. | `false`
-***charCounter*** | `Boolean` | Set to true to show a character counter. | `false`
-***disabled*** | `Boolean` | Set to true to disable this input. Bind this to both the `<koa-input-container>`'s and the input's `disabled` property. | `false`
-***errorMessage*** | `String` | The error message to display when the input is invalid. Bind this to the `<koa-input-error>`'s content, if using. |
-***inputmode*** | `String` | Bind this to the `<input is="iron-input">`'s `inputmode` property. |
-***invalid*** | `Boolean` | Returns true if the value is invalid. Bind this to both the `<koa-input-container>`'s and the input's `invalid` property. | `false`
-***label*** | `String` | The label for this input. Bind this to `<label>`'s content and `hidden` property, e.g. `<label hidden$="[[!label]]">[[label]]</label>` in your `template` |
-***list*** | `String` | The datalist of the input (if any). This should match the id of an existing `<datalist>`. Bind this to the `<input is="iron-input">`'s `list` property. |
-***max*** | `String` | The maximum (numeric or date-time) input value. Can be a String (e.g. "2000-1-1") or a Number (e.g. 2). Bind this to the `<input is="iron-input">`'s `max` property. |
-***maxlength*** | `Number` | The maximum length of the input value. Bind this to the `<input is="iron-input">`'s `maxlength` property. |
-***min*** | `String` | The minimum (numeric or date-time) input value. Bind this to the `<input is="iron-input">`'s `min` property. |
-***minlength*** | `Number` | Bind this to the `<input is="iron-input">`'s `minlength` property. |
-***multiple*** | `Boolean` | Bind this to the `<input is="iron-input">`'s `multiple` property, used with type=file. |
-***name*** | `String` | Bind this to the `<input is="iron-input">`'s `name` property. |
-***pattern*** | `String` | A pattern to validate the input with. Bind this to the `<input is="iron-input">`'s `pattern` property. |
+***accept*** | `String` | Enlaza esto con la propiedad `<input is="iron-input">` `accept`, usado con type=file. |
+***allowedPattern*** | `String` | Enlaza esto con la propiedad `<input is="iron-input">` `allowedPattern`. |
+***autocapitalize*** | `String` | Enlaza esto con la propiedad `<input is="iron-input">` `autocapitalize`. | `none`
+***autocomplete*** | `String` | Enlaza esto con la propiedad `<input is="iron-input">` `autocomplete`. | `off`
+***autocorrect*** | `String` | Enlaza esto con la propiedad `<input is="iron-input">` `autocorrect`. | `off`
+***autofocus*** | `Boolean` | Enlaza esto con la propiedad `<input is="iron-input">` `autofocus`. |
+***autosave*** | `String` | Enlaza esto con la propiedad `<input is="iron-input">` `autosave`, usado con type=search. |
+***autoValidate*** | `String` | Establece a verdadero para auto-validate the input value. Enlaza esto con la propiedad input-container's `autoValidate`. | `false`
+***charCounter*** | `Boolean` | Establece a verdadero para show a character counter. | `false`
+***disabled*** | `Boolean` | Establece a verdadero para disable this input. Bind this to both the `<koa-input-container>` and the input's `disabled`. | `false`
+***errorMessage*** | `String` | The error message to display when the input is invalid. Enlaza esto con la propiedad `<koa-input-error>` content, if using. |
+***inputmode*** | `String` | Enlaza esto con la propiedad `<input is="iron-input">` `inputmode`. |
+***invalid*** | `Boolean` | Returns true if the value is invalid. Bind this to both the `<koa-input-container>` and the input's `invalid`. | `false`
+***label*** | `String` | The label for this input. Bind this to `<label>` content and `hidden` property, e.g. `<label hidden$="[[!label]]">[[label]]</label>` in your `template` |
+***list*** | `String` | The datalist of the input (if any). This should match the id of an existing `<datalist>`. Enlaza esto con la propiedad `<input is="iron-input">` `list`. |
+***max*** | `String` | The maximum (numeric or date-time) input value. Can be a String (e.g. "2000-1-1") or a Number (e.g. 2). Enlaza esto con la propiedad `<input is="iron-input">` `max`. |
+***maxlength*** | `Number` | The maximum length of the input value. Enlaza esto con la propiedad `<input is="iron-input">` `maxlength`. |
+***min*** | `String` | The minimum (numeric or date-time) input value. Enlaza esto con la propiedad `<input is="iron-input">` `min`. |
+***minlength*** | `Number` | Enlaza esto con la propiedad `<input is="iron-input">` `minlength`. |
+***multiple*** | `Boolean` | Enlaza esto con la propiedad `<input is="iron-input">` `multiple` property, usado con type=file. |
+***name*** | `String` | Enlaza esto con la propiedad `<input is="iron-input">` `name`. |
+***pattern*** | `String` | A pattern to validate the input with. Enlaza esto con la propiedad `<input is="iron-input">` `pattern`. |
 ***placeholder*** | `String` | A placeholder string in addition to the label. If this is set, the label will always float. | `''`
-***preventInvalidInput*** | `Boolean` | Set to true to prevent the user from entering invalid input. Bind this to the `<input is="iron-input">`'s `preventInvalidInput` property. |
-***readonly*** | `Boolean` | Bind this to the `<input is="iron-input">`'s `readonly` property. |
-***required*** | `Boolean` | Set to true to mark the input as required. Bind this to the `<input is="iron-input">`'s `required` property. |  `false`
-***results*** | `Number` | Bind this to the `<input is="iron-input">`'s `results` property, used with type=search. |
-***size*** | `Number` | Bind this to the `<input is="iron-input">`'s `size` property. |
-***step*** | `String` | Limits the numeric or date-time increments. Bind this to the `<input is="iron-input">`'s `step` property. |
-***type*** | `String` | The type of the input. The supported types are text, number and password. Bind this to the `<input is="iron-input">`'s `type` property. |
-***validator*** | `String` | Name of the validator to use. Bind this to the `<input is="iron-input">`'s `validator` |
-***value*** | `String` | The value for this input. Bind this to the `<input is="iron-input">`'s `bindValue` property, or the `value` property of your input that is `notify:true`. |
+***preventInvalidInput*** | `Boolean` | Establece a verdadero para prevent the user from entering invalid input. Enlaza esto con la propiedad `<input is="iron-input">` `preventInvalidInput`. |
+***readonly*** | `Boolean` | Enlaza esto con la propiedad `<input is="iron-input">` `readonly`. |
+***required*** | `Boolean` | Establece a verdadero para mark the input as required. Enlaza esto con la propiedad `<input is="iron-input">` `required`. |  `false`
+***results*** | `Number` | Enlaza esto con la propiedad `<input is="iron-input">` `results` property, usado con type=search. |
+***size*** | `Number` | Enlaza esto con la propiedad `<input is="iron-input">` `size`. |
+***step*** | `String` | Limits the numeric or date-time increments. Enlaza esto con la propiedad `<input is="iron-input">` `step`. |
+***type*** | `String` | The type of the input. The supported types are text, number and password. Enlaza esto con la propiedad `<input is="iron-input">` `type`. |
+***validator*** | `String` | Name of the validator to use. Enlaza esto con la propiedad `<input is="iron-input">` `validator` |
+***value*** | `String` | The value for this input. Enlaza esto con la propiedad `<input is="iron-input">` `bindValue` property, or the `value` property of your input that is `notify:true`. |
 
 #### Properties
 
@@ -180,7 +180,7 @@ Custom property | Description | Default
 Name | Type | Description | Default
 -----|------|-------------|--------
 ***attrForValue*** | `String` | The attribute to listen for value changes on. | `'bind-value'`
-***autoValidate*** | `Boolean` | Set to true to auto-validate the input value when it changes. | `false`
+***autoValidate*** | `Boolean` | Establece a verdadero para auto-validate the input value when it changes. | `false`
 ***focused*** | `Boolean` | True if the input has focus. | `false`
 ***invalid*** | `Boolean` | True if the input is invalid. This property is set automatically when the input value changes if auto-validating, or when the `iron-input-validate` event is heard from a child. | `false`
 
@@ -341,34 +341,34 @@ Custom property | Description | Default
 
 Name | Type | Description | Default
 -----|------|-------------|--------
-*accept* | `String` | Bind this to the `<input is="iron-input">`'s `accept` property, used with type=file. |
-*allowedPattern* | `String` | Bind this to the `<input is="iron-input">`'s `allowedPattern` property. |
-*autocapitalize* | `String` | Bind this to the `<input is="iron-input">`'s `autocapitalize` property. | `none`
-*autocomplete* | `String` | Bind this to the `<input is="iron-input">`'s `autocomplete` property. | `off`
-*autocorrect* | `String` | Bind this to the `<input is="iron-input">`'s `autocorrect` property. | `off`
-*autofocus* | `Boolean` | Bind this to the `<input is="iron-input">`'s `autofocus` property. |
-*autosave* | `String` | Bind this to the `<input is="iron-input">`'s `autosave` property, used with type=search. |
-*disabled* | `Boolean` | Set to true to disable this input. |
-*focused* | `Boolean` | If true, the element currently has focus. |
-*inputmode* | `String` | Bind this to the `<input is="iron-input">`'s `inputmode` property. |
+*accept* | `String` | Enlaza esto con la propiedad `<input is="iron-input">` `accept` property, usado con type=file. |
+*allowedPattern* | `String` | Enlaza esto con la propiedad `<input is="iron-input">` `allowedPattern`. |
+*autocapitalize* | `String` | Enlaza esto con la propiedad `<input is="iron-input">` `autocapitalize`. | `none`
+*autocomplete* | `String` | Enlaza esto con la propiedad `<input is="iron-input">` `autocomplete`. | `off`
+*autocorrect* | `String` | Enlaza esto con la propiedad `<input is="iron-input">` `autocorrect`. | `off`
+*autofocus* | `Boolean` | Enlaza esto con la propiedad `<input is="iron-input">` `autofocus`. |
+*autosave* | `String` | Enlaza esto con la propiedad `<input is="iron-input">` `autosave` property, usado con type=search. |
+*disabled* | `Boolean` | Establece a verdadero para disable this input. |
+*focused* | `Boolean` | Sí verdadero, the element currently has focus. |
+*inputmode* | `String` | Enlaza esto con la propiedad `<input is="iron-input">` `inputmode`. |
 *invalid* | `Boolean` | Returns true if the value is invalid. |
-*list* | `String` | The datalist of the input (if any). This should match the id of an existing `<datalist>`. Bind this to the `<input is="iron-input">`'s `list` property. |
-*max* | `String` | The maximum (numeric or date-time) input value. Can be a String (e.g. "2000-1-1") or a Number (e.g. 2). Bind this to the `<input is="iron-input">`'s `max` property. |
-*maxlength* | `Number` | The maximum length of the input value. Bind this to the `<input is="iron-input">`'s `maxlength` property. |
-*min* | `String` | The minimum (numeric or date-time) input value. Bind this to the `<input is="iron-input">`'s `min` property. |
-*minlength* | `Number` | Bind this to the `<input is="iron-input">`'s `minlength` property. |
-*multiple* | `Boolean` | Bind this to the `<input is="iron-input">`'s `multiple` property, used with type=file. |
-*name* | `String` | Bind this to the `<input is="iron-input">`'s `name` property. |
-*pattern* | `String` | A pattern to validate the input with. Bind this to the `<input is="iron-input">`'s `pattern` property. |
+*list* | `String` | The datalist of the input (if any). This should match the id of an existing `<datalist>`. Enlaza esto con la propiedad `<input is="iron-input">` `list`. |
+*max* | `String` | The maximum (numeric or date-time) input value. Can be a String (e.g. "2000-1-1") or a Number (e.g. 2). Enlaza esto con la propiedad `<input is="iron-input">` `max`. |
+*maxlength* | `Number` | The maximum length of the input value. Enlaza esto con la propiedad `<input is="iron-input">` `maxlength`. |
+*min* | `String` | The minimum (numeric or date-time) input value. Enlaza esto con la propiedad `<input is="iron-input">` `min`. |
+*minlength* | `Number` | Enlaza esto con la propiedad `<input is="iron-input">` `minlength`. |
+*multiple* | `Boolean` | Enlaza esto con la propiedad `<input is="iron-input">` `multiple` property, usado con type=file. |
+*name* | `String` | Enlaza esto con la propiedad `<input is="iron-input">` `name`. |
+*pattern* | `String` | A pattern to validate the input with. Enlaza esto con la propiedad `<input is="iron-input">` `pattern`. |
 *placeholder* | `String` | A placeholder string in addition to the label. |
-*preventInvalidInput* | `Boolean` | Set to true to prevent the user from entering invalid input. Bind this to the `<input is="iron-input">`'s `preventInvalidInput` property. |
-*readonly* | `Boolean` | Bind this to the `<input is="iron-input">`'s `readonly` property. |
-*required* | `Boolean` | Set to true to mark the input as required. Bind this to the `<input is="iron-input">`'s `required` pro
-*results* | `Number` | Bind this to the `<input is="iron-input">`'s `results` property, used with type=search. |
-*size* | `Number` | Bind this to the `<input is="iron-input">`'s `size` property. |
-*step* | `String` | Limits the numeric or date-time increments. Bind this to the `<input is="iron-input">`'s `step` property. |
-*type* | `String` | The type of the input. The supported types are text, number and password. Bind this to the `<input is="iron-input">`'s `type` property. |
-*value* | `String` | The value for this input. Bind this to the `<input is="iron-input">`'s `bindValue` property, or the `value` property of your input that is notify:true. |
+*preventInvalidInput* | `Boolean` | Establece a verdadero para prevent the user from entering invalid input. Enlaza esto con la propiedad `<input is="iron-input">` `preventInvalidInput`. |
+*readonly* | `Boolean` | Enlaza esto con la propiedad `<input is="iron-input">` `readonly`. |
+*required* | `Boolean` | Establece a verdadero para mark the input as required. Enlaza esto con la propiedad `<input is="iron-input">` `required` pro
+*results* | `Number` | Enlaza esto con la propiedad `<input is="iron-input">` `results` property, usado con type=search. |
+*size* | `Number` | Enlaza esto con la propiedad `<input is="iron-input">` `size`. |
+*step* | `String` | Limits the numeric or date-time increments. Enlaza esto con la propiedad `<input is="iron-input">` `step`. |
+*type* | `String` | The type of the input. The supported types are text, number and password. Enlaza esto con la propiedad `<input is="iron-input">` `type`. |
+*value* | `String` | The value for this input. Enlaza esto con la propiedad `<input is="iron-input">` `bindValue` property, or the `value` property of your input that is notify:true. |
 
 #### Properties
 
