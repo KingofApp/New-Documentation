@@ -18,3 +18,6 @@ Especifica los colores por defecto definidos en la plataforma en RGBA. Para obte
     "backgroundColor"        : "rgba(255,255,255,1)"
 }
 ```
+
+### Referencias
+Ver [Temas -> Color de fondo e imagen de fondo](../themes/themes.md#color-de-fondo-e-imagen-de-fondo)

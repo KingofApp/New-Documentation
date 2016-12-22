@@ -371,21 +371,9 @@ En `styles/default-theme.html` se define el valor de las variables.
 }
 ```
 
-También, es necesario definir esos valores en `css-variables.json`.
+También, es necesario definir esos valores en la parte de defaulConfig - colors del `config.json`.
 
-*Ejemplo:*
-```json
-{
-  "colors": {
-    "primaryTextColor": "#636363",
-    "primaryBackgroundColor": "#ffffff",
-    "secondaryTextColor": "#636363",
-    "disabledTextColor": "#2f2b16",
-    ...
-  },
-  ...
-}
-```
+Ver [config.json > defaultConfig > colors](../objects/colors-object.md)
 
 ### Usando propiedades CSS customizadas
 
@@ -433,24 +421,10 @@ En `default-theme.html` se definen las fuentes.
 </style>
 ```
 
-También, es necesario definir esos valores en `css-variables.json`.
+También, es necesario definir esos valores en la parte de defaulConfig - fonts del `config.json`.
 
-*Ejemplo:*
-```json
-{
-  ...
-  "fonts": {
-    "primaryFontFamily": {
-      "name": "Roboto",
-      "url": "https://fonts.googleapis.com/css?family=Roboto"
-    },
-    "titleFontFamily": {
-      "name": "Roboto",
-      "url": "https://fonts.googleapis.com/css?family=Roboto"
-    }
-  }
-}
-```
+Ver [config.json > defaultConfig > fonts](../objects/fonts-object.md)
+
 
 ### Color de fondo e imagen de fondo
 
@@ -466,21 +440,15 @@ En `styles/default-theme.html` se definen.
 </style>
 ```
 
-También, es necesario definir esos valores en `css-variables.json`.
+También, es necesario definir esos valores en la parte de defaulConfig - colors del `config.json`.
 
-*Ejemplo:*
-```json
-{
-  "colors": {
-    ...
-    "backgroundColor": "#ffffff"
-  },
-  "images": {
-    "background": "images/background.png"
-  }
-  ...
-}
-```
+Ver [config.json > defaultConfig > colors](../objects/colors-object.md)
+
+
+En caso de ser una imagen también es necesario definir esos valores en la parte de defaulConfig - images del `config.json`.
+
+Ver [config.json > defaultConfig > images](../objects/images-object.md)
+
 
 ### Colores
 
@@ -508,29 +476,10 @@ En `styles/default-theme.html` se definen.
 </style>
 ```
 
-También, es necesario definir esos valores en `css-variables.json`.
+También, es necesario definir esos valores en la parte de defaulConfig - colors del `config.json`.
 
-*Ejemplo:*
-```json
-{
-  "colors": {
-    "primaryTextColor": "#212121",
-    "primaryBackgroundColor": "#ffffff",
-    "secondaryTextColor": "#737373",
-    "disabledTextColor": "#9b9b9b",
-    "dividerColor": "#dbdbdb",
-    "primaryColor": "#3f51b5",
-    "lightPrimaryColor": "#c5cae9",
-    "darkPrimaryColor": "#303f9f",
-    "accentColor": "#ff4081",
-    "lightAccentColor": "#ff80ab",
-    "darkAccentColor": "#f50057",
-    "errorColor": "#dd2c00",
-    "backgroundColor": "#ffffff"
-  },
-  ...
-}
-```
+Ver [config.json > defaultConfig > colors](../objects/colors-object.md)
+
 
 ## Set de iconos
 
