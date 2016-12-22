@@ -2,7 +2,7 @@
 
 
 > Mantener menos html en favor de JavaScript
-> - [Angular-formly](http://angular-formly.com/#/) 
+> - [Angular-formly](http://angular-formly.com/#/)
 
 King of App integra Angular-formly para la gestión de las preferencias de los usuario sobre los módulos en el Builder.
 
@@ -87,7 +87,7 @@ multiInput permite incluir diversos conjuntos de *inputs* que se enlazan con el 
 
 Nos permite definir un campo multilinea.
 
-El tamaño del *textarea* se define con las propiedades (opcionales) *rows* y *cols* 
+El tamaño del *textarea* se define con las propiedades (opcionales) *rows* y *cols*
 
 [Demo](http://jsbin.com/bumilo/edit?html,css,js,output)
 
@@ -153,6 +153,7 @@ La propiedad *width* y *height* son opcionales y definen el tamaño del iframe.
 
 
 **Checkbox**
+
 Crea un input tipo checkbox, no tiene customización posible.
 
 [Demo](http://jsbin.com/dekegi/edit?html,css,js,output)
@@ -172,7 +173,7 @@ Crea un input tipo checkbox, no tiene customización posible.
 
 **multiCheckbox**
 
-Nos permite incluir un conjunto de inputs tipo *checkbox* que se enlazan con el valor del modelo. 
+Nos permite incluir un conjunto de inputs tipo *checkbox* que se enlazan con el valor del modelo.
 
 Debemos configurarlo mediante la propiedad *options* que espera un array de objetos con las propiedades *id (identificador)* y *title (título mostrado)*
 
@@ -198,7 +199,7 @@ Opcionalmente podemos definir *labelProp (label mostrada al usuario. Por defecto
 
 **Radio**
 
-Input de tipo radio que nos permite seleccionar una única opción entre multiples.. 
+Input de tipo radio que nos permite seleccionar una única opción entre multiples..
 
 Debemos configurarlo mediante la propiedad *options* que espera un array de objetos con las propiedades *name (texto que se mostrará)* y *value (retorno)*
 
@@ -235,11 +236,11 @@ Debemos configurarlo mediante la propiedad *options* que espera un array de obje
 
 Permite definir una lista desplegable (dropdown). Las lista de opciones puede agrupar la elección del usuario dentro de grupos previamente definidos.
 
-Debemos configurarlo mediante la propiedad *options* que espera un array de objetos con la propiedad *name (texto que se mostrará)*. 
+Debemos configurarlo mediante la propiedad *options* que espera un array de objetos con la propiedad *name (texto que se mostrará)*.
 
 Opcionalmente podemos definir *labelProp (label mostrada al usuario. Por defecto "name")* y *valueProp (Valor asignado al modelo, por defecto "value")*
 
-Si decidimos agrupar respuesta es importante definir la propiedad *groupProp* 
+Si decidimos agrupar respuesta es importante definir la propiedad *groupProp*
 
 
 [Demo](http://jsbin.com/kinaxo/edit?html,css,js,output)
@@ -363,6 +364,7 @@ Permite seleccionar una fecha.
 
 
 **iconpicker**
+
 Permite seleccionar un icono desde diversas fuentes (selector, subiendo un archivo, url externa)
 
 
@@ -550,40 +552,47 @@ En este ejemplo podemos ver la configuración necesaria para facilitar opciones 
 ![technical_menus_1](../../screenshots/technical_menus_1.png)
 
 
+**Explicación**
+
+Esta configuración permite definir las rutas de un menú, en este caso polymermenu. Para ello se hace uso de un **repeatSection**. Dentro de este podemos encontrar el bloque que se repetirá y que generará nuevos bloques de configuración. El botón con el texto ``Add another text`` es el encargado de generar nuevos bloques de configuración.
+
+El campo ``fields`` es el que contiene los bloques de configuración. En este caso se compone de:
+ - Un **select** con el que el usuario se puede escoger el módulo al que se quiere asociar el elemento del menú.
+ - Un **input** con el que configurar el fondo del elemento en el menú (Opcional).
+ - Un **input** con el que configurar el color de fondo del elemento en el menú (Opcional).
 
 **Código**
 
 - *config.json*
 ```json
 {
-  "type": "repeatSection",
-  "key": "menuItems",
-  "templateOptions": {
-    "label": "Items",
-    "btnText": "Add another item to the menu",
-    "fields": [{
-      "type": "select",
-      "key": "path",
-      "templateOptions": {
-        "label": "Path",
-        "required": true
-      }
-    }, {
-      "type": "input",
-      "key": "bgImage",
-      "templateOptions": {
-        "label": "Background Image URL",
-        "placeholder": "(Optional)"
-      }
-    }, {
-      "type": "input",
-      "key": "bgColor",
-      "templateOptions": {
-        "label": "Background Color",
-        "placeholder": "(Optional)"
-      }
-    }]
-  }
+    "type": "repeatSection",
+    "key": "menuItems",
+    "templateOptions": {
+      "label": "Items",
+      "btnText": "Add another item to the menu",
+      "fields": [{
+        "type": "select",
+        "key": "path",
+        "templateOptions": {
+          "label": "Path",
+          "required": true
+        }
+      }, {
+        "type": "input",
+        "key": "bgImage",
+        "templateOptions": {
+          "label": "Background Image URL",
+          "placeholder": "(Optional)"
+        }
+      }, {
+        "type": "input",
+        "key": "bgColor",
+        "templateOptions": {
+          "label": "Background Color",
+          "placeholder": "(Optional)"
+        }
+      }]
+    }
 }
 ```
-
