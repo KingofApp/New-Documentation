@@ -113,9 +113,6 @@ Ejemplo de recepción de la consulta de busqueda por parte de un módulo compati
 }());
 ```
 
-:::::::: CREAR DEMO (@flafuente) ::::::::
-
-
 
 ### Soporte Multi-lenguje
 
