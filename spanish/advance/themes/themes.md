@@ -509,3 +509,19 @@ Si deseas dar soporte a todos los iconos, puedes utilizar [PolymerElements/iron-
   </svg>
 </iron-iconset-svg>
 ```
+
+
+## Menú
+
+Este valor del config.json deberá ser un string que indique el `identifier` del módulo del tipo menú que queramos que nuestro tema tenga por defecto. Por defecto viene dado el polymermenu, pero podríamos seleccionar cualquiera que esté publicado en kingofapp.
+
+Esta propiedad solo tiene efecto de cara a subir el tema en producción, por tanto no será necesario tener dicho menú previamente descargado, aunque si queremos ver como queda en localhost deberemos disponer del mismo.
+
+
+## Más cosas del config.json
+
+* Ver [config.json > price](../objects/price-object.md)
+* Ver [config.json > subscription](../objects/subscription-object.md)
+* Ver [config.json > showOn](../objects/showon-object.md)
+* Ver [config.json > platforms](../objects/platforms-object.md)
+* Ver [config.json > version](../objects/version-object.md)

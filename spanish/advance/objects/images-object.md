@@ -14,7 +14,16 @@ La mayor parte de las imagenes que describe este objeto no son necesarias para h
 }
 ```
 
-** En el caso de themes, solo será necesario establecer el background*
+## Themes
+
+En el caso de themes, solo será necesario establecer el background dentro de la parte de defaultConfig.
+```json
+{
+  "defaultConfig": {
+    "background" : "background-image.png"
+  }
+}
+```
 
 
 ### Referencias
