@@ -257,6 +257,10 @@ Clave | Descripción | Valor por defecto
 
 La instalación y eliminación se realiza utilizando [bower desde la terminal](https://bower.io/#install-packages). Además es necesario reflejar los cambios en *config.json* y *../app/core/structure.json*
 
+**Libs**
+
+
+**Deps**
 
 ### Estructura interna
 
@@ -319,45 +323,11 @@ Nuestros estilos se definen directamente dentro de *style.html*
 Importante: Debes hacer uso de las variables de color para que tu módulo sea compatible con todos los temas, así el usuario final define globalmente los estilos en un solo lugar.
 
 
-### API (structureService)
+### [API (structureService)](structureservice.md)
 
-**Getters**
+Los módulos tienen acceso a una API con funciones preparadas para acceder o alterar estructuras de datos de la aplicación.
 
-Métodos | Descripción | Parámetros | Retorno
-----------------|-------------|--------|--------
-`get()` | Objeto con la estructura de datos de aplicación | - | Objeto JSON
-`getVisitedLocations()` | Lista con las rutas que ya han sido visitadas | - | Array
-`getColors()` | Objeto con la lista de colores utilizados por la aplicación | - | Objeto JSON
-`getConfig()` | Objeto con los parametros config de la aplicación | - | Objeto JSON
-`getCurrentModules($location, callback)` | Genera a partir de una ruta la lista de modulos que se usan en ella | $location | Array
-`getFonts()` | Objeto con las fuentes utilizadas por la aplicación | - | Objeto JSON
-`getImages()` | Objeto con la lista de imagenes utilizadas por la aplicación | - | Objeto JSON
-`getIndex()` | Valor de la primera vista utilizada por la aplicación  | - | String
-`getLang()` | Idioma principal de la aplicación | - | String
-`getMenuItems()` | Lista con todas las rutas utilizadas por los diferentes menus | - | Array
-`getModule(path)` | Obtiene un Objeto modulo a partir de una ruta | String | Objeto JSON
-
-
-**Setters**
-
-Métodos | Descripción | Parámetros
-----------------|-------------|--------
-`set(newData)` | Establece una nueva estructura de datos de aplicación | Objeto JSON
-`setColors(colors)` | Establece los colores | Objeto JSON
-`setFonts(fonts)` | Asigna la fuente primaria y la utilizada para el titulo. | Objeto JSON
-`setImages(images)` | Establece imágenes tipo fondo, icono, splash... | Objeto JSON
-`setLang(locale)` | Establece el idioma de la aplicación | String
-`setModules(newData)` | Establece una estructura de módulos | Objeto JSON
-`setVisitedLocations(locations)` | Establece las rutas previamente visitadas en la aplicación | Array
-
-
-**Otros**
-
-Métodos | Descripción | Parámetros | Retorno
-----------------|-------------|--------|--------
-`launchSpinner(selector)` | Crea un spinner a partir de un selector | selector css |
-`registerModule($location, $scope, item)` | Utilizada para registrar un módulo en el sistema de vistas | $location, $scope, 'nombre-modulo' |
-`validateScope(module)` | Valida un objeto modulo y devuelve una vista 'not found' o su vista por defecto | Objeto JSON | String
+**[Leer más](structureservice.md)**
 
 
 ### [Funcionalidades de los módulos](features.md)
@@ -377,6 +347,14 @@ Para agilizar este proceso King of App integró y desarrollo mejoras sobre Angul
 
 **[Leer más](interaction.md)**
 
+
+### [Módulos contenedor](container.md)
+
+Los módulos contenedor ofrecen la posibilidad de contener a otros módulos dentro.
+
+Estos suelen ser módulos utilizados para crear estructuras complejas combinando diferentes funcionalidades, por ejemplo: Una vista compuesta de un slider con un feed de facebook.
+
+**[Leer más](container.md)**
 
 ### [Menús](menus.md)
 
@@ -400,51 +378,6 @@ El [generador de Módulos](https://www.npmjs.com/package/generator-koapp-module)
 **[Leer más](testing.md)**
 
 
-### Subir Módulos a Koapp Builder
-
-::::::::: @Jovi Proceso de subida por parte de clientes (#156741) ::::::::
-
-
-### Soporte a JSDoc3
-
-:::::::: DESCRIPCIÓN (@Ulises) :::::::::
-
-:::::::: CAPTURA (@Ulises):::::::::::
-
-```javascript
-(function() {
-  'use strict';
-
-  angular
-    .module('nuevaVersion', [])
-    .controller('nuevaVersionController', loadFunction);
-
-  loadFunction.$inject = ['$scope', 'structureService', '$location'];
-  /**
-    * Function that loads the module
-    * @function
-    * @name loadFunction
-    * @since  0.0.1
-    * @Author Ulises Gascón
-    * @example
-    *   function loadFunction($scope, structureService, $location) {
-    *   structureService.registerModule($location, $scope, 'nuevaVersion');
-    *   console.info("Hi! from nuevaVersionController");
-    * }
-    * @param  {service} $scope - {@link https://docs.angularjs.org/guide/scope}
-    * @param  {object} structureService - {@link http://docs.kingofapp.com/modules/}
-    * @param  {service} $location - {@link https://docs.angularjs.org/api/ng/service/$location}
-    */
-  function loadFunction($scope, structureService, $location) {
-    // Register upper level modules
-    structureService.registerModule($location, $scope, 'nuevaVersion');
-    // --- Start nuevaVersionController content ---
-    console.info("Hi! from nuevaVersionController");
-    // --- End nuevaVersionController content ---
-  }
-}());
-```
-
 ### Ejemplo
 
 - **[Módulo OpenweatherMap](https://github.com/KingofApp/koapp-module-openweathermap)**
@@ -459,8 +392,4 @@ Este módulo utiliza las diversas librerías para lograr integrar la informació
 
 ### Más Ejemplos
 
-:::::::: EJEMPLOS MÁS ESPECIFICOS (@Ulises) :::::::
-
 - **[Módule Sencillo helloworld](https://github.com/KingofApp/koapp-module-helloworld)**
-
-**[Avanzado](advance_example.md)**
