@@ -410,156 +410,15 @@ Opcionalmente podemos definir *maxSize (tamaño máximo y unidad, ex: 3MB)*, *wi
 
 Permite crear bloques de elementos simples y complejos que pueden añadirse, completarse y borrarse dinámicamente por parte del usuario.
 
-:::::: Definir Opciones (@Pepo) (#156661) :::::::
-
 [Demo](http://jsbin.com/faheja/edit?html,css,js,output)
-
-*Ejemplo:*
-```json
-{
-  "type": "repeatSection",
-  "key": "investments",
-  "templateOptions": {
-    "btnText": "Add another investment",
-    "fields": [
-      {
-        "className": "row",
-        "fieldGroup": [
-          {
-            "className": "col-xs-4",
-            "type": "input",
-            "key": "investmentName",
-            "templateOptions": {
-              "label": "Name of Investment:",
-              "required": true
-            }
-          },
-          {
-            "type": "input",
-            "key": "investmentDate",
-            "className": "col-xs-4",
-            "templateOptions": {
-              "label": "Date of Investment:",
-              "placeholder": "dd/mm/yyyy such as 20/05/2015",
-              "dateFormat": "DD, d  MM, yy"
-            }
-          },
-          {
-            "type": "input",
-            "key": "stockIdentifier",
-            "className": "col-xs-4",
-            "templateOptions": {
-              "label": "Stock Identifier:"
-            }
-          }
-        ]
-      },
-      {
-        "type": "radio",
-        "key": "type",
-        "templateOptions": {
-          "options": [
-            {
-              "name": "Text Field",
-              "value": "input"
-            },
-            {
-              "name": "TextArea Field",
-              "value": "textarea"
-            },
-            {
-              "name": "Radio Buttons",
-              "value": "radio"
-            },
-            {
-              "name": "Checkbox",
-              "value": "checkbox"
-            }
-          ],
-          "label": "Field Type",
-          "required": true
-        }
-      },
-      {
-        "type": "input",
-        "key": "investmentValue",
-        "templateOptions": {
-          "label": "Value:"
-        },
-        "expressionProperties": {
-          "templateOptions.disabled": "!model.stockIdentifier"
-        }
-      },
-      {
-        "type": "checkbox",
-        "model": "formState",
-        "key": "selfExecuting",
-        "templateOptions": {
-          "label": "Are you executing this trade?"
-        }
-      },
-      {
-        "hideExpression": "!formState.selfExecuting",
-        "fieldGroup": [
-          {
-            "type": "input",
-            "key": "relationshipName",
-            "templateOptions": {
-              "label": "Name:"
-            }
-          },
-          {
-            "type": "select",
-            "key": "complianceApprover",
-            "templateOptions": {
-              "label": "Compliance Approver:",
-              "options": [
-                {
-                  "name": "approver 1",
-                  "value": "some one 1"
-                },
-                {
-                  "name": "approver 2",
-                  "value": "some one 2"
-                }
-              ]
-            }
-          },
-          {
-            "type": "textarea",
-            "key": "requestorComment",
-            "templateOptions": {
-              "label": "Requestor Comment",
-              "rows": 4
-            }
-          }
-        ]
-      }
-    ]
-  }
-}
-```
-
-
 
 ### Ejemplo
 
-En este ejemplo podemos ver la configuración necesaria para facilitar opciones de configuración al usuario final
+Esta configuración permite definir las rutas de un menú, en este caso polymermenu. Para ello se hace uso de un **repeatSection**. Dentro de este podemos encontrar el bloque que se repetirá y que generará nuevos bloques de configuración. El botón con el texto ``Add another text`` es el encargado de generar nuevos bloques de configuración.
 
-
-**Resultado final**
 
 ![technical_menus_1](../../screenshots/technical_menus_1.png)
 
-
-**Explicación**
-
-Esta configuración permite definir las rutas de un menú, en este caso polymermenu. Para ello se hace uso de un **repeatSection**. Dentro de este podemos encontrar el bloque que se repetirá y que generará nuevos bloques de configuración. El botón con el texto ``Add another text`` es el encargado de generar nuevos bloques de configuración.
-
-El campo ``fields`` es el que contiene los bloques de configuración. En este caso se compone de:
- - Un **select** con el que el usuario se puede escoger el módulo al que se quiere asociar el elemento del menú.
- - Un **input** con el que configurar el fondo del elemento en el menú (Opcional).
- - Un **input** con el que configurar el color de fondo del elemento en el menú (Opcional).
 
 **Código**
 
@@ -596,3 +455,8 @@ El campo ``fields`` es el que contiene los bloques de configuración. En este ca
     }
 }
 ```
+
+El campo ``fields`` es el que contiene los bloques de configuración. En este caso se compone de:
+ - Un **select** con el que el usuario se puede escoger el módulo al que se quiere asociar el elemento del menú.
+ - Un **input** con el que configurar la imagen fondo del elemento en el menú (Opcional).
+ - Un **input** con el que configurar el color de fondo del elemento en el menú (Opcional).
