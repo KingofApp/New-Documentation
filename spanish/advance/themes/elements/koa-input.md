@@ -156,111 +156,99 @@ Es un contenedor para `<label>`, `<input is="iron-input">` o `<iron-autogrow-tex
 
 Propiedad personalizada | Descripción | Por defecto
 ----------------|-------------|--------
-`--input-container-color` | Etiqueta y linea inferior cuando el input esta con el foco | `--secondary-text-color`
-`--input-container-focus-color` | Label and underline color when the input is focused | `--default-primary-color`
-`--input-container-invalid-color` | Label and underline color when the input is is invalid | `--google-red-500`
-`--input-container-input-color` | Input foreground color | `--primary-text-color`
-`--input-container` | Mixin applied to the container | `{}`
-`--input-container-disabled` | Mixin applied to the container when it's disabled | `{}`
-`--input-container-label` | Mixin applied to the label | `{}`
-`--input-container-label-focus` | Mixin applied to the label when the input is focused | `{}`
-`--input-container-input` | Mixin applied to the input | `{}`
-`--input-container-underline` | Mixin applied to the underline | `{}`
-`--input-container-underline-focus` | Mixin applied to the underline when the input is focused | `{}`
-`--input-container-underline-disabled` | Mixin applied to the underline when the input is disabled | `{}`
-`--input-prefix` | Mixin applied to the input prefix | `{}`
-`--input-suffix` | Mixin applied to the input suffix | `{}`
+`--input-container-color` | Color de la etiqueta y de la línea inferior del input | `--secondary-text-color`
+`--input-container-focus-color` | Color de la etiqueta y de la línea inferior cuando el input esta con el foco | `--default-primary-color`
+`--input-container-invalid-color` | Color de la etiqueta y de la línea inferior cuando el input es no válido | `--google-red-500`
+`--input-container-input-color` | Color del input | `--primary-text-color`
+`--input-container` | Mixin aplicado al contenedor | `{}`
+`--input-container-disabled` | Mixin aplicado al contenedor cuando esta deshabilitado | `{}`
+`--input-container-label` | Mixin aplicado a la etiqueta | `{}`
+`--input-container-label-focus` | Mixin aplicado a la etiqueta cuando el input tiene el foco | `{}`
+`--input-container-input` | Mixin aplicado al input | `{}`
+`--input-container-underline` | Mixin aplicado a la línea inferior | `{}`
+`--input-container-underline-focus` | Mixin aplicado a la línea inferior cuando el input tiene el foco | `{}`
+`--input-container-underline-disabled` | Mixin aplicado a la línea inferior cuando el input está deshabilitado | `{}`
+`--input-prefix` | Mixin aplicado al prefijo del input | `{}`
+`--input-suffix` | Mixin aplicado al subfijo del input | `{}`
 
 ---
 
-### [Polymer.KoaInputContainerBehavior](https://github.com/KingofApp/koa-behaviors/blob/master/koa-input-behavior.html) offers
+### [Polymer.KoaInputContainerBehavior](https://github.com/KingofApp/koa-behaviors/blob/master/koa-input-behavior.html) ofrece
 
-#### Properties
+#### Propiedades
 
-Name | Type | Description | Default
+Nombre | Tipo | Descripción | Por defecto
 -----|------|-------------|--------
-***attrForValue*** | `String` | The attribute to listen for value changes on. | `'bind-value'`
-***autoValidate*** | `Boolean` | Establece a verdadero para auto-validate the input value when it changes. | `false`
-***focused*** | `Boolean` | True if the input has focus. | `false`
-***invalid*** | `Boolean` | True if the input is invalid. This property is set automatically when the input value changes if auto-validating, or when the `iron-input-validate` event is heard from a child. | `false`
+***attrForValue*** | `String` | El atributo que escucha cambios en el valor. | `'bind-value'`
+***autoValidate*** | `Boolean` | Establece a verdadero para auto validar el valor del input cuando cambia. | `false`
+***focused*** | `Boolean` | Verdadero sí el input tiene el foco. | `false`
+***invalid*** | `Boolean` | Verdadero sí el input es invalido. Esta propiedad se establece automaticamente cuando el valor del input cambia sí esta auto validada o cuando  el evento `iron-input-validate` está escuchando de un hijo. | `false`
 
 
 ## &lt;koa-input-error&gt;
 
-It is an error message for use with `<koa-input-container>`. The error is displayed when the `<koa-input-container>` is `invalid`.
+Es un mensaje de error usado con el `<koa-input-container>`. El error se muestra cuando el `<koa-input-container>` es `invalid`.
 
-### Styling
+### Estilos
 
-Custom property | Description | Default
+Propiedad personalizada | Descripción | Por defecto
 ----------------|-------------|--------
-`--input-container-invalid-color` | Label and underline color when the input is is invalid | `#db4437`
-`--input-error` | Mixin applied to the error | `{}`
+`--input-container-invalid-color` | Color de la etiqueta y de línea inferior cuando el input es invalido | `#db4437`
+`--input-error` | Mixin aplicado al error | `{}`
 
 ---
 
-### [Polymer.KoaInputErrorBehavior](https://github.com/KingofApp/koa-behaviors/blob/master/koa-input-behavior.html) offers
+### [Polymer.KoaInputErrorBehavior](https://github.com/KingofApp/koa-behaviors/blob/master/koa-input-behavior.html) ofrece
 
-#### Behaviors
+#### Comportamientos
 
 ##### [Polymer.KoaInputAddonBehavior](https://github.com/KingofApp/koa-behaviors/blob/master/koa-input-behavior.html)
 
-###### Host attributes
+###### Atributos del Host
 
-Attribute | Value
+Atributo | Valor
 ----------|------
 ***add-on*** | `''`
 
-###### Methods
+###### Métodos
 
-Name | Description
+Nombre | Descripción
 -----|------------
-***update()*** | The function called by `<koa-input-container>` when the input value or validity changes.
+***update()*** | La función llamada por el `<koa-input-container>` cuando el valor del input o la validez cambia.
 
-#### Properties
+#### Propiedades
 
-Name | Type | Description | Default
+Nombre | Tipo | Descripción | Por defecto
 -----|------|-------------|--------
-***invalid*** | `Boolean` | True if the error is showing. |
-
-#### Methods
-
-Name | Description
------|------------
-***update()*** |
+***invalid*** | `Boolean` | Verdadero sí el error se está mostrando. |
 
 
 ## &lt;koa-input-char-counter&gt;
 
-It is a character counter for use with `<koa-input-container>`. It shows the number of characters entered in the input and the max length if it is specified.
+Es un contador de carácteres usado con el `<koa-input-container>`. Muestra el número de caracteres insertados en el input y el tamaño máximo de este sí esta definido.
 
-### Styling
+### Estilos
 
-Custom property | Description | Default
+Propiedad personalizada | Descripción | Por defecto
 ----------------|-------------|--------
-`--input-char-counter` | Mixin applied to the element	| `{}`
+`--input-char-counter` | Mixin aplicado al elemento.	| `{}`
 
 ---
 
-### [Polymer.KoaInputCharCounterBehavior](https://github.com/KingofApp/koa-behaviors/blob/master/koa-input-behavior.html) offers
+### [Polymer.KoaInputCharCounterBehavior](https://github.com/KingofApp/koa-behaviors/blob/master/koa-input-behavior.html) ofrece
 
-#### Behaviors
+#### Comportamientos
 
 ##### [Polymer.KoaInputAddonBehavior](https://github.com/KingofApp/koa-behaviors/blob/master/koa-input-behavior.html)
 
-###### Host attributes
+###### Atributos del Host
 
-Attribute | Value
+Atributo | Valor
 ----------|------
 ***add-on*** | `''`
 
-###### Methods
+###### Métodos
 
-Name | Description
+Nombre | Descripción
 -----|------------
-***update()*** | The function called by `<koa-input-container>` when the input value or validity changes.
-
-#### Methods
-
-Name | Description
------|------------
-***update()*** |
+***update()*** | La función llamada por el `<koa-input-container>` cuando el valor del input o la validez cambia.
