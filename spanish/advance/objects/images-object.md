@@ -19,5 +19,3 @@ La mayor parte de las imagenes que describe este objeto no son necesarias para h
 
 ### Referencias
 Ver [Temas -> Color de fondo e imagen de fondo](../themes/themes.md#color-de-fondo-e-imagen-de-fondo)
-Ver [Temas -> Colores](../themes/themes.md#colores)
-Ver [Temas -> Definición de propiedades CSS customizadas](../themes/themes.md#definición-de-propiedades-css-customizadas)

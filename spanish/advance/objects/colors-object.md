@@ -21,3 +21,5 @@ Especifica los colores por defecto definidos en la plataforma en RGBA. Para obte
 
 ### Referencias
 Ver [Temas -> Color de fondo e imagen de fondo](../themes/themes.md#color-de-fondo-e-imagen-de-fondo)
+Ver [Temas -> Colores](../themes/themes.md#colores)
+Ver [Temas -> Definición de propiedades CSS customizadas](../themes/themes.md#definición-de-propiedades-css-customizadas)
