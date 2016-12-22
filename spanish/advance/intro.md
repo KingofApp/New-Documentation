@@ -22,7 +22,11 @@ Con el fin de hacer mas versátil la configuración de la aplicaciones, toda la 
 
 ## Tipos de plugins y su uso
 
-Los plugin son todas aquellas piezas de código que nos permiten añadir o modificar las características de una app. A continuación, describiremos la filosofía que hay detrás de cada uno de ellos y como interactúan entre si:
+Los plugin son todas aquellas piezas de código que nos permiten añadir o modificar las características de una app.
+
+<div style="text-align:center"><img src ="../screenshots/funcionamientoPlataforma.png" alt="Diagrama de funcionamiento de los plugins en KingOfApp"/></div>
+
+A continuación, describiremos la filosofía que hay detrás de cada uno de ellos y como interactúan entre si:
 
 ### Temas
 
@@ -53,6 +57,8 @@ La respuesta es sencilla, en base a su función dentro de la vista. Si nos fijam
 Por otro lado, cuando necesitas mostrar información desde un módulo, solamente necesitas elegir que componente es el más adecuado para mostrar tu información en vez de dar un aspecto concreto.
 
 Este enfoque es radicalmente diferente a otros CMS. En un CMS como WordPress, podemos observar como los datos o entidades (titulo, descripción, autor, ...), son el punto de separación entre el trabajo visual y el funcional. En KingOfApp, Al no tener un set de datos definido, hemos creado los elementos para que actúen como intermediarios y así poder permitir que los desarrolladores trabajen en la parte funcional y los diseñadores en la visual.
+
+<div style="text-align:center"><img src ="../screenshots/CMSvsKingOfApp.png" alt="Diferencias de maquetación entre Wordpress y KingOfApp"/></div>
 
 Esto facilita cambiar el aspecto de cualquier app con tan solo seleccionar un nuevo tema.
 
