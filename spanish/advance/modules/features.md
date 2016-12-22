@@ -14,10 +14,6 @@ $rootScope.$on("koaAppRendered",function() {
 });
 ```
 
-
-:::::::: @devTeam Existen más eventos propios?? Ejemplos/Doc  (#156704)  ::::::::
-
-
 ### Servicio de almacenamiento (Storage Service)
 
 
