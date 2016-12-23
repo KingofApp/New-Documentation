@@ -86,3 +86,12 @@ Recomendamos encarecidamente incluir esta funcionalidad en los menús que tengan
     <span class="title" ng-if="topmenu.modulescope.toolbarTitle">{{toolbar.title}}</span>
   </koa-toolbar>
 ```
+
+#### Lista de menus
+
+* [koapp-module-polymermenu](https://github.com/KingofApp/koapp-module-polymermenu)
+* [koapp-module-fullmenu](https://github.com/KingofApp/koapp-module-fullmenu)
+* [koapp-module-topmenu](https://github.com/KingofApp/koapp-module-topmenu)
+* [koapp-module-boxmenu](https://github.com/KingofApp/koapp-module-boxmenu)
+* [koapp-module-bottommenu](https://github.com/KingofApp/koapp-module-bottommenu)
+* [koapp-module-angularmenu](https://github.com/KingofApp/koapp-module-angularmenu)
