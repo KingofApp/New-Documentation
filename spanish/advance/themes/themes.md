@@ -1,7 +1,7 @@
 # King of App themes
 
 ### ¿Qué es un tema de king of App?
-Un tema es un conjunto de componentes con un estilo propio, creando un tema podremos personalizar al 100% una app.
+Un tema es un conjunto de componentes con un estilo propio. Creando un tema podremos personalizar al 100% una app.
 
 Un tema desarrollado para King of App se compone de un conjunto de componentes de [Polymer](https://www.polymer-project.org).
 
@@ -12,7 +12,7 @@ Una manera fácil y sencilla para crear temas rápidamente es utilizar [nuestro 
 
 Este generador nos permite crear toda la estructura de archivos y contenido que necesitamos para empezar a desarrollar el nuevo tema.
 
-Una vez tenemos el generador instalado globalmente podremos crear el tema desde cualquier lugar de nuestro sistema, aunque lo recomendado es hacerlo desde la carpeta donde esta alojado el Visualizer.
+Una vez tenemos el generador instalado globalmente podremos crear el tema desde cualquier lugar de nuestro sistema, aunque lo recomendado es hacerlo desde la carpeta donde está alojado el **Visualizer**.
 
 
 - **Instalación global y arranque**
@@ -48,7 +48,7 @@ Nota: `mythemename` representa el nombre del tema.
 
 **Incluir nuestro tema en el Visualizer**
 
-El visualizer sirve para previsualizar los temas o módulos que vayamos a desarrollar, puedes ver aqui la documentación completa [Visualizer](../visualizer/readme.md), en resumen el visualizer carga de forma dinamica los temas y módulos leyendo de un JSON como el que aparece a continuación. Por tanto solo instanciandolo ya podemos empezar a trabajar en nuestro tema.
+El **Visualizer** sirve para previsualizar los temas o módulos que vayamos a desarrollar, puedes ver aquí la documentación completa [Visualizer](../visualizer/readme.md), es decir, carga de forma dinámica los temas y módulos leyendo de un JSON como el que aparece a continuación. Por tanto, solo instanciándolo ya podemos empezar a trabajar en nuestro tema.
 
 - *app/core/structure.json:*
 ```json
@@ -78,14 +78,14 @@ El visualizer sirve para previsualizar los temas o módulos que vayamos a desarr
 
 Un componente es un conjunto de estándares para crear elementos HTML reutilizables.
 
-Por ejemplo, si desea crear un carrusel de imágenes, puede crear un nuevo elemento html <image-carousel>, con todo lo que es JavaScript (comportamiento) y CSS (estilo) dentro del propio elemento. Después de eso, puede utilizar este elemento en cualquier parte de su documento.
+Por ejemplo, si desea crear un carrusel de imágenes, puede crear un nuevo elemento HTML <image-carousel> implementando todo el contenido de JavaScript (comportamiento) y de CSS (estilo) dentro del propio elemento. Después de eso, puede utilizar este elemento en cualquier parte de su documento.
 
 
 ### Sobre los componentes
 
-Cada componente esta contenido en su propio directorio y debe seguir una estructura determinada (nombreDelTema-componente). Para facilitarnos mantener esta correlación, podemos utilizar el [generador de temas](#empezamos---generador-de-temas) que ya nos construye toda la estructura necesaria de manera automática.
+Cada componente está contenido en su propio directorio y debe seguir una nomenclatura determinada (nombreDelTema-componente). Para facilitarnos mantener esta correlación, podemos utilizar el [generador de temas](#empezamos---generador-de-temas) que nos construye toda la estructura necesaria de manera automática.
 
-Dentro de la carpeta de de nuestro componente siempre debemos incluir una subcarpeta con un demo.html, que nos facilitará posteriormente el desarrollo. También el generador se encargará de incluir esto de manera automática.
+Dentro de la carpeta de nuestro componente siempre debemos incluir una subcarpeta con un demo.html, que nos facilitará posteriormente el desarrollo. También será el generador quien se encargará de incluir esto de manera automática.
 
 - *Estructura:*
 
@@ -96,7 +96,7 @@ awesometheme-button
 └── awesometheme-button.html
 ```
 
-Cada componente se compone de un `KoaBehavior` desde el que se gestionan el resto de componentes necesarios (host attributes, propiedades, etc...).
+Cada componente contiene un `KoaBehavior` desde el que se gestionan el resto de componentes necesarios (host attributes, propiedades, etc...).
 
 **KoaBehavior**: Es un comportamiento ([Polymer behavior](https://www.polymer-project.org/1.0/docs/devguide/behaviors.html)) que contiene la mayoría de los componentes de comportamiento como atributos, métodos, etc...
 
@@ -371,7 +371,7 @@ En `styles/default-theme.html` se define el valor de las variables.
 }
 ```
 
-También, es necesario definir esos valores en la parte de defaulConfig - colors del `config.json`.
+También, es necesario definir esos valores en la parte de defaultConfig - colors del `config.json`.
 
 Ver [config.json > defaultConfig > colors](../objects/colors-object.md)
 
@@ -440,12 +440,12 @@ En `styles/default-theme.html` se definen.
 </style>
 ```
 
-También, es necesario definir esos valores en la parte de defaulConfig - colors del `config.json`.
+También, es necesario definir esos valores en la parte de defaultConfig - colors del `config.json`.
 
 Ver [config.json > defaultConfig > colors](../objects/colors-object.md)
 
 
-En caso de ser una imagen también es necesario definir esos valores en la parte de defaulConfig - images del `config.json`.
+En caso de ser una imagen también es necesario definir esos valores en la parte de defaultConfig - images del `config.json`.
 
 Ver [config.json > defaultConfig > images](../objects/images-object.md)
 
@@ -476,7 +476,7 @@ En `styles/default-theme.html` se definen.
 </style>
 ```
 
-También, es necesario definir esos valores en la parte de defaulConfig - colors del `config.json`.
+También, es necesario definir esos valores en la parte de defaultConfig - colors del `config.json`.
 
 Ver [config.json > defaultConfig > colors](../objects/colors-object.md)
 
@@ -486,7 +486,7 @@ Ver [config.json > defaultConfig > colors](../objects/colors-object.md)
 Puedes crear set de iconos utilizando [Polymer `iron-iconset-svg`](https://elements.polymer-project.org/elements/iron-iconset-svg).
 
 
-El componente `iron-iconset-svg` permite a definir tus propios set de iconos utilizando svg.
+El componente `iron-iconset-svg` permite definir tus propios set de iconos utilizando svg.
 
 Los componentes de icono svg deberían ser hijos del componente `iron-iconset-svg`. En el caso de crear multiples iconos es importante definir diferentes ids para identificarlos.
 
