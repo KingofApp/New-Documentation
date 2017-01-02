@@ -1,6 +1,6 @@
 # Images object
 
-La mayor parte de las imagenes que describe este objeto no son necesarias para hacer pruebas en entorno local y solo son usadas por el Builder en la fase de compilación de las imagenes. La única que afecta realmente al visualizer es el `background`.
+La mayor parte de las imágenes que describe este objeto no son necesarias para hacer pruebas en entorno local y solo son usadas por el **Builder** en la fase de compilación de las imágenes. La única que afecta realmente al **Visualizer** es el `background`.
 
 
 ```json

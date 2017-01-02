@@ -488,7 +488,7 @@ Puedes crear set de iconos utilizando [Polymer `iron-iconset-svg`](https://eleme
 
 El componente `iron-iconset-svg` permite definir tus propios set de iconos utilizando svg.
 
-Los componentes de icono svg deberían ser hijos del componente `iron-iconset-svg`. En el caso de crear multiples iconos es importante definir diferentes ids para identificarlos.
+Los componentes de icono svg deberían ser hijos del componente `iron-iconset-svg`. En el caso de crear múltiples iconos es importante definir diferentes ids para identificarlos.
 
 Si deseas dar soporte a todos los iconos, puedes utilizar [PolymerElements/iron-icons/iron-icons.html](https://github.com/PolymerElements/iron-icons/blob/master/iron-icons.html) y editar las rutas svg.
 
@@ -513,9 +513,9 @@ Si deseas dar soporte a todos los iconos, puedes utilizar [PolymerElements/iron-
 
 ## Menú
 
-Este valor del config.json deberá ser un string que indique el `identifier` del módulo del tipo menú que queramos que nuestro tema tenga por defecto. Por defecto viene dado el polymermenu, pero podríamos seleccionar cualquiera que esté publicado en kingofapp.
+Este valor del config.json deberá ser un string que indique el `identifier` del módulo del tipo menú que queramos que nuestro tema tenga por defecto. El polymermenu viene definido por defecto, pero podríamos seleccionar cualquiera que esté publicado en [kingofapp](http://builder.kingofapp.com/).
 
-Esta propiedad solo tiene efecto de cara a subir el tema en producción, por tanto no será necesario tener dicho menú previamente descargado, aunque si queremos ver como queda en localhost deberemos disponer del mismo.
+Esta propiedad solo tiene efecto de cara a subir el tema en producción, por tanto, no será necesario tener dicho menú previamente descargado, aunque si queremos ver como queda en localhost deberemos disponer del mismo.
 
 
 ## Más cosas del config.json
