@@ -1,10 +1,10 @@
 # showOn
 
-Este objeto indica donde se quiere que el módulo, tema o servicio sea visible.
+Este objeto indica donde va a ser visible un plugin (módulo, tema o servicio).
 
-* market: Valor booleano, indica si quieres que sea listado en el market.
-* menu: Valor booleano, indica si quieres que se muestre en el menú de dentro de la aplicación, tiene sentido no mostrarlo en caso de que sea un módulo o servicio del tipo transversal, como por ejemplo login.
-* dropDown: Valor booleano, indica si quieres que se muestre en la vista Drag and Drop de módulos, tiene sentido ocultar este módulo en el caso de que sea un módulo hijo de otro.
+* market: Valor booleano, indica si el plugin va a listarse en el market.
+* menu: Valor booleano, indica si el plugin va a mostrarse en el menú de dentro de la aplicación. En caso de tratsrse de un módulo o servicio de tipo transversal, como por ejemplo el login, tiene más sentido que no se muestre.
+* dropDown: Valor booleano, indica si el módulo va a mostrarse en la vista Drag and Drop de módulos, En el caso de que sea un módulo hijo de otro tiene sentido que no se muestre .
 
 
 ```json

@@ -5,9 +5,9 @@ Describe todos los parámetros de un Tema:
 | Campo | Descripción                                                                | Requerido | Formato       |
 | ----- | -------------------------------------------------------------------------- | --------- | ------------- |
 | _id   | Identificador único del tema. Se genera automáticamente en el Visualizer.  | No        | Hex (16 char) |
-| name  | Nombre del tema y permite identificarlo de forma sencilla. Este valor se muestra en el *market place* de KingOfApp. | No | String |
+| name  | Nombre del tema que permite identificarlo de forma sencilla. Este valor se muestra en el *market place* de KingOfApp. | No | String |
 | identifier | Identifica de forma inequívoca el tema.                               | Si        | [KoApp Plugin string](spanish/objects/koapp-plugin-string.md) |
-| version | Código de versión. Cada vez que se actualiza el tema ha de incrementar. | Si | [Semantic versioning](http://semver.org/) |
+| version | Código de versión. Cada vez que se actualiza el tema, se ha de incrementar. | Si | [Semantic versioning](http://semver.org/) |
 | images | Define todas las imagenes que se mostrarán del tema dentro del *market place* de KingOfApp. | Si | [Plugin inmages object](spanish/objects/plugin-images-object.md) |
 
 "price" : 0.0000000000000000,

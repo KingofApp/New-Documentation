@@ -1,6 +1,6 @@
 # Fonts object
 
-Especifica las dos fuentes disponibles para la aplicación. Actualmente solo es posible utilizar fuentes que se auto configuren en función de la plataforma como pasa con las fuentes de *Goole Fonts*.
+Especifica las dos fuentes disponibles para la aplicación. Actualmente solo es posible utilizar fuentes que se auto configuren en función de la plataforma o del navegador, como pasa con las fuentes de *Google Fonts*.
 
 ```json
 {

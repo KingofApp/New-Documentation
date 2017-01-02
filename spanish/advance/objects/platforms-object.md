@@ -1,6 +1,6 @@
 # Platforms
 
-Es un array donde indicaremos para qué plataformas está disponible dicho módulo, tema o servicio, pueden ser `android`, `ios` o `windows`.
+Es un array utilizado dentro de un módulo, un tema o un servicio, que indica para que plataformas están disponibles; pueden ser `android`, `ios` o `windows`.
 
 
 ´´´json

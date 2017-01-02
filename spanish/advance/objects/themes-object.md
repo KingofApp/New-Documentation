@@ -1,6 +1,6 @@
 # Themes object
 
-Describe cada uno de los themes que están configurados para la aplicación. Actualmente solo hay dos disponibles:
+Describe cada uno de los temas que están configurados para la aplicación en cada una de las plataformas compatibles. Las plataformas que actualmente están disponibles son Android e iOS:
 
 | Campo   | Descripción                                                                             | Requerido | Formato       |
 | ------- | --------------------------------------------------------------------------------------- | --------- | ------------- |

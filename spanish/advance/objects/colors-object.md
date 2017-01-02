@@ -1,6 +1,6 @@
 # Colors object
 
-Especifica los colores por defecto definidos en la plataforma en RGBA. Para obtener más información sobre los colores y como se utilizan visitar la sección de colores de [Temas](spanish/advance/themes/themes.md).
+Especifica los colores por defecto definidos en la plataforma en RGBA. Para obtener más información sobre los colores y como se utilizan, visite la sección de colores de [Temas](spanish/advance/themes/themes.md).
 
 ```json
 {

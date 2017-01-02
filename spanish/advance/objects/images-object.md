@@ -1,6 +1,6 @@
 # Images object
 
-La mayor parte de las imágenes que describe este objeto no son necesarias para hacer pruebas en entorno local y solo son usadas por el **Builder** en la fase de compilación de las imágenes. La única que afecta realmente al **Visualizer** es el `background`.
+Este objeto define las imágenes usadas por el **Builder** en la fase de compilación de imágenes. No son necesarias para hacer pruebas en el entorno local. La única que afecta al **Visualizer** es el `background`.
 
 
 ```json
@@ -16,7 +16,7 @@ La mayor parte de las imágenes que describe este objeto no son necesarias para 
 
 ## Themes
 
-En el caso de themes, solo será necesario establecer el background dentro de la parte de defaultConfig.
+En el caso de themes, solo será necesario establecer el background dentro del objeto defaultConfig.
 ```json
 {
   "defaultConfig": {
