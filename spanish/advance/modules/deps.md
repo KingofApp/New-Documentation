@@ -1,0 +1,1 @@
+# Dependencias cordova en módulos
