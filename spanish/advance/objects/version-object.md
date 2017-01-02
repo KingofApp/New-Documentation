@@ -1,6 +1,8 @@
-# Version
+# Versión
 
-TODO
+Establece la versión actual de nuestro módulo, tema, spinner o servicio.
+
+Usamos las reglas de "Version Semantica", puedes ampliar esta información en el siguiente enlace [Semantic Versioning](http://semver.org/)
 
 
 ´´´json
