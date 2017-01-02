@@ -4,5 +4,5 @@ Describe cada uno de los temas que están configurados para la aplicación en ca
 
 | Campo   | Descripción                                                                             | Requerido | Formato       |
 | ------- | --------------------------------------------------------------------------------------- | --------- | ------------- |
-| android | Define la configuración para la plantilla seleccionada para las aplicaciones de Android. | Si        | [Theme object](spanish/objects/theme-object.md) |
-| ios | Define la configuración para la plantilla seleccionada para las aplicaciones de iOS. | Si        | [Theme object](spanish/objects/theme-object.md) |
+| android | Define la configuración para la plantilla seleccionada para las aplicaciones de Android. | Si        | [Theme object](theme-object.md) |
+| ios | Define la configuración para la plantilla seleccionada para las aplicaciones de iOS. | Si        | [Theme object](theme-object.md) |

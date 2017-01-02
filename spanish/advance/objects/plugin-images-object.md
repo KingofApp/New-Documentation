@@ -11,7 +11,6 @@ Los campos que componen este objeto son:
 | banner      | Imagen que aparece en la cabecera de la vista de detalle de un plugin. Su tamaño debe ser: 404x220px | No        | Image string |
 | screenshots | Imágenes que aparecen en la vista de detalle de un plugin, a modo de ejemplo del resultado final. Su tamaño es libre | No        | Array de Image string |
 
-
 Ejemplo:
 ```json
 {
