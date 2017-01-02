@@ -1,17 +1,17 @@
 # IframeRequestObject
 
-Este objeto se utiliza unicacmente para configurar las comunicaciones entre los iframes utilizados en los widgets de administración y configuración de módulos.
+Este objeto se utiliza únicamente para configurar las comunicaciones entre los iframes utilizados en los widgets de administración y configuración de módulos.
 
 El objeto se divide en dos apartados:
 
 | Clave | Descripción                                                            | Requerido | Formato             |
 | ----- | ---------------------------------------------------------------------- | --------- | ------------------- |
-| urls  | Especifica las URLs a las que el widget podrá conectar de forma segura | Si        | Iframe URLs object  |
+| urls  | Especifica las URLs a las que el widget podrá conectarse de forma segura | Si        | Iframe URLs object  |
 | vars  | Indica las variable con las que se trabajará en la conexión segura     | Si        | Iframe Vars object  |
 
 ## Iframe URLs object
 
-Indica las urls permitidas agrupandolas por el tipo de la petición. Los verbos más comunes son HEAD, GET, POST, PUT o DELETE, pero se podría usar cualquier verbo valido.
+Indica las urls permitidas agrupándolas por el tipo de petición. Los verbos más comunes son HEAD, GET, POST, PUT o DELETE, pero se podría usar cualquier verbo valido.
 
 Ejemplo:
 ```json

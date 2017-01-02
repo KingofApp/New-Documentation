@@ -1,18 +1,18 @@
 # Theme default config
 
-Cada vez que añadimos un nuevo tema en el Builder nos pregunta si queremos utilizar los parametros por defecto del tema. Estos parametros por defecto se definen en este objeto y son:
+Cada vez que añadimos un nuevo tema en el Builder, este nos pregunta si queremos utilizar los parametros por defecto del tema. Estos parametros por defecto se definen en este objeto y son:
 
 * Colores,
-* Imagenes de la aplicación,
-* Fuentes, y
+* Imágenes de la aplicación,
+* Fuentes
 * Menú por defecto.
 
 | Campo  | Descripción                                                  | Requerido | Formato                           |
 | ------ | ------------------------------------------------------------ | --------- | --------------------------------- |
 | colors | Identifica los colores por defecto asociados al tema.        | No        | [Color object](colors-object.md)  |
-| images | Identifica las imagenes por defecto asociados al tema.       | No        | [Images object](images-object.md) |
+| images | Identifica las imágenes por defecto asociados al tema.       | No        | [Images object](images-object.md) |
 | fonts  | Identifica las fuentes por defecto asociados al tema.        | No        | [Fonts object](fonts-object.md)   |
-| menu   | Identifica el menú principal por defecto asociados al tema. Debe coincidier con el `identifier` del modulo que se desea utilizar. | No | String |
+| menu   | Identifica el menú principal por defecto asociado al tema. Debe coincidier con el `identifier` del modulo que se desea utilizar. | No | String |
 
 Ejemplo:
 ```json

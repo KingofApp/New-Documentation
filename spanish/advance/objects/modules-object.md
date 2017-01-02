@@ -1,6 +1,6 @@
 # Modules objects
 
-Este objeto es uno de los más importes de toda la aplicación, su función es establecer las vistas y como se ordenan dentro de la aplicación. El objeto utiliza como clave la ruta y anidación dentro de la aplicación.
+Este objeto es uno de los más importes de toda la aplicación. Su función es establecer las vistas y configurar su ordenación dentro de la aplicación. El objeto utiliza como clave la ruta y la anidación dentro de la aplicación.
 
 Ejemplo:
 ```json
@@ -13,17 +13,17 @@ Ejemplo:
 }
 ```
 
-En el ejemplo anterios se estable 5 módulos:
+En el ejemplo anterior se establen 5 módulos:
 
 | nombre | padres      | descripción |
 | ------ | ----------- | ----------- |
-| menu   | -           | Es el módulo que permite la navegación entre los diferentes elementos. Dentro de la aplicación puede que no sea posible acceder a el de forma independiente. Sirve de soporte para los demás módulos |
+| menu   | -           | Es el módulo que permite la navegación entre los diferentes elementos. Dentro de la aplicación puede que no sea posible acceder a él de forma independiente. Sirve de soporte para los demás módulos |
 | view1  | `menu`        | Es la primera vista de la aplicación. En caso de que el menú determine que siga siendo visible, lo será. |
-| view2  | `menu`        | Tiene el mismo comportamiento que la vista anterior. Obviamente cada vista tiene sus propios datos y funcionalidad |
+| view2  | `menu`        | Tiene el mismo comportamiento que la vista anterior. Obviamente cada vista tiene sus propios datos y su propia funcionalidad |
 | view3  | `menu`        | Este módulo es un híbrido entre las vistas anteriores y el menú. Es lo que se llama un [Módulo contenedor - ToLink]() |
 | sub    | `menu` `view3` | Este submodulo actua como módulo final y comparte el espacio visual con el módulo `menu` y el módulo `view3` |
 
-Visita la sección [Module object](module-object.md) encontrar una explicación completa del objeto de definición de cada módulo.
+Visita la sección [Module object](module-object.md) para encontrar una explicación completa del objeto de configuración de cada módulo.
 
 ## Composicion de rutas
 
