@@ -1,6 +1,6 @@
 # &lt;koa-dialog&gt;
 
-Es un diálogo (tipo modal). Proporciona estilos a las cabeceras, área de contenido y área de acción para botones.
+Es una ventana emergente (tipo modal). Dicha ventana emergente puede personalizarse proporcionando estilos a las cabeceras, área de contenido y área de acción para botones.
 
 ### Demo
 
@@ -10,11 +10,11 @@ Es un diálogo (tipo modal). Proporciona estilos a las cabeceras, área de conte
 
 Propiedad personalizada | Descripción | Por defecto
 ----------------|-------------|--------
-`--dialog-background-color` | Color de fondo del dialogo | `--primary-background-color`
-`--dialog-color` | Color principal del dialogo | `--primary-text-color`
-`--dialog` | Mixin aplicado al dialogo | `{}`
-`--dialog-title` | Mixin aplicado al elemento del título (`<h2>`) | `{}`
-`--dialog-button-color` | Color principal del área de botones | `--default-primary-color`
+`--dialog-background-color` | Color de fondo de la ventana emergente. | `--primary-background-color`
+`--dialog-color` | Color principal de la ventana emergente. | `--primary-text-color`
+`--dialog` | Mixin aplicado a la ventana emergente. | `{}`
+`--dialog-title` | Mixin aplicado al elemento del título. (`<h2>`) | `{}`
+`--dialog-button-color` | Color principal del área de botones. | `--default-primary-color`
 
 ---
 
@@ -28,21 +28,21 @@ Propiedad personalizada | Descripción | Por defecto
 
 Nombre | Tipo | Descripción | Por defecto
 -----|------|-------------|--------
-*canceled* | `Boolean` | Verdadero sí la superposición se cancela cuando se cerro por última vez. | `false`
-*noCancelOnEscKey* | `Boolean` | Establece a verdadero para deshabilitar la acción de cancelar cuando se pulsa la tecla de ESC. | `false`
-*noCancelOnOutsideClick* | `Boolean` | Establece a verdadero para deshabilitar la acción de cancelar cuando se pulsa fuera del dialogo. | `false`
-*opened* | `Boolean` | Verdadero sí la superposición se muestra actualmente. | `false`
-*withBackdrop* | `Boolean` | Establece a verdadero para mostrar un backDrop detrás de la superposición. | `false`
+*canceled* | `Boolean` | Es verdadero (true) sí la ventana emergente fue cancelada cuando se cerró por última vez. | `false`
+*noCancelOnEscKey* | `Boolean` | Se establece a verdadero (true) para deshabilitar la acción de cancelar cuando se pulsa la tecla ESC. | `false`
+*noCancelOnOutsideClick* | `Boolean` | Se establece a verdadero (true) para deshabilitar la acción de cancelar cuando se pulsa fuera del dialogo. | `false`
+*opened* | `Boolean` | Es verdadero (true) sí la ventana emergente se muestra actualmente. | `false`
+*withBackdrop* | `Boolean` | Se establece a verdadero (true) para mostrar un backDrop detrás de la ventana emergente. | `false`
 
 ###### Métodos
 
 Nombre | Descripción
 -----|------------
-*cancel()* | Cancela la superposición.
-*center()* | Centra horizontalmente y verticalmente sí no esta ya posicionado. Esto tambien establece `position:fixed`.
-*close()* | Cierra la superposición.
-*open()* | Abre la superposición.
-*toggle()* | Cambia el estado de apertura de la superposición.
+*cancel()* | Cierra la ventana emergente.
+*center()* | Centra horizontalmente y verticalmente la ventana emergente sí no esta ya posicionada. Esto tambien se establece con `position:fixed`.
+*close()* | Cierra la ventana emergente.
+*open()* | Abre la ventana emergente.
+*toggle()* | Cambia el estado de apertura de la ventana emergente.
 
 #### Atributos del Host
 

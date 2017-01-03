@@ -1,8 +1,8 @@
 # &lt;koa-icon-button&gt;
 
-Es un botçon con una imagen en el centro.
+Es un botón con una imagen en el centro.
 
-Incluye un set de iconos por defecto. Usa `icon` para especificar que icono del set de iconos quieres usar.
+Incluye un set de iconos por defecto. Es necesario usar `icon` para especificar que icono del set de iconos se quiere utilizar.
 
 
 ### Demo
@@ -14,10 +14,10 @@ Incluye un set de iconos por defecto. Usa `icon` para especificar que icono del 
 
 Propiedad personalizada | Descripción | Por defecto
 ----------------|-------------|--------
-`--icon-button-disabled-text` | El color del texto del botón deshabilitado | `--disabled-text-color`
-`--icon-button` | Mixin para el botón | `{}`
-`--icon-button-disabled` | Mixin para el botón deshabilitado | `{}`
-`--icon-button-pressed-background-color` | Color de fondo cuando el botón está pulsado | `--disabled-text-color`
+`--icon-button-disabled-text` | El color del texto del botón deshabilitado. | `--disabled-text-color`
+`--icon-button` | Mixin para el botón. | `{}`
+`--icon-button-disabled` | Mixin para el botón deshabilitado. | `{}`
+`--icon-button-pressed-background-color` | Color de fondo cuando el botón está pulsado. | `--disabled-text-color`
 
 ---
 
@@ -31,9 +31,9 @@ Propiedad personalizada | Descripción | Por defecto
 
 Nombre | Tipo | Descripción | Por defecto
 -----|------|-------------|--------
-*active* | `Boolean` | Sí verdadero, el botón es un toggle y está marcado como activo. | `false`
-*pressed* | `Boolean` | Sí verdadero, el usuario está actualmente pulsando el botón. | `false`
-*toggles* | `Boolean` | Sí verdadero, el botón cambia al estado activo en cada tap o pulsando la tecla de espacio. | `false`
+*active* | `Boolean` | Si es verdadero (true), el botón es un toggle y está marcado como activo. | `false`
+*pressed* | `Boolean` | Es verdadero (true) cuando el usuario está actualmente pulsando el botón. | `false`
+*toggles* | `Boolean` | Si es verdadero (true), el botón cambia al estado activo en cada tap o pulsando la tecla de espacio. | `false`
 
 ##### [Polymer.IronControlState](https://elements.polymer-project.org/elements/iron-behaviors?active=Polymer.IronControlState)
 
@@ -41,8 +41,8 @@ Nombre | Tipo | Descripción | Por defecto
 
 Nombre | Tipo | Descripción | Por defecto
 -----|------|-------------|--------
-*disabled* | `Boolean` | Sí verdadero, el usuario no puede interactuar con este elemento. | `false`
-*focused* | `Boolean` | Sí verdadero, el elemento tiene el foco. | `false`
+*disabled* | `Boolean` | Si es verdadero (true), el usuario no puede interactuar con este elemento. | `false`
+*focused* | `Boolean` | Si es verdadero (true), el elemento tiene el foco. | `false`
 
 #### Atributos del Host
 
@@ -55,6 +55,6 @@ Atributo | Valor
 
 Nombre | Tipo | Descripción | Por defecto
 -----|------|-------------|--------
-***alt*** | `String` | Especifica el texto alternativo para el botón, para accesibilidad. | `false`
-***icon*** | `String` | Especifica el nombre del icono o el indice en el set de iconos disponible. Sií la propiedad del icono esta especificada, el src no debería. |
-***src*** | `String` | La URL de una imagen para el icono. Sí la propiedad src está especificada el icon no debería. |
+***alt*** | `String` | Especifica el texto alternativo para el botón con el objetivo de mejorar la accesibilidad. | `false`
+***icon*** | `String` | Especifica el nombre del icono o el índice en el set de iconos disponible. Si la propiedad del icono esta especificada, el src no debería estarlo. |
+***src*** | `String` | La URL de una imagen para el icono. Sí la propiedad src está especificada el icon no debería estarlo. |

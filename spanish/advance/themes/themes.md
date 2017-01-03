@@ -12,7 +12,7 @@ Una manera fácil y sencilla para crear temas rápidamente es utilizar [nuestro 
 
 Este generador nos permite crear toda la estructura de archivos y contenido que necesitamos para empezar a desarrollar el nuevo tema.
 
-Una vez tenemos el generador instalado globalmente podremos crear el tema desde cualquier lugar de nuestro sistema, aunque lo recomendado es hacerlo desde la carpeta donde está alojado el **Visualizer**.
+Una vez tenemos el generador instalado globalmente podremos crear el tema desde cualquier lugar de nuestro sistema, aunque lo recomendado es hacerlo desde la carpeta donde esté alojado el **Visualizer**.
 
 
 - **Instalación global y arranque**
@@ -48,7 +48,7 @@ Nota: `mythemename` representa el nombre del tema.
 
 **Incluir nuestro tema en el Visualizer**
 
-El **Visualizer** sirve para previsualizar los temas o módulos que vayamos a desarrollar, puedes ver aquí la documentación completa [Visualizer](../visualizer/readme.md), es decir, carga de forma dinámica los temas y módulos leyendo de un JSON como el que aparece a continuación. Por tanto, solo instanciándolo ya podemos empezar a trabajar en nuestro tema.
+El **Visualizer** sirve para previsualizar los temas o módulos que se van a desarrollar, se puede ver aquí la documentación completa [Visualizer](../visualizer/readme.md), es decir, carga de forma dinámica los temas y módulos leyendo de un JSON como el que aparece a continuación. Por tanto, solo instanciándolo ya se puede empezar a trabajar en el tema nuevo.
 
 - *app/core/structure.json:*
 ```json
@@ -66,7 +66,7 @@ El **Visualizer** sirve para previsualizar los temas o módulos que vayamos a de
   ```
 
 
-**¡Empieza con los cambios!**
+**¡Empezemos con los cambios!**
 
 * En el visualizer: `http://localhost:9001`
 * La demo de cada componente.
@@ -78,14 +78,14 @@ El **Visualizer** sirve para previsualizar los temas o módulos que vayamos a de
 
 Un componente es un conjunto de estándares para crear elementos HTML reutilizables.
 
-Por ejemplo, si desea crear un carrusel de imágenes, puede crear un nuevo elemento HTML <image-carousel> implementando todo el contenido de JavaScript (comportamiento) y de CSS (estilo) dentro del propio elemento. Después de eso, puede utilizar este elemento en cualquier parte de su documento.
+Por ejemplo, si se desea crear un carrusel de imágenes, se puede crear un nuevo elemento HTML <image-carousel> implementando todo el contenido de JavaScript (comportamiento) y de CSS (estilo) dentro del propio elemento. Después de eso, se puede utilizar este elemento en cualquier parte de su documento.
 
 
 ### Sobre los componentes
 
-Cada componente está contenido en su propio directorio y debe seguir una nomenclatura determinada (nombreDelTema-componente). Para facilitarnos mantener esta correlación, podemos utilizar el [generador de temas](#empezamos---generador-de-temas) que nos construye toda la estructura necesaria de manera automática.
+Cada componente está contenido en su propio directorio y debe seguir una nomenclatura determinada (nombreDelTema-componente). Para facilitar mantener esta correlación, se puede utilizar el [generador de temas](#empezamos---generador-de-temas) que construye toda la estructura necesaria de manera automática.
 
-Dentro de la carpeta de nuestro componente siempre debemos incluir una subcarpeta con un demo.html, que nos facilitará posteriormente el desarrollo. También será el generador quien se encargará de incluir esto de manera automática.
+Dentro de la carpeta de nuestro componente siempre se debe incluir una subcarpeta con un demo.html, que facilitará posteriormente el desarrollo. También será el generador quien se encargará de incluir esto de manera automática.
 
 - *Estructura:*
 
@@ -105,11 +105,11 @@ Cada componente contiene un `KoaBehavior` desde el que se gestionan el resto de 
 
 Elemento | Utilidad | Documentación
 ------------ | ------------- | -------------
-Behaviors | Gestiona la herencia entre propiedades y métodos | [Polymer behaviors](https://www.polymer-project.org/1.0/docs/devguide/behaviors.html)
-Host attributes | Permite definir los estilos durante la creación del componente | [Polymer host attributes](https://www.polymer-project.org/1.0/docs/devguide/registering-elements.html#host-attributes)
-Properties | Gestiona las propiedades | [Polymer properties](https://www.polymer-project.org/1.0/docs/devguide/properties.html)
-Styling | Permite utilizar CSS Customizado y Mixins | [Polymer styling](https://www.polymer-project.org/1.0/docs/devguide/styling.html)
-Methods | Métodos de Polymer expuestos | [Polymer Instance methods](https://www.polymer-project.org/1.0/docs/devguide/instance-methods)
+Behaviors | Gestiona la herencia entre propiedades y métodos. | [Polymer behaviors](https://www.polymer-project.org/1.0/docs/devguide/behaviors.html)
+Host attributes | Permite definir los estilos durante la creación del componente. | [Polymer host attributes](https://www.polymer-project.org/1.0/docs/devguide/registering-elements.html#host-attributes)
+Properties | Gestiona las propiedades. | [Polymer properties](https://www.polymer-project.org/1.0/docs/devguide/properties.html)
+Styling | Permite utilizar CSS customizado y mixins. | [Polymer styling](https://www.polymer-project.org/1.0/docs/devguide/styling.html)
+Methods | Métodos de Polymer expuestos. | [Polymer Instance methods](https://www.polymer-project.org/1.0/docs/devguide/instance-methods)
 
 
 
@@ -148,7 +148,7 @@ mythemename-button
 └── mythemename-button.html
 ```
 
-En `mythemename-button.html` puedes hacer cambios en el componente.
+En `mythemename-button.html` se pueden hacer cambios en el componente.
 
 La estructura interna:
 
@@ -405,7 +405,7 @@ También puedes utilizar otra propiedad CSS cutomizada como valor por defecto:
 
 ### Definición de fuentes
 
-Por el momento solo soportamos Google Fonts como fuentes externas.
+Por el momento solo soportamos Google Fonts como fuentes externa.
 
 En `default-theme.html` se definen las fuentes.
 
@@ -483,14 +483,14 @@ Ver [config.json > defaultConfig > colors](../objects/colors-object.md)
 
 ## Set de iconos
 
-Puedes crear set de iconos utilizando [Polymer `iron-iconset-svg`](https://elements.polymer-project.org/elements/iron-iconset-svg).
+Se puede crear un set de iconos utilizando [Polymer `iron-iconset-svg`](https://elements.polymer-project.org/elements/iron-iconset-svg).
 
 
-El componente `iron-iconset-svg` permite definir tus propios set de iconos utilizando svg.
+El componente `iron-iconset-svg` permite definir un set de iconos personalizado utilizando svg.
 
-Los componentes de icono svg deberían ser hijos del componente `iron-iconset-svg`. En el caso de crear múltiples iconos es importante definir diferentes ids para identificarlos.
+Los componentes de icono svg deberían ser hijos del componente `iron-iconset-svg`. En el caso de crear múltiples iconos es importante definir diferentes id´s para identificarlos.
 
-Si deseas dar soporte a todos los iconos, puedes utilizar [PolymerElements/iron-icons/iron-icons.html](https://github.com/PolymerElements/iron-icons/blob/master/iron-icons.html) y editar las rutas svg.
+Si se desea dar soporte a todos los iconos, se puede utilizar [PolymerElements/iron-icons/iron-icons.html](https://github.com/PolymerElements/iron-icons/blob/master/iron-icons.html) y editar las rutas svg.
 
 *Ejemplo:*
 ```html
@@ -513,9 +513,9 @@ Si deseas dar soporte a todos los iconos, puedes utilizar [PolymerElements/iron-
 
 ## Menú
 
-Este valor del config.json deberá ser un string que indique el `identifier` del módulo del tipo menú que queramos que nuestro tema tenga por defecto. El polymermenu viene definido por defecto, pero podríamos seleccionar cualquiera que esté publicado en [kingofapp](http://builder.kingofapp.com/).
+Este valor del config.json deberá ser un string que indique el `identifier` del módulo del tipo menú que tenha nuestro tema por defecto. El polymermenu viene definido por defecto, pero podríamos seleccionar cualquiera que esté publicado en [kingofapp](http://builder.kingofapp.com/).
 
-Esta propiedad solo tiene efecto de cara a subir el tema en producción, por tanto, no será necesario tener dicho menú previamente descargado, aunque si queremos ver como queda en localhost deberemos disponer del mismo.
+Esta propiedad solo tiene efecto de cara a subir el tema a producción, por tanto, no será necesario tener dicho menú previamente descargado, aunque si queremos ver como queda en localhost deberemos disponer del mismo.
 
 
 ## Más cosas del config.json
