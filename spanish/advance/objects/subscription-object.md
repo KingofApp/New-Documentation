@@ -10,6 +10,7 @@ Sí deseas que sea mediante subscripcion (pago recurrente) deberás establecer d
   "subscription": true
 }
 ```
-
 ### Referencias
-* Ver [Temas -> Más cosas del config.json](../themes/themes.md#mas-cosas-del-config.json)
+Documentación relacionada | Objetos donde se usa
+--------------------------|--------------------------
+<ul><li>[Temas -> Más cosas del config.json](../themes/themes.md#mas-cosas-del-config.json)</li></ul> | <ul></ul>

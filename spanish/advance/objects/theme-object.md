@@ -16,5 +16,7 @@ Describe todos los parámetros de un Tema:
 | status | Indica si actualmente hay alguna plantilla configurada para el entorno (Android, iOS, ...). | No | Ruta a fichero HTML |
 | isUpdated | Fichero HTML principal que contiene todos los elementos del [tema](../themes/themes.md). | Si | Ruta a fichero HTML |
 
-Más información:
-* [Como crear temas](../themes/themes.md)
+### Referencias
+Documentación relacionada | Objetos donde se usa
+--------------------------|--------------------------
+<ul><li>[Temas ->Como crear temas](../themes/themes.md)</li></ul> | <ul></ul>

@@ -12,4 +12,6 @@ Usamos las reglas de "Version Semantica", puedes ampliar esta información en el
 ´´´
 
 ### Referencias
-* Ver [Temas -> Más cosas del config.json](../themes/themes.md#mas-cosas-del-config.json)
+Documentación relacionada | Objetos donde se usa
+--------------------------|--------------------------
+<ul><li>[Temas -> Más cosas del config.json](../themes/themes.md#mas-cosas-del-config.json)</li></ul> | <ul></ul>

@@ -24,6 +24,7 @@ Este objeto indica donde va a ser visible un plugin (módulo, tema o servicio).
 
 *En el caso de los módulos, las 3 variables pueden ser usadas*
 
-
 ### Referencias
-* Ver [Temas -> Más cosas del config.json](../themes/themes.md#mas-cosas-del-config.json)
+Documentación relacionada | Objetos donde se usa
+--------------------------|--------------------------
+<ul><li>[Temas -> Más cosas del config.json](../themes/themes.md#mas-cosas-del-config.json)</li></ul> | <ul></ul>
