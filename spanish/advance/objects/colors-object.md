@@ -20,6 +20,6 @@ Especifica los colores por defecto definidos en la plataforma en RGBA. Para obte
 ```
 ##Referencias
 
-Documentación relacionada | Objetos donde se usuarios
+Documentación relacionada | Objetos donde se usa
 --------------------------|--------------------------
-<ul><li>Ver [Temas -> Color de fondo e imagen de fondo](../themes/themes.md#color-de-fondo-e-imagen-de-fondo)</li><li>Ver [Temas -> Colores](../themes/themes.md#colores)</li><li>Ver [Temas -> Definición de propiedades CSS customizadas](../themes/themes.md#definición-de-propiedades-css-customizadas)</li></ul> | <ul><li>[Config object](https://github.com/KingofApp/New-Documentation/blob/master/spanish/advance/objects/config-object.md)</li><li>[Theme default config](https://github.com/KingofApp/New-Documentation/blob/master/spanish/advance/objects/theme-default-config.md)</li><li></li></ul>
+<ul><li>[Temas -> Color de fondo e imagen de fondo](../themes/themes.md#color-de-fondo-e-imagen-de-fondo)</li><li>[Temas -> Colores](../themes/themes.md#colores)</li><li>[Temas -> Definición de propiedades CSS customizadas](../themes/themes.md#definición-de-propiedades-css-customizadas)</li></ul> | <ul><li>[Config object](https://github.com/KingofApp/New-Documentation/blob/master/spanish/advance/objects/config-object.md)</li><li>[Theme default config](https://github.com/KingofApp/New-Documentation/blob/master/spanish/advance/objects/theme-default-config.md)</li></ul>
