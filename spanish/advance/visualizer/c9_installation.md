@@ -2,6 +2,15 @@
 
 Cloud9 nos permite trabajar directamente en la nube. Para ello... c9 nos ofrece maquinas virtuales basadas en Ubuntu.
 
+[Ejemplo de solo lectura de c9 con Vislualizer](https://ide.c9.io/kingofapp/visualizer)
+
+
+Una vez tengamos una cuenta creada, procedemos a crear un nuevo espacio de trabajo "workspace"
+
+
+![Creando el espacio de trabajo](images/02createworkspace.png "Creando el espacio de trabajo")
+
+
 Tenemos dos opciones disponibles para instalarlos Visualizer en un workspace de c9.
 
 - [Instalación automática](#instalaci%C3%B3n-autom%C3%A1tica)
@@ -11,7 +20,7 @@ Partiendo de [este script](https://gist.github.com/UlisesGascon/eb476f5a77fee785
 
 - [Instalación manual](#instalaci%C3%B3n-manual)
 
-Es la solución más lenta pero nos permite alterar el proceso de instalación. Este método también esta recomendado en caso de encontrar problemas con las otras alternativas. 
+Es la solución más lenta pero nos permite alterar el proceso de instalación. Este método también esta recomendado en caso de encontrar problemas con las otras alternativas.
 
 
 ### Instalación automática
@@ -23,6 +32,14 @@ wget https://gist.githubusercontent.com/UlisesGascon/eb476f5a77fee78563bc0302632
 
 
 ### Instalación manual
+
+**Utilizaremos la siguiente configuración inicial**
+
+![Configura el entorno](images/03selectconfig.png "Configura el entorno")
+
+Añadiremos clone from Git or Mercurial URL:
+https://git@github.com/KingofApp/com.kingofapp.visualizer.git
+
 
 **Verificamos las versiones de [Node.js](https://nodejs.org/en/) y [Npm](https://www.npmjs.com/)**
 - Ejecutar en la terminal
@@ -36,48 +53,21 @@ wget https://gist.githubusercontent.com/UlisesGascon/eb476f5a77fee78563bc0302632
     2.15.9
   ```
 
-**Arreglamos el problema con [sudo](https://c9.io/blog/how-to-use-yeoman-on-cloud9/).**
-
-- Verificar que utilizamos la ruta de nuestra versión de Node.js y ejecutamos en la terminal
-
-  ```
-    echo "export NODE_PATH=$NODE_PATH:/home/ubuntu/.nvm/versions/node/v4.5.0/lib/node_modules" >> ~/.bashrc && source ~/.bashrc
-  ```
-
-
-**Actualizamos Npm e instalamos la dependencias globales ([Gulp](http://gulpjs.com/), [Grunt](http://gruntjs.com/), [Bower](https://bower.io/), [Yeoman](http://yeoman.io/))**
-  ```
-    npm update -g npm && npm install -g gulp && npm install -g grunt && npm install -g bower && npm install -g yo && yo doctor
-  ```
-
-  - Resultado esperado:
-  ```
-    Yeoman Doctor
-    Running sanity checks on your system
-
-    ✔ Global configuration file is valid
-    ✔ Node.js version
-    ✔ No .bowerrc file in home directory
-    ✔ No .yo-rc.json file in home directory
-    ✔ npm version
-    ✔ NODE_PATH matches the npm root
-  ```
-
-  **Descargar e instalar de Koapp Visualizer**
-
-  - Ejecutar en la terminal
-
-    ```
-    git clone -b dev https://git@github.com/KingofApp/com.kingofapp.visualizer.git && cd com.kingofapp.visualizer
-    ```
-
   **Ajustar Visualizer al entorno de C9.io (puertos)**
 
   - Sustituir *Grunfile.js* con los datos de *[este archivo](https://gist.github.com/UlisesGascon/54acff02948964554726708f04a25937#file-gruntfile-js)*
+
+  ![Cambia el grunt file](images/04changegrunt.png "Cambia el grunt file")
+
   - Sustituir *gulp-tasks/serve.js* con los datos de *[este archivo](https://gist.github.com/UlisesGascon/54acff02948964554726708f04a25937#file-serve-js)*
+
+  ![Cambia el archivo de serve](images/05changeserve.png "Cambia el archivo de serve")
+
+
     - Ejecutar en la terminal
   ```
     npm start
   ```
-  - Abre una nueva pestaña con esta URL: `https://<workspacename>-<username>.c9users.io`
+  - Abre una nueva pestaña con esta URL: `https://<workspacename>-<username>.c9users.io` o pulsa sobre el boton de prvisualizar
 
+  ![Ejecuta el visualizer](images/06execute.png "Ejecuta el visualizer")
