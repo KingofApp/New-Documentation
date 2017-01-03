@@ -27,4 +27,6 @@ En el caso de themes, solo será necesario establecer el background dentro del o
 
 
 ### Referencias
-* Ver [Temas -> Color de fondo e imagen de fondo](../themes/themes.md#color-de-fondo-e-imagen-de-fondo)
+Documentación relacionada | Objetos donde se usa
+--------------------------|--------------------------
+<ul><li>[Temas -> Color de fondo e imagen de fondo](../themes/themes.md#color-de-fondo-e-imagen-de-fondo)</li></ul> | <ul><li>[Config object](https://github.com/KingofApp/New-Documentation/blob/master/spanish/advance/objects/config-object.md)</li></ul>
