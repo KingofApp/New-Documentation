@@ -47,7 +47,20 @@ Ejemplo bower.json:
 }
 ```
 
-## Referencias
+Ádemas es necesario el archivo `.bowerrc` dentro de la carpeta del modulo. Es muy importante posicionar la ruta correcta, esta es la configuración recomendada.
+
+```json
+{
+  "directory" : "../../bower_components"
+}
+```
+
+**Instalar y eliminar dependencias**
+
+La instalación y eliminación se realiza utilizando [bower desde la terminal](https://bower.io/#install-packages). Además es necesario reflejar los cambios en *../app/modules/XXXX/config.json*, *../app/core/structure.json* y *../app/modules/XXXX/bower.json*
+
+
+### Referencias
 
 Documentación relacionada | Módulos de ejemplo donde se usa
 --------------------------|--------------------------
