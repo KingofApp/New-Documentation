@@ -11,7 +11,7 @@ Es un campo de texto simple.
 
 ### Estilos
 
-Ver [<koa-input-container>](#koa-input-container) para obtener la lista de las propiedades personalizadas usadas para utilizar el elemento.
+Ver [koa-input-container](#koa-input-container) para obtener la lista de las propiedades personalizadas usadas para utilizar el elemento.
 
 ---
 
@@ -93,7 +93,7 @@ Es un campo de texto multilínea.
 
 ### Styling
 
-Ver [<koa-input-container>](#koa-input-container) para el listado de las propiedades personalizadas usadas para estilizar este elemento.
+Ver [koa-input-container](#koa-input-container) para el listado de las propiedades personalizadas usadas para estilizar este elemento.
 
 ---
 
@@ -187,7 +187,7 @@ Nombre | Tipo | Descripción | Por defecto
 
 ## &lt;koa-input-error&gt;
 
-Es un mensaje de error usado con el  [<koa-input-container>](#koa-input-container) . El error se muestra cuando el `<koa-input-container>` es `invalid`.
+Es un mensaje de error usado con el  [koa-input-container](#koa-input-container) . El error se muestra cuando el `<koa-input-container>` es `invalid`.
 
 ### Estilos
 
@@ -214,7 +214,7 @@ Atributo | Valor
 
 Nombre | Descripción
 -----|------------
-***update()*** | La función llamada por el  [<koa-input-container>](#koa-input-container)  cuando el valor del input o la validez cambia.
+***update()*** | La función llamada por el  [koa-input-container](#koa-input-container)  cuando el valor del input o la validez cambia.
 
 #### Propiedades
 
@@ -225,7 +225,7 @@ Nombre | Tipo | Descripción | Por defecto
 
 ## &lt;koa-input-char-counter&gt;
 
-Es un contador de caracteres usado con el  [<koa-input-container>](#koa-input-container) . Muestra el número de caracteres insertados en el input y el tamaño máximo de este si está definido.
+Es un contador de caracteres usado con el  [koa-input-container](#koa-input-container) . Muestra el número de caracteres insertados en el input y el tamaño máximo de este si está definido.
 
 ### Estilos
 
@@ -251,4 +251,4 @@ Atributo | Valor
 
 Nombre | Descripción
 -----|------------
-***update()*** | La función llamada por el [<koa-input-container>](#koa-input-container) cuando el valor del input o la validez cambia.
+***update()*** | La función llamada por el [koa-input-container](#koa-input-container) cuando el valor del input o la validez cambia.
