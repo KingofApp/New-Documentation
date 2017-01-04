@@ -16,7 +16,8 @@ Especifica las dos fuentes disponibles para la aplicación. Actualmente solo es 
 ```
 
 
-### Referencias
+## Referencias
+
 Documentación relacionada | Objetos donde se usa
 --------------------------|--------------------------
 <ul><li>[Temas -> Definición de fuentes](../themes/themes.md#definición-de-fuentes)</li></ul> | <ul><li>[Config object](https://github.com/KingofApp/New-Documentation/blob/master/spanish/advance/objects/config-object.md)</li></ul>

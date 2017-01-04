@@ -87,11 +87,8 @@ Recomendamos encarecidamente incluir esta funcionalidad en los menús que tengan
   </koa-toolbar>
 ```
 
-#### Lista de menus
+#### Referencias
 
-* [koapp-module-polymermenu](https://github.com/KingofApp/koapp-module-polymermenu)
-* [koapp-module-fullmenu](https://github.com/KingofApp/koapp-module-fullmenu)
-* [koapp-module-topmenu](https://github.com/KingofApp/koapp-module-topmenu)
-* [koapp-module-boxmenu](https://github.com/KingofApp/koapp-module-boxmenu)
-* [koapp-module-bottommenu](https://github.com/KingofApp/koapp-module-bottommenu)
-* [koapp-module-angularmenu](https://github.com/KingofApp/koapp-module-angularmenu)
+Documentación relacionada | Lista de menús
+--------------------------|--------------------------
+<ul></ul> | <ul><li>[koapp-module-polymermenu](https://github.com/KingofApp/koapp-module-polymermenu)</li><li>[koapp-module-fullmenu](https://github.com/KingofApp/koapp-module-fullmenu)</li><li>[koapp-module-topmenu](https://github.com/KingofApp/koapp-module-topmenu)</li><li>[koapp-module-boxmenu](https://github.com/KingofApp/koapp-module-boxmenu)</li><li>[koapp-module-bottommenu](https://github.com/KingofApp/koapp-module-bottommenu)</li><li>[koapp-module-angularmenu](https://github.com/KingofApp/koapp-module-angularmenu)</li></ul>

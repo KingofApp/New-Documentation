@@ -291,6 +291,8 @@ PDFJS.workerSrc = $filter('loadUrl')('modules/pdfviewer/pdfjs/pdf.worker.js');
 ```
 Un ejemplo de un módulo que soporta este filtro sería  [pdfviewer module](https://github.com/KingofApp/koapp-module-pdfviewer).
 
-**Ejemplo**
+## Referencias
 
-Un ejemplo de un módulo que integra un filtro personalizado sería el módulo [demo-filtersample](https://github.com/KingofApp/koapp-demo-filtersample)
+Documentación relacionada | Módulos de ejemplo donde se usa
+--------------------------|--------------------------
+<ul></ul> | <ul><li>[demo-filtersample](https://github.com/KingofApp/koapp-demo-filtersample)</li></ul>

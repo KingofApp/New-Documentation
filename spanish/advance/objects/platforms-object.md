@@ -12,7 +12,8 @@ Es un array utilizado dentro de un módulo, un tema o un servicio, que indica pa
   ]
 }
 ´´´
-### Referencias
+## Referencias
+
 Documentación relacionada | Objetos donde se usa
 --------------------------|--------------------------
-<ul><li>[Temas -> Más cosas del config.json](../themes/themes.md#mas-cosas-del-config.json)</li></ul> | <ul></ul>
+<ul><li>[Temas -> Más cosas del config.json](../themes/themes.md#más-cosas-del-configjson)</li></ul> | <ul></ul>

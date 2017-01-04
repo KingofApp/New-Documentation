@@ -520,8 +520,7 @@ Esta propiedad solo tiene efecto de cara a subir el tema a producción, por tant
 
 ## Más cosas del config.json
 
-* Ver [config.json > price](../objects/price-object.md)
-* Ver [config.json > subscription](../objects/subscription-object.md)
-* Ver [config.json > showOn](../objects/showon-object.md)
-* Ver [config.json > platforms](../objects/platforms-object.md)
-* Ver [config.json > version](../objects/version-object.md)
+Documentación relacionada | Ejemplos de uso
+--------------------------|--------------------------
+
+<ul><li>[config.json > price](../objects/price-object.md)</li><li>[config.json > subscription](../objects/subscription-object.md)</li><li>[config.json > showOn](../objects/showon-object.md)</li><li>[config.json > platforms](../objects/platforms-object.md)</li><li>[config.json > version](../objects/version-object.md)</li></ul> | <ul></ul>

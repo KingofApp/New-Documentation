@@ -47,9 +47,9 @@ Ejemplo bower.json:
 }
 ```
 
-### Ejemplos
+## Referencias
 
-Ejemplos de módulos que hacen uso del apartado libs:
+Documentación relacionada | Módulos de ejemplo donde se usa
+--------------------------|--------------------------
 
-* [OpenWeatherMap module](https://github.com/KingofApp/koapp-module-openweathermap)
-* [Googlemap module](https://github.com/KingofApp/koapp-module-googlemap)
+<ul></ul> | <ul><li>[OpenWeatherMap module](https://github.com/KingofApp/koapp-module-openweathermap)</li><li>[Googlemap module](https://github.com/KingofApp/koapp-module-googlemap)</li></ul>

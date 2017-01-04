@@ -397,7 +397,6 @@ El [generador de Módulos](https://www.npmjs.com/package/generator-koapp-module)
 
 **[Leer más](testing.md)**
 
-
 ### Ejemplo
 
 - **[Módulo OpenweatherMap](https://github.com/KingofApp/koapp-module-openweathermap)**

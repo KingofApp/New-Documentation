@@ -9,6 +9,7 @@ Un iconset es un set de iconos con unos elementos determinados. Para obtener má
 }
 ```
 ### Referencias
+
 Documentación relacionada | Objetos donde se usa
 --------------------------|--------------------------
 <ul></ul> | <ul><li>[Config object](https://github.com/KingofApp/New-Documentation/blob/master/spanish/advance/objects/config-object.md)</li></ul>
