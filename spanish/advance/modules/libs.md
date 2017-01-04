@@ -51,5 +51,4 @@ Ejemplo bower.json:
 
 Documentación relacionada | Módulos de ejemplo donde se usa
 --------------------------|--------------------------
-
 <ul></ul> | <ul><li>[OpenWeatherMap module](https://github.com/KingofApp/koapp-module-openweathermap)</li><li>[Googlemap module](https://github.com/KingofApp/koapp-module-googlemap)</li></ul>
