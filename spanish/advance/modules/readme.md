@@ -218,48 +218,6 @@ Clave | Descripción | Valor por defecto
 `canContain` | Define si nuestro módulo puede soportar otros módulos dentro de si mismo, como los menús | False
 `searchable` | Define si nuestro módulo soporta al módulo de búsqueda. | False
 
-
-### Dependencias del módulo
-
-- `.bowerrc`. Es muy importante posicionar la ruta correcta, esta es la configuración recomendada.
-
-```json
-{
-  "directory" : "../../bower_components"
-}
-```
-
-- `bower.json`
-
-```json
-
-{
-  "name": "koapp-module-googlemap",
-  "authors": "King of App",
-  "description": "googlemap module for King of App",
-  "keywords": [
-    "kingofapp",
-    "module"
-  ],
-  "license": "MIT",
-  "homepage": "http://kingofapp.com",
-  "private": true,
-  "dependencies": {
-    "google-map": "GoogleWebComponents/google-map#^1.1.0"
-  }
-}
-```
-
-
-**Instalar y eliminar dependencias**
-
-La instalación y eliminación se realiza utilizando [bower desde la terminal](https://bower.io/#install-packages). Además es necesario reflejar los cambios en *config.json* y *../app/core/structure.json*
-
-**Libs**
-
-
-**Deps**
-
 ### Estructura interna
 
 Una vez tenemos toda la estructura de archivos y configuración correctamente implementados... podemos centrarnos en la funcionalidad de nuestro módulo.
