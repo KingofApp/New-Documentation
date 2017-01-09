@@ -60,7 +60,7 @@ testmodule
 
 ### Incluyendo el módulo en Koapp Visualizer
 
-Los módulos también deben registrarse dentro de nuestro archivo `structure.json`.
+Para añadir nuestros módulos a la aplicación deben registrarse dentro del archivo [structure.json](../objects/structure.json.md).
 
 Debemos indicar diversos parámetros, estos  parámetros determinarán y definirán la relación entre nuestros módulo y el Visualizer.
 
@@ -101,26 +101,14 @@ Nota: Es importante utilizar nombres que tengan sentido y respeten la misma filo
 }
 ```
 
-- **Explicación**
-
-Definimos la ruta (*/ruta-mapa*) y su configuración.
-
-Clave | Descripción | Valor por defecto
-----------------|-------------|--------
-`name` | Nombre que se muestra en el menu | ""
-`identifier` | El nombre único con el que se registró el módulo y sus ficheros.(Solo están permitidos los caracteres alfabéticos) | ""
-`type` | Tipo de módulo. "A" -> Angular. | ""
-`icon` | Icono del módulo. Puede ser uno de los iconos de [iron-icons](https://elements.polymer-project.org/bower_components/iron-icons/demo/index.html) o customizado (url) | ""
-`showOn.market` | Define si el spinner puede ser utilizado por los usuarios. | true
-`view` | Define la ruta a la vista  | ""
-`files` | Array que define los archivos(js, css...) necesarios para lanzar el módulo. | []
-`libs` | Array que define las dependencias (bower) necesarias para lanzar el módulo | []
-`scope` | Objeto que inyecta los valores por defecto al scope del módulo `$scope.{identificador_del_módulo}.modulescope` | {}
-
-
 ### Configuración del Módulo
 
-El propio módulo tiene un archivo de configuración que determinará ciertos aspectos técnicos y también nos aportará todos los metadatos necesarios (autor, precio, versión, descripciones, etc...) para poder ubicar correctamente tu módulo en nuestro market una vez haya sido validado y publicado.
+El propio módulo tiene un archivo de configuración que determinará trabajar en dos areas:
+
+* Configurar aspectos técnicos del módulo, como puede ser definir los ficheros a utilizar, dependencias, variables, etc, y
+* Definir todos los metadatos necesarios (autor, precio, versión, descripciones, etc) para poder ubicar correctamente tu módulo en nuestro market una vez haya sido validado y publicado.
+
+Para ver en detalle cada uno de los parámetros de configuración del modulo visita la sección [Module object](../objects/module-object.md).
 
 
 - **config.json**
