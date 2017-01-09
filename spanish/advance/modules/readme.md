@@ -343,6 +343,14 @@ El [generador de Módulos](https://www.npmjs.com/package/generator-koapp-module)
 
 **[Leer más](testing.md)**
 
+### [Widget de administración para modulos](widget.md)
+
+Los módulos de King of App pueden registrar widgets en el Builder para tareas de administración en módulos que utilicen contenidos de terceros.
+
+Como puede ser un modulo de lista de contactos donde esta sección se utilizara para introducir los datos que posteriormente listará el módulo.
+
+**[Leer más](widget.md)**
+
 ### Ejemplo
 
 - **[Módulo OpenweatherMap](https://github.com/KingofApp/koapp-module-openweathermap)**
