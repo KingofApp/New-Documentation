@@ -11,3 +11,7 @@
 | iconset | Set de iconos utilizado en la aplicación                                 | Si        |   [IconSet object](iconset-object.md) |
 | theme | Nombre del tema activo. Debe ser uno de los incluidos en la sección Themes del objeto de configuración | Si | String |
 | spinner | Datos del spinner que se deasea utilizar en la aplicación | Si | [Spinner object](spinner-object.md)
+
+## Objetos donde se usa
+
+ <ul><li>[Structure.json](structure.json.md)</li></ul>
