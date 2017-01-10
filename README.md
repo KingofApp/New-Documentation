@@ -79,7 +79,7 @@ Tema | Estado
 —— [Ejemplo Sencillo](spanish/advance/modules/example.md) | :x:
 —— [Ejemplo Avanzado](spanish/advance/modules/advance_example.md) | :x:
 — [Services](spanish/advance/services.md) | [:globe_with_meridians:](http://docs.kingofapp.com/services/) :large_orange_diamond: :neckbeard:
-— [Objetos](spanish/advance/objetcs.md) | :sunrise:
+— [Objetos](spanish/advance/objetcs/readme.md) | :sunrise:
 — [API](spanish/advance/api.md) | :lock: :x:
 **[Comunidad](spanish/community/readme.md)** | :x:
 — [Eventos](spanish/community/events.md) | :x:
