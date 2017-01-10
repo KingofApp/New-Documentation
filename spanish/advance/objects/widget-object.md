@@ -15,10 +15,11 @@ Ejemplo:
 ```json
 {
   "title": "Push - Open Signals",
-  "url"  : "/services/my-module/widget"
+  "url"  : "/services/my-module/widget/index.html"
 }
 ```
 
+### Referencias
 
 Documentación relacionada | Objetos donde se usa
 --------------------------|--------------------------

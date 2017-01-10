@@ -125,4 +125,4 @@ koappComm.iframe.close();
 
 Documentación relacionada | Módulos de ejemplo donde se usa
 --------------------------|--------------------------
-<ul></ul> | <ul><li>[Autoconfig facebookfeed module](https://github.com/KingofApp/koapp-module-facebookfeed)</li></ul>
+<ul><li>[Module object object](../objects/widget-object.md)</li></ul> | <ul><li>[Autoconfig facebookfeed module](https://github.com/KingofApp/koapp-module-facebookfeed)</li></ul>
