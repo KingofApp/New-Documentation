@@ -24,7 +24,7 @@ A continuación puedes encontrar una lista completa de todos los objetos que se 
 | —— [Module requires object](module-requires-object.md) |
 | —— [ShowOn object](showon-object.md)                   |
 | —— [Plugin images object](plugin-images-object.md)     |
-| —— [Widget object](widget-object.md) {no documentado}  |
+| —— [Widget object](widget-object.md)                   |
 | —— [IframeRequest object](iframeRequest-object.md)     |
 | [Services object](services-object.md)                  |
 | — [Module object](module-object.md)                    |
@@ -33,5 +33,5 @@ A continuación puedes encontrar una lista completa de todos los objetos que se 
 | —— [Module requires object](module-requires-object.md) |
 | —— [ShowOn object](showon-object.md)                   |
 | —— [Plugin images object](plugin-images-object.md)     |
-| —— [Widget object](widget-object.md) {no documentado}  |
+| —— [Widget object](widget-object.md)                   |
 | —— [IframeRequest object](iframeRequest-object.md)     |

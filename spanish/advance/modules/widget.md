@@ -1,8 +1,8 @@
-# Widgets en modulos
+# Widgets en módulos
 
-### Administración para modulos
+### Administración para módulos
 
-Los modulos pueden registrar widgets en el Builder a modo de administración para añadir una experiencia post-app a los modulos / servicios. El Builder se encargara de pinchar como iFrame esta seccion para los usuarios que tengan el módulo configurado.
+Los módulos pueden registrar widgets en el Builder a modo de administración para añadir una experiencia post-app a los módulos / servicios. El Builder se encargara de pinchar como iFrame esta seccion para los usuarios que tengan el módulo configurado.
 
 Por ejemplo un módulo de noticias podrá declarar este widget en el Builder para que posteriormente los usuarios que lo tengan montado en una aplicación puedan acceder a este area para insertar las noticias.
 
@@ -125,4 +125,4 @@ koappComm.iframe.close();
 
 Documentación relacionada | Módulos de ejemplo donde se usa
 --------------------------|--------------------------
-<ul><li>[Module object object](../objects/widget-object.md)</li></ul> | <ul><li>[Autoconfig facebookfeed module](https://github.com/KingofApp/koapp-module-facebookfeed)</li></ul>
+<ul><li>[Module object](../objects/widget-object.md)</li></ul> | <ul><li>[Autoconfig facebookfeed module](https://github.com/KingofApp/koapp-module-facebookfeed)</li></ul>

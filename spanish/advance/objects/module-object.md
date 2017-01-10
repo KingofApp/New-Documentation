@@ -23,5 +23,5 @@
 | createdAt | Fecha de creación del módulo. | No | ISO Date |
 | images   | Imágenes promocionales del módulo. | No | [Plugin images object](plugin-images-object.md) |
 | uniqueId | Id único que identifica el módulo dentro de las rutas de navegación. | No | webview-vPXgu |
-| widget   | Agrupa los datos necesarios para renderizar en el Builder la sección de [administración ToDo]() de cualquier módulo. En caso de no estar definido, se asumirá que el módulo no permite ser administrado. | No | [Widget object (TODO)](widget-object.md) |
+| widget   | Agrupa los datos necesarios para renderizar en el Builder la sección de [administración](../modules/widget.md) de cualquier módulo. En caso de no estar definido, se asumirá que el módulo no permite ser administrado. | No | [Widget object](widget-object.md) |
 | iframeRequest | Permite configurar la comunicación del iframe utilizado en el widget de adminitración. | No | [IframeRequest object](iframeRequest-object.md) |

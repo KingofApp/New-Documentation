@@ -23,4 +23,4 @@ Ejemplo:
 
 Documentación relacionada | Objetos donde se usa
 --------------------------|--------------------------
-<ul><li>[Widgets en modulos](../modules/widget.md)</li></ul> | <ul><li>[Module object object](module-object.md)</li></ul>
+<ul><li>[Widgets en módulos](../modules/widget.md)</li></ul> | <ul><li>[Module object object](module-object.md)</li></ul>
