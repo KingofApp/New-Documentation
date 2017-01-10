@@ -4,10 +4,10 @@ Este objeto se utiliza únicamente para configurar las comunicaciones entre los 
 
 El objeto se divide en dos apartados:
 
-| Clave | Descripción                                                            | Requerido | Formato             |
-| ----- | ---------------------------------------------------------------------- | --------- | ------------------- |
+| Clave | Descripción                                                              | Requerido | Formato             |
+| ----- | ------------------------------------------------------------------------ | --------- | ------------------- |
 | urls  | Especifica las URLs a las que el widget podrá conectarse de forma segura | Si        | Iframe URLs object  |
-| vars  | Indica las variable con las que se trabajará en la conexión segura     | Si        | Iframe Vars object  |
+| vars  | Indica las variable con las que se trabajará en la conexión segura       | Si        | Iframe Vars object  |
 
 ## Iframe URLs object
 
