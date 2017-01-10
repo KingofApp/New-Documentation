@@ -11,7 +11,7 @@ Los widget de administración se registran en el apartado widget del structure.j
 ```json
 "widget": {
   "title": "Admin - Test module",
-  "url": "/modules/testmodule/widget/#/index"
+  "url": "/modules/testmodule/widget/index.html"
 },
 ```
 
@@ -24,7 +24,7 @@ El nuevo elemento de tipo frame se registra dentro del config del structure.json
 "config": [{
     "type": "frame",
     "templateOptions": {
-      "url": "/modules/testmodule/builder/#/config",
+      "url": "/modules/testmodule/builder/config.html",
       "label": "Iframe config button",
       "buttonText": "Config Service",
       "description": "",
