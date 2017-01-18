@@ -10,7 +10,7 @@ Para aquellos desarrolladores que no se hayan aventurado todavía con el desarro
 
 ### Generador de Módulos.
 
-Una manera fácil y sencilla para crear módulos rápidamente es utilizar [nuestro generador](https://www.npmjs.com/package/generator-koapp-modules). Este generador se basa en [Yeoman](http://yeoman.io/) al igual que otros generadores que utilizamos en King of App.
+Una manera fácil y sencilla para crear módulos rápidamente es utilizar [nuestro generador](https://www.npmjs.com/package/generator-koapp-module). Este generador se basa en [Yeoman](http://yeoman.io/) al igual que otros generadores que utilizamos en King of App.
 
 Este generador nos permite crear toda la estructura de archivos y contenido que necesitamos para empezar a desarrollar las nuevas funcionalidades.
 
