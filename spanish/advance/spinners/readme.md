@@ -130,7 +130,6 @@ Clave | Descripción | Valor por defecto
 ```html
 <link rel="import" href="../../bower_components/polymer/polymer.html">
 <link rel="import" href="../../bower_components/koa-behaviors/koa-spinner-behavior.html">
-
 <dom-module id="koapp-spinner-template">
   <template strip-whitespace>
     <style>
@@ -138,12 +137,9 @@ Clave | Descripción | Valor por defecto
 
       /* fin CSS */
     </style>
-
     <!-- HTML del spinner -->
-
     <!-- fin HTML -->
   </template>
-
   <script>
     Polymer({
       is: 'koapp-spinner-template',
