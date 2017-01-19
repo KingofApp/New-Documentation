@@ -187,13 +187,13 @@ Clave | Descripción | Valor por defecto
 `files` | Array de ficheros que cargaran antes que el módulo | []
 `libs` | Array de dependencias de Bower requeridas por nuestro módulo | []
 `deps` | Array de dependencias con Phonegap. | []
-`scope` | Objeto que inyecta los valores por defecto al scope del módulo `$scope.{identificador_del_módulo}.modulescope` | {}
-`config` | Configuración de los ajustes en Koapp Builder | {}
-`images.list` | Imagen utilizada modo lista del Koapp Builder | ""
-`images.screenshots` | Capturas de pantalla de nuestro módulo en funcionamiento | {}
-`images.popover` | Nuestro Popover | ""
-`images.banner` | Nuestro Banner | ""
-`images.logo` | Nuestro Logo | ""
+`scope` | Objeto que inyecta las variables al scope del módulo `$scope.{identificador_del_módulo}.modulescope`. Aquí definiremos todos los valores que queremos que nuestro módulo contenga por defecto. | {}
+`config` | Configuración de los ajustes en Koapp Builder. Utilizaremos esta propiedad para configurar todas las opciones que queremos que el usuario sea capaz de modificar a la hora de crear una nueva sección con nuestro módulo desde el Koapp Builder. | {}
+`images.list` | String la localización (dentro de la carpeta del módulo) de la imagen que se mostrará cuando listamos nuestra imagen en el Koapp Builder | ""
+`images.screenshots` | Array la/s localización/es (dentro de la carpeta del módulo) de las imágenes de nuestro módulo en funcionamiento | "[]"
+`images.popover` | String con la localización (dentro de la carpeta del módulo) de la imagen del popover de nuestro módulo | ""
+`images.banner` | String con la localización (dentro de la carpeta del módulo) de la imagen del banner de nuestro módulo | ""
+`images.logo` | String con la localización (dentro de la carpeta del módulo) de la imagen del logo de nuestro módulo | ""
 
 
 - **Opciones avanzadas**
