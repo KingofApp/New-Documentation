@@ -3,24 +3,11 @@
 Los spinners se construyen con Polymer, como un elemento más.
 
 
-### Generador de Spinners.
+### Empezamos - Crear Spinners.
 
-Una manera fácil y sencilla para crear spinners es utilizar [nuestro generador](https://www.npmjs.com/package/generator-koapp-spinner). Este generador se basa en [Yeoman](http://yeoman.io/) al igual que otros generadores que utilizamos en King of App. Una vez tenemos el generador instalado globalmente podremos crear spinners desde cualquier lugar de nuestro sistema, aunque lo recomendado es hacerlo desde la carpeta donde esta alojado el Visualizer.
+Una manera fácil y sencilla para crear spinners es utilizar [nuestra herramienta de línea de comandos](../koapp_cli/readme.md).
 
-
-- **Instalación global y arranque**
-
-```bash
-npm install -g generator-koapp-spinner && yo koapp-spinner
-```
-
-- **Rellenamos los datos necesarios...**
-
-
-![spinner_1](../../screenshots/spinner_1.png)
-
-
-Las preguntas son sencillas y completarán toda la estructura de elementos de Polymer necesaria para crear un spinner. Solo necesitas editar el archivo *html* e incluir tus estilos (Css), estructura (Html) y lógica (JavaScript). Puedes encontrar comentarios que te ayudaran a ubicarte mejor dentro del archivo.
+Una vez tenemos la herramienta de línea de comandos instalada globalmente podremos crear spinners desde cualquier lugar de nuestro sistema, aunque lo recomendado es hacerlo desde la carpeta donde esta alojado el **Visualizer**.
 
 
 ### Estructura

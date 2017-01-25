@@ -6,26 +6,17 @@ Un tema es un conjunto de componentes con un estilo propio. Creando un tema podr
 Un tema desarrollado para King of App se compone de un conjunto de componentes de [Polymer](https://www.polymer-project.org).
 
 
-### Empezamos - Generador de temas.
+### Empezamos - Crear temas.
 
-Una manera fácil y sencilla para crear temas rápidamente es utilizar [nuestro generador](https://www.npmjs.com/package/generator-koa-theme). Este generador se basa en [Yeoman](http://yeoman.io/) al igual que otros generadores que utilizamos en King of App.
+Una manera fácil y sencilla para crear temas rápidamente es utilizar [nuestra herramienta de línea de comandos](../koapp_cli/readme.md).
 
-Este generador nos permite crear toda la estructura de archivos y contenido que necesitamos para empezar a desarrollar el nuevo tema.
+Con esta herramienta podemos generar toda la estructura de archivos y contenido que necesitamos para empezar a desarrollar el nuevo tema.
 
-Una vez tenemos el generador instalado globalmente podremos crear el tema desde cualquier lugar de nuestro sistema, aunque lo recomendado es hacerlo desde la carpeta donde esté alojado el **Visualizer**.
+Una vez tenemos la herramienta de línea de comandos instalada globalmente podremos crear el tema desde cualquier lugar de nuestro sistema, aunque lo recomendado es hacerlo desde la carpeta donde esté alojado el **Visualizer**.
 
+### Estructura
 
-- **Instalación global y arranque**
-
-```bash
-npm install -g generator-koa-theme && cd com.kingofapp.visualizer/app/themes && yo koa-theme mythemename
-```
-
-Nota: `mythemename` representa el nombre del tema.
-
-
-**Estructura Generada**
-
+Esta es la estructura básica de un módulo. El módulo tiene una estructura similar a otros elementos (spinners, temas, etc...) y requiere de su carpeta con los diversos archivos de configuración.
 ```
   koapp-theme-mythemename
   ├── elements

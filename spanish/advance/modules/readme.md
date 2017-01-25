@@ -8,28 +8,13 @@ Si ya estas familiarizado con el desarrollo de módulos en Angular, no necesitar
 Para aquellos desarrolladores que no se hayan aventurado todavía con el desarrollo web con Angular... hemos preparado una [pequeña guía]() de ayuda para hacerte el camino del aprendizaje más fácil, centrándonos solamente en aquellas partes de Angular.js que resultan relevantes para desarrollar Apps con nosotros.
 
 
-### Generador de Módulos.
+### Empezamos - Crear módulos
 
-Una manera fácil y sencilla para crear módulos rápidamente es utilizar [nuestro generador](https://www.npmjs.com/package/generator-koapp-module). Este generador se basa en [Yeoman](http://yeoman.io/) al igual que otros generadores que utilizamos en King of App.
+Una manera fácil y sencilla para crear módulos rápidamente es utilizar [nuestra herramienta de línea de comandos](../koapp_cli/readme.md).
 
-Este generador nos permite crear toda la estructura de archivos y contenido que necesitamos para empezar a desarrollar las nuevas funcionalidades.
+Con esta herramienta podemos crear toda la estructura de archivos y contenido que necesitamos para empezar a desarrollar el nuevo módulo.
 
-Una vez tenemos el generador instalado globalmente podremos crear módulos desde cualquier lugar de nuestro sistema, aunque lo recomendado es hacerlo desde la carpeta donde esta alojado el Visualizer.
-
-
-- **Instalación global y arranque**
-
-```bash
-npm install -g generator-koapp-module && yo koapp-module
-```
-
-- **Rellenamos los datos necesarios...**
-
-
-![technical_modules_1](../../screenshots/technical_modules_1.png)
-
-
-Las preguntas son sencillas y autocompletarán toda la estructura de archivos necesaria para crear un módulo. Solo necesitas editar los archivos *config.json*, *controller.js*, *index.html*, etc... Puedes encontrar comentarios que te ayudaran a ubicarte mejor dentro de cada archivo, además de documentación específica.
+Una vez tenemos la herramienta de línea de comandos instalada globalmente podremos crear módulos desde cualquier lugar de nuestro sistema, aunque lo recomendado es hacerlo desde la carpeta donde estan alojados en el **Visualizer**.
 
 
 ### Estructura
@@ -103,7 +88,7 @@ Nota: Es importante utilizar nombres que tengan sentido y respeten la misma filo
 
 ### Configuración del Módulo
 
-El propio módulo tiene un archivo de configuración que determinará trabajar en dos areas:
+El propio módulo tiene un archivo de configuración que determinará trabajar en dos áreas:
 
 * Configurar aspectos técnicos del módulo, como puede ser definir los ficheros a utilizar, dependencias, variables, etc, y
 * Definir todos los metadatos necesarios (autor, precio, versión, descripciones, etc) para poder ubicar correctamente tu módulo en nuestro market una vez haya sido validado y publicado.
@@ -338,8 +323,6 @@ Además los menús tienen la particularidad de actuar como padres de otros módu
 El testeo de nuestro código juega un papel crucial para preveenir errores.
 
 En King of App recomendamos realizar al menos test de integración (e2e).
-
-El [generador de Módulos](https://www.npmjs.com/package/generator-koapp-module) ya incluye ejemplos.
 
 **[Leer más](testing.md)**
 
