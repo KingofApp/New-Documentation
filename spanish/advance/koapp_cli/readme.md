@@ -61,4 +61,8 @@ Una vez que hayamos creado y configurado nuestra aplicación, podremos previsual
 koapp serve
 ```
 
-Este comando lanzará el visualizer en nuestro navegador y nos permitirá ver nuestra aplicación.
+Este comando lanzará el visualizer en nuestro navegador y nos permitirá ver los progresos en el desarrollo de nuestra aplicación.
+
+### Help
+
+Si necesitamos saber las opciones que nos ofrece Koapp CLI podemos servirnos del comando ``help`` para consultar una pequeña ayuda de un comando concreto o simplemente consultar la lista de comandos disponibles
