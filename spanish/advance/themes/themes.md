@@ -74,9 +74,9 @@ Por ejemplo, si se desea crear un carrusel de imágenes, se puede crear un nuevo
 
 ### Sobre los componentes
 
-Cada componente está contenido en su propio directorio y debe seguir una nomenclatura determinada (nombreDelTema-componente). Para facilitar mantener esta correlación, se puede utilizar el [generador de temas](#empezamos---generador-de-temas) que construye toda la estructura necesaria de manera automática.
+Cada componente está contenido en su propio directorio y debe seguir una nomenclatura determinada (nombreDelTema-componente). Para facilitar mantener esta correlación, se puede utilizar nuestra [herramienta de linea de comandos](#empezamos---generador-de-temas) que construye toda la estructura necesaria de manera automática.
 
-Dentro de la carpeta de nuestro componente siempre se debe incluir una subcarpeta con un demo.html, que facilitará posteriormente el desarrollo. También será el generador quien se encargará de incluir esto de manera automática.
+Dentro de la carpeta de nuestro componente siempre se debe incluir una subcarpeta con un demo.html, que facilitará posteriormente el desarrollo. También será la herramienta quien se encargará de incluir esto de manera automática.
 
 - *Estructura:*
 
@@ -173,7 +173,7 @@ La estructura interna:
 </dom-module>
 ```
 
-El generador ya incluye imports, hostAttributes, behaviors, properties, methods, etc.
+La herramienta de línea de comandos ya incluye imports, hostAttributes, behaviors, properties, methods, etc.
 
 Por ejemplo en `koa-button`:
 

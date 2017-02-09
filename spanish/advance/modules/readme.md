@@ -5,7 +5,7 @@ Los módulos permiten crear nuevas funcionalidades, para facilitar el desarrollo
 Si ya estas familiarizado con el desarrollo de módulos en Angular, no necesitaras aprender nada nuevo, solo tendrás que familiarizarte con la estructura de archivos y la carga dinámica.
 
 
-Para aquellos desarrolladores que no se hayan aventurado todavía con el desarrollo web con Angular... hemos preparado una [pequeña guía]() de ayuda para hacerte el camino del aprendizaje más fácil, centrándonos solamente en aquellas partes de Angular.js que resultan relevantes para desarrollar Apps con nosotros.
+Para aquellos desarrolladores que no se hayan aventurado todavía con el desarrollo web con Angular... hemos preparado una pequeña guía de ayuda para hacerte el camino del aprendizaje más fácil, centrándonos solamente en aquellas partes de Angular.js que resultan relevantes para desarrollar Apps con nosotros.
 
 
 ### Empezamos - Crear módulos
@@ -320,7 +320,7 @@ Además los menús tienen la particularidad de actuar como padres de otros módu
 
 ### [Testing con módulos](testing.md)
 
-El testeo de nuestro código juega un papel crucial para preveenir errores.
+El testeo de nuestro código juega un papel crucial para prevenir errores.
 
 En King of App recomendamos realizar al menos test de integración (e2e).
 
