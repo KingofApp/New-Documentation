@@ -56,6 +56,7 @@ Métodos | Descripción | Parámetros | Retorno
 `del(clave)` | Borra un elemento concreto | clave | -
 `get(key)` | Retorna los datos de una clave específica | clave | Objeto JSON o String
 `set(key, data)` | Almacena datos en una clave específica | clave, datos(string o Json) | -
+`update(key, data)` | Actualiza datos en una clave específica | clave, datos(string o Json) | -
 
 **Funcionalidades avanzadas:**
 
