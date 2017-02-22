@@ -1,6 +1,6 @@
 # King of App themes
 
-### ¿Qué es un tema de king of App?
+### ¿Qué es un tema de King of App?
 Un tema es un conjunto de componentes con un estilo propio. Creando un tema podremos personalizar al 100% una app.
 
 Un tema desarrollado para King of App se compone de un conjunto de componentes de [Polymer](https://www.polymer-project.org).
@@ -266,7 +266,7 @@ Por ejemplo en `koa-button`:
   }
   ```
 
-  Nota: El selector `:host` se selecciona a si mismo.
+  Nota: El selector `:host` se selecciona a sí mismo.
 
 
 Ahora ya tenemos el componente custom:
@@ -504,7 +504,7 @@ Si se desea dar soporte a todos los iconos, se puede utilizar [PolymerElements/i
 
 ## Menú
 
-Este valor del config.json deberá ser un string que indique el `identifier` del módulo del tipo menú que tenha nuestro tema por defecto. El polymermenu viene definido por defecto, pero podríamos seleccionar cualquiera que esté publicado en [kingofapp](http://builder.kingofapp.com/).
+Este valor del config.json deberá ser un string que indique el `identifier` del módulo del tipo menú que tenga nuestro tema por defecto. El polymermenu viene definido por defecto, pero podríamos seleccionar cualquiera que esté publicado en [kingofapp](http://builder.kingofapp.com/).
 
 Esta propiedad solo tiene efecto de cara a subir el tema a producción, por tanto, no será necesario tener dicho menú previamente descargado, aunque si queremos ver como queda en localhost deberemos disponer del mismo.
 
