@@ -16,7 +16,7 @@ Estas instrucciones son validas para Windows, Mac y Linux
     - [Grunt](http://gruntjs.com/)
     - [Yeoman](http://yeoman.io/)
 
-- Ejecutar en la terminal
+- Ejecutar en la terminal (se requieren permisos de superusuario)
 ```bash
 npm install -g bower && npm install -g gulp && npm install -g grunt && npm install -g yo && yo doctor
 ```

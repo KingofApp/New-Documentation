@@ -2,7 +2,7 @@
 
 Cloud9 nos permite trabajar directamente en la nube. Para ello... c9 nos ofrece maquinas virtuales basadas en Ubuntu.
 
-[Ejemplo de solo lectura de c9 con Vislualizer](https://ide.c9.io/kingofapp/visualizer)
+[Ejemplo de solo lectura de c9 con Visualizer](https://ide.c9.io/kingofapp/visualizer)
 
 
 Una vez tengamos una cuenta creada, procedemos a crear un nuevo espacio de trabajo "workspace"
@@ -55,7 +55,7 @@ https://git@github.com/KingofApp/com.kingofapp.visualizer.git
 
   **Ajustar Visualizer al entorno de C9.io (puertos)**
 
-  - Sustituir *Grunfile.js* con los datos de *[este archivo](https://gist.github.com/UlisesGascon/54acff02948964554726708f04a25937#file-gruntfile-js)*
+  - Sustituir *Gruntfile.js* con los datos de *[este archivo](https://gist.github.com/UlisesGascon/54acff02948964554726708f04a25937#file-gruntfile-js)*
 
   ![Cambia el grunt file](images/04changegrunt.png "Cambia el grunt file")
 
@@ -68,6 +68,6 @@ https://git@github.com/KingofApp/com.kingofapp.visualizer.git
   ```
     npm start
   ```
-  - Abre una nueva pestaña con esta URL: `https://<workspacename>-<username>.c9users.io` o pulsa sobre el boton de prvisualizar
+  - Abre una nueva pestaña con esta URL: `https://<workspacename>-<username>.c9users.io` o pulsa sobre el botón de previsualizar
 
   ![Ejecuta el visualizer](images/06execute.png "Ejecuta el visualizer")
