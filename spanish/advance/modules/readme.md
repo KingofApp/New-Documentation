@@ -171,7 +171,7 @@ Clave | Descripción | Valor por defecto
 `view` | Ruta a la vista principal | "modules/{identifier}/index.html"
 `files` | Array de ficheros que cargaran antes que el módulo | []
 `libs` | Array de dependencias de Bower requeridas por nuestro módulo | []
-`deps` | Array de dependencias con Phonegap. | []
+`deps` | Array de dependencias con Apache Cordova. | []
 `scope` | Objeto que inyecta las variables al scope del módulo `$scope.{identificador_del_módulo}.modulescope`. Aquí definiremos todos los valores que queremos que nuestro módulo contenga por defecto. | {}
 `config` | Configuración de los ajustes en Koapp Builder. Utilizaremos esta propiedad para configurar todas las opciones que queremos que el usuario sea capaz de modificar a la hora de crear una nueva sección con nuestro módulo desde el Koapp Builder. | {}
 `images.list` | String la localización (dentro de la carpeta del módulo) de la imagen que se mostrará cuando listamos nuestra imagen en el Koapp Builder | ""
