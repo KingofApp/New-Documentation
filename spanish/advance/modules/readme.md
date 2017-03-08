@@ -326,6 +326,12 @@ En King of App recomendamos realizar al menos test de integración (e2e).
 
 **[Leer más](testing.md)**
 
+### [IframeRequest](iframeRequest.md)
+
+Intermediario que tiene KingOfApp para controlar los accesos a datos protegidos por parte de los desarrolladores de módulos o servicios.
+
+**[Leer más](iframeRequest.md)**
+
 ### [Widgets para módulos](widget.md)
 
 Los módulos de King of App pueden registrar widgets en el Builder para tareas de administración en módulos que utilicen contenidos de terceros.
