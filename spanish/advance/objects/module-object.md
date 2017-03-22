@@ -19,6 +19,7 @@
 | files  | Listado de ficheros necesarios para el funcionamiento del módulo. Estos archivos puede ser `JS`, `HTML` o `CSS`. | Si | Array de URLs |
 | libs   | Listado de dependencias JavaScript necesarias para lanzar el módulo. Se ulizan las importaciones de [Bower](https://bower.io/) como sistema de dependencias. El valor por defecto es un array vacío `[]`. | Si | Array de [Lib object](lib-object.md) |
 | deps   | Listado de dependencias de Apache Cordova necesarias para lanzar el módulo. | No | Array de String |
+| events | Objeto compuesto por dos arrays `"require"` y `"provide"` que sirve para indicar que eventos provee o requiere el módulo  | No | Array de [Event object]() |
 | scope  | Objeto que inyecta valores por defecto al scope del módulo. Se puede acceder a los datos a través de `$scope.{identificador_del_módulo}.modulescope`. Estas variables pueden ser configuradas más tarde en el formulario de configuración | Si | JSON |
 | createdAt | Fecha de creación del módulo. | No | ISO Date |
 | images   | Imágenes promocionales del módulo. | No | [Plugin images object](plugin-images-object.md) |
