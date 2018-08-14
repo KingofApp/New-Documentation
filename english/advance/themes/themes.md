@@ -1,4 +1,4 @@
-# King of App themes
+# King of App themes (enlish version)
 
 ### ¿Qué es un tema de King of App?
 Un tema es un conjunto de componentes con un estilo propio. Creando un tema podremos personalizar al 100% una app.
