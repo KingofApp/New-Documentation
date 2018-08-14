@@ -1,0 +1,1 @@
+# KoApp plugin string
