@@ -24,6 +24,18 @@ Las librerías se registran en el apartado libs del structure.json, por ejemplo:
 
 Estas librerias son dinamicamente y en orden agregadas por el visualizer, previamente a la ejecución del modulo para que esten disponibles.
 
+`En caso de que la dependencia tenga mas de un fichero, habrá que agregar estos en un array.`
+
+```json
+"libs": [
+  {
+    "bower": {
+      "vanilla-js-calendar": "1.0.9"
+    },
+    "src": ["bower_components/vanilla-js-calendar/dist/js-calendar.js", "bower_components/vanilla-js-calendar/dist/js-calendar.min.css"]
+  }
+]
+```
 
 Por otro lado estas mismas dependencias deberán agregarse en el archivo bower.json del modulo. Esta acción es necesaria porque en el momento de lanzar el visualizer, este, descarga las librerias bower para cada módulo.
 
