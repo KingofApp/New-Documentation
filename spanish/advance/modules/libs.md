@@ -71,6 +71,21 @@ Ejemplo bower.json:
 
 La instalación y eliminación se realiza utilizando [bower desde la terminal](https://bower.io/#install-packages). Además es necesario reflejar los cambios en *../app/modules/XXXX/config.json*, *../app/core/structure.json* y *../app/modules/XXXX/bower.json*
 
+**Ejecutar dependencia externa**
+
+Para ejecutar una dependencia externa que no exista en el gestor Bower y dispongan de CDN, se puede hacer la carga desde el fichero controller.js del módulo, un ejemplo con la librería de Google Maps.
+
+```
+var script = document.createElement('script');
+script.onload = function () {
+    var map;
+    map = new google.maps.Map(document.getElementById('map'), {
+        center: {lat: -34.397, lng: 150.644},
+        zoom: 8
+    });
+};
+script.src = "https://maps.googleapis.com/maps/api/js?key={insertApyKey}";
+```
 
 ### Referencias
 
