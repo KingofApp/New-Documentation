@@ -13,4 +13,4 @@ Los módulos no requieren de ninguna adaptación previa para ser compatibles con
 
 Documentación relacionada | Ejemplos de uso
 --------------------------|--------------------------
-Objecto Servicios | [Link](../objects/services-object.md)
+Objecto Servicios | [Link](../advance/objects/services-object.md)
